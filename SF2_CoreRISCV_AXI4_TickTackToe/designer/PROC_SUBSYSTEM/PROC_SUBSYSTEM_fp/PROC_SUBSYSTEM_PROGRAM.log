@@ -1,0 +1,44 @@
+Software Version: 11.8.0.26
+Embedded FlashPro5 programmer detected.
+programmer 'E200108CTE' : FlashPro5
+Opened 'C:\Users\REN\Desktop\199\workplace2\M2S025-Creative-Board\Modify_The_FPGA_Design\SF2_CoreRISCV_AXI4_TickTackToe\designer\PROC_SUBSYSTEM\PROC_SUBSYSTEM_fp\PROC_SUBSYSTEM.pro'
+The 'open_project' command succeeded.
+IPD file 'C:/Users/REN/Desktop/199/workplace2/M2S025-Creative-Board/Modify_The_FPGA_Design/SF2_CoreRISCV_AXI4_TickTackToe/designer/PROC_SUBSYSTEM/PROC_SUBSYSTEM.ipd' has been loaded successfully.
+DESIGN : PROC_SUBSYSTEM;  CHECKSUM : 0000;  PDB_VERSION : 1.9
+The 'set_programming_file' command succeeded.
+Warning: Programming is already enabled for device 'M2S025'.
+The 'enable_device' command succeeded.
+The 'set_programming_action' command succeeded.
+programmer 'E200108CTE' : Scan Chain...
+Warning: programmer 'E200108CTE' : Vpump has been selected on programmer AND an externally provided Vpump has also been detected. Using externally provided Vpump voltage source.
+programmer 'E200108CTE' : Check Chain...
+programmer 'E200108CTE' : Scan and Check Chain PASSED.
+programmer 'E200108CTE' : device 'M2S025' : Executing action PROGRAM
+programmer 'E200108CTE' : device 'M2S025' : Family: Igloo2
+programmer 'E200108CTE' : device 'M2S025' : Product:      M2GL005
+programmer 'E200108CTE' : device 'M2S025' : EXPORT ISC_ENABLE_RESULT[32] = 007e6944
+programmer 'E200108CTE' : device 'M2S025' : EXPORT CRCERR[1] = 0
+programmer 'E200108CTE' : device 'M2S025' : EXPORT EDCERR[1] = 0
+programmer 'E200108CTE' : device 'M2S025' : TEMPGRADE: ROOM
+programmer 'E200108CTE' : device 'M2S025' : EXPORT VPPRANGE[3] = 2
+programmer 'E200108CTE' : device 'M2S025' : VPPRANGE: HIGH
+programmer 'E200108CTE' : device 'M2S025' : EXPORT TEMP[8] = 69
+programmer 'E200108CTE' : device 'M2S025' : EXPORT VPP[8] = 7e
+programmer 'E200108CTE' : device 'M2S025' : Set FREQRNG to $FF (7 wait cycles)
+programmer 'E200108CTE' : device 'M2S025' : Programming eNVM...
+programmer 'E200108CTE' : device 'M2S025' : EXPORT Restore user FREQRNG setting [32] = 0000006d
+programmer 'E200108CTE' : device 'M2S025' : ===================================================================================
+programmer 'E200108CTE' : device 'M2S025' : EXPORT DSN[128] = 0b20d251c5e11b867b92baf2c46fa998
+programmer 'E200108CTE' : device 'M2S025' : ===================================================================================
+programmer 'E200108CTE' : device 'M2S025' : Finished: Thu Dec 07 17:47:54 2017 (Elapsed time 00:00:07)
+programmer 'E200108CTE' : device 'M2S025' : Executing action PROGRAM PASSED.
+programmer 'E200108CTE' : Chain programming PASSED.
+Chain Programming Finished: Thu Dec 07 17:47:54 2017 (Elapsed time 00:00:07)
+
+                        o - o - o - o - o - o
+
+The 'run_selected_actions' command succeeded.
+The 'set_programming_file' command succeeded.
+Project saved.
+The 'save_project' command succeeded.
+Project closed.

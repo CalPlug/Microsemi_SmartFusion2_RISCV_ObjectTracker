@@ -1,0 +1,123 @@
+# Microsemi I/O Physical Design Constraints file
+
+# User I/O Constraints file 
+
+# Version: v11.7 11.7.0.119
+
+# Family: SmartFusion2 , Die: M2S025 , Package: 256 VF
+
+# Date generated: Fri Nov 18 11:15:47 2016 
+
+
+# 
+# User Locked I/O Bank Settings
+# 
+
+
+# 
+# Unlocked I/O Bank Settings
+# The I/O Bank Settings can be locked by directly editing this file
+# or by making changes in the I/O Attribute Editor
+# 
+
+
+# 
+# User Locked I/O settings
+# 
+
+set_io CLK0_PAD       \
+    -pinname H16      \
+    -fixed yes        \
+    -DIRECTION INPUT
+
+
+
+
+set_io {GPIO_OUT_2}   \
+    -pinname G1        \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io CAM_EN          \
+    -pinname T12       \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io SPI_CAM_SDI          \
+    -pinname T13       \
+    -fixed yes         \
+    -DIRECTION INPUT
+
+
+set_io SPI_CAM_SDO          \
+    -pinname R13       \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io SPI_CAM_SCLK          \
+    -pinname R12       \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+
+set_io {PWM[0]}   \
+    -pinname P9        \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+set_io {PWM[1]}   \
+    -pinname N8        \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+set_io {PWM[2]}   \
+    -pinname M8       \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io {PWM[3]}   \
+    -pinname P8       \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+set_io PWM_EN   \
+    -pinname M7       \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+set_io DIR13   \
+    -pinname N7       \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+set_io DIR24   \
+    -pinname R10       \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+set_io {Servo[0]}   \
+    -pinname M9       \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io {Servo[1]}   \
+    -pinname M10       \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+# 
+# Dedicated Peripheral I/O Settings
+# 
+
+
+# 
+# Unlocked I/O settings
+# The I/Os in this section are unplaced or placed but are not locked
+# the other listed attributes have been applied
+# 
+
