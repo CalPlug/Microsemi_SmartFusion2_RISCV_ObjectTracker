@@ -1,7 +1,7 @@
 # Microsemi_SmartFusion2_RISCV_ObjectTracker
 
 
-This RISC-V Demo uses the Future Creative Board (Microsemi SmartFusion 2) with a PIXY camera on a pan/tilt servo mount mounted on a 4 wheel chasis using a dual channel, bidirectional motor driver to follow trained objects from a visual image.  Communication with the PIXY camera is via SPI.
+This RISC-V Demo uses the Future Creative Board (Microsemi SmartFusion 2) with a PIXY camera on a pan/tilt servo mount (http://charmedlabs.com/default/pixy-cmucam5/).  This unit was placed on a 4 wheel toy car chasis.  Steering is controlled using using a dual channel, bidirectional motor driver to follow trained objects from a visual image.  Communication with the PIXY camera is via SPI.
 
 
 Designed and constructed by Yutian Ren (UCI / Calit2) Microsemi Innovation Laboratory
