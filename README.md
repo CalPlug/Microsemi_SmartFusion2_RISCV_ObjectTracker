@@ -12,3 +12,5 @@ Project Advisors: Dr. Michael Klopfer and Prof. G.P. Li
 
 
 (Extended from the Tic-Tac-Toe demo as a project template from Microsemi RISC-V Core Toolkit.  This template project is available here: https://github.com/RISCV-on-Microsemi-FPGA/riscv-junk-drawer)
+
+Video of this demonstration is available here:  https://www.youtube.com/watch?v=Zahp91Uje2o
