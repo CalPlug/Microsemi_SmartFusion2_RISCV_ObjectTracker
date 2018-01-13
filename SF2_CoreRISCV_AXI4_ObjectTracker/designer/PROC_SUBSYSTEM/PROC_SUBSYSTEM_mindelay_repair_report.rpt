@@ -11,21 +11,37 @@
  Min-delay Repair Report 
 -------------------------
  Iteration 1  
- Total paths eligible for improvement: 1       
- Total paths improved: 1       
+ Total paths eligible for improvement: 2       
+ Total paths improved: 2       
 -------------------------
 
 Path 1
 ------------------------
+From: MSS_SUBSYSTEM_sb_0/CORECONFIGP_0/pwdata[10]:CLK
+  To: MSS_SUBSYSTEM_sb_0/MSS_SUBSYSTEM_sb_MSS_0/MSS_ADLIB_INST/INST_MSS_025_IP:MDDR_FABRIC_PWDATA[10]
+------------------------
+Path min-delay slack:       -96 ps
+------------------------
+  On sink pin: MSS_SUBSYSTEM_sb_0/MSS_SUBSYSTEM_sb_MSS_0/MSS_ADLIB_INST/IP_INTERFACE_283:B
+-------------------------------------
+  Pin max-delay slack:    59900 ps
+  Min-delay inserted:       494 ps ( Estimated )
+  ----------------------------
+  Delay buffers inserted before the sink:
+      mdr_MSS_SUBSYSTEM_sb_0/MSS_SUBSYSTEM_sb_MSS_0/MSS_ADLIB_INST/IP_INTERFACE_283_CFG1A_TEST
+
+
+Path 2
+------------------------
 From: MSS_SUBSYSTEM_sb_0/CORECONFIGP_0/paddr[8]:CLK
   To: MSS_SUBSYSTEM_sb_0/MSS_SUBSYSTEM_sb_MSS_0/MSS_ADLIB_INST/INST_MSS_025_IP:MDDR_FABRIC_PADDR[8]
 ------------------------
-Path min-delay slack:       -24 ps
+Path min-delay slack:       -89 ps
 ------------------------
   On sink pin: MSS_SUBSYSTEM_sb_0/MSS_SUBSYSTEM_sb_MSS_0/MSS_ADLIB_INST/IP_INTERFACE_285:A
 -------------------------------------
-  Pin max-delay slack:    58734 ps
-  Min-delay inserted:       594 ps ( Estimated )
+  Pin max-delay slack:    58851 ps
+  Min-delay inserted:       562 ps ( Estimated )
   ----------------------------
   Delay buffers inserted before the sink:
       mdr_MSS_SUBSYSTEM_sb_0/MSS_SUBSYSTEM_sb_MSS_0/MSS_ADLIB_INST/IP_INTERFACE_285_CFG1A_TEST

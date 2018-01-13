@@ -31,7 +31,7 @@ KEY VendorTechnology_VCCI_1.8_VOLTR "COM"
 KEY VendorTechnology_VCCI_2.5_VOLTR "COM"
 KEY VendorTechnology_VCCI_3.3_VOLTR "COM"
 KEY VendorTechnology_VOLTR "COM"
-KEY ProjectLocation "C:\Users\REN\Desktop\199\workplace2\M2S025-Creative-Board\Modify_The_FPGA_Design\SF2_CoreRISCV_AXI4_TickTackToe"
+KEY ProjectLocation "C:\Users\REN\Documents\GitHub\Microsemi_SmartFusion2_RISCV_ObjectTracker\SF2_CoreRISCV_AXI4_ObjectTracker"
 KEY ProjectDescription ""
 KEY Pa4PeripheralNewSeq "GOOD"
 KEY SimulationType "VERILOG"
@@ -2112,8 +2112,8 @@ SIZE="525"
 ENDFILE
 VALUE "<project>\constraint\io\user.pdc,io_pdc"
 STATE="utd"
-TIME="1512670830"
-SIZE="2192"
+TIME="1515617739"
+SIZE="1807"
 IS_TARGET="TRUE"
 ENDFILE
 VALUE "<project>\constraint\PROC_SUBSYSTEM_derived_constraints.sdc,sdc"
@@ -2261,8 +2261,8 @@ PARENT="<project>\component\Actel\DirectCore\COREAXITOAHBL\3.0.101\COREAXITOAHBL
 ENDFILE
 VALUE "<project>\simulation\subsystem.bfm,sim"
 STATE="utd"
-TIME="1512495113"
-SIZE="2286"
+TIME="1512668682"
+SIZE="2320"
 PARENT="<project>\component\work\MSS_SUBSYSTEM_sb\MSS_SUBSYSTEM_sb.cxf"
 PARENT="<project>\component\work\PROC_SUBSYSTEM\PROC_SUBSYSTEM.cxf"
 ENDFILE
@@ -2287,28 +2287,28 @@ PARENT="<project>\component\Actel\DirectCore\CoreTimer\2.0.103\CoreTimer.cxf"
 ENDFILE
 VALUE "<project>\synthesis\PROC_SUBSYSTEM.edn,syn_edn"
 STATE="utd"
-TIME="1512495380"
-SIZE="25542213"
+TIME="1515617891"
+SIZE="26441694"
 ENDFILE
 VALUE "<project>\synthesis\PROC_SUBSYSTEM.so,so"
 STATE="utd"
-TIME="1512495383"
-SIZE="309"
+TIME="1515617893"
+SIZE="303"
 ENDFILE
 VALUE "<project>\synthesis\PROC_SUBSYSTEM.v,syn_hdl"
 STATE="utd"
-TIME="1512495397"
-SIZE="9172630"
+TIME="1515617905"
+SIZE="9497986"
 ENDFILE
 VALUE "<project>\synthesis\PROC_SUBSYSTEM_sdc.sdc,syn_sdc"
 STATE="utd"
-TIME="1512495380"
-SIZE="4276"
+TIME="1515617890"
+SIZE="4274"
 ENDFILE
 VALUE "<project>\synthesis\PROC_SUBSYSTEM_syn.prj,prj"
 STATE="utd"
-TIME="1512495384"
-SIZE="35571"
+TIME="1515617894"
+SIZE="34719"
 ENDFILE
 ENDLIST
 LIST UsedFile
@@ -2957,8 +2957,8 @@ NAME="Synplify Pro ME"
 FUNCTION="Synthesis"
 TOOL="Synplify Pro ME"
 LOCATION="C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin\synplify_pro.exe"
-PARAM="-licensetype synplifypro_actel -batch -log synplify.log"
-BATCH=1
+PARAM=""
+BATCH=0
 LICENSE=""
 IS32BIT="1"
 EndProfile
@@ -3127,12 +3127,11 @@ LIST OpenedFileList
 ORIENTATION;HORIZONTAL
 Reports;Reports;0
 ReportsCurrentItem;Run PROGRAM Action:PROC_SUBSYSTEM_PROGRAM.log
+HDL;constraint\io\user.pdc;0
 Constraint Manager;Constraint Manager;0
 StartPage;StartPage;0
-HDL;constraint\io\user.pdc;0
 SmartDesign;PROC_SUBSYSTEM;0
-HDL;component\work\PROC_SUBSYSTEM\CORERISCV_AXI4_0\rtl\vlog\core\coreriscv_axi4_defines.v;0
-ACTIVEVIEW;Reports
+ACTIVEVIEW;constraint\io\user.pdc
 ENDLIST
 LIST ModuleSubBlockList
 LIST "AXI_GLUE_LOGIC::work","component\User\GlueLogic\AXI_GLUE_LOGIC\1.0.7\vlog\AXI_glue_logic.v","FALSE","FALSE"

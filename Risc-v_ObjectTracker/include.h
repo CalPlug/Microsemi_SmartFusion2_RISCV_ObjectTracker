@@ -31,7 +31,7 @@
 #define duty_cycle_move 70
 
 #define body_x 159.5; // image size is 319*319
-#define body_y 159.5;
+#define body_y 132;
 #define standard_size 19000
 #define MoveThreshold_postive 5000
 #define MoveThreshold_negative -4000

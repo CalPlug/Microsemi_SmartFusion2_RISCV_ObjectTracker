@@ -82,7 +82,7 @@ set_compile_info \
 set_compile_info \
     -category {"Source Files"} \
     -name {"Source"} \
-    -value {"C:\Users\REN\Desktop\199\workplace2\M2S025-Creative-Board\Modify_The_FPGA_Design\SF2_CoreRISCV_AXI4_TickTackToe\synthesis\PROC_SUBSYSTEM.edn"}
+    -value {"C:\Users\REN\Documents\GitHub\Microsemi_SmartFusion2_RISCV_ObjectTracker\SF2_CoreRISCV_AXI4_ObjectTracker\synthesis\PROC_SUBSYSTEM.edn"}
 set_compile_info \
     -category {"Options"} \
     -name {"Enable Single Event Transient mitigation"} \
@@ -96,7 +96,7 @@ set_compile_info \
     -name {"Limit the number of high fanout nets to display to"} \
     -value {"10"}
 compile \
-    -desdir {C:\Users\REN\Desktop\199\workplace2\M2S025-Creative-Board\Modify_The_FPGA_Design\SF2_CoreRISCV_AXI4_TickTackToe\designer\PROC_SUBSYSTEM} \
+    -desdir {C:\Users\REN\Documents\GitHub\Microsemi_SmartFusion2_RISCV_ObjectTracker\SF2_CoreRISCV_AXI4_ObjectTracker\designer\PROC_SUBSYSTEM} \
     -design PROC_SUBSYSTEM \
     -fam SmartFusion2 \
     -die PA4M2500_N \

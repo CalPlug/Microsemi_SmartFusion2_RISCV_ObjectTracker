@@ -9,10 +9,14 @@
 #define SRC_DELAY_H_
 
 #define DELAY_COUNT		   4720  //DO NOT CHANGE, THIS VALUE IS FOR DELAY_MS
-#define DELAY_COUNT_us     4.72
+#define DELAY_COUNT_us     0.159
 
-void delay_ms(int time_ms);
-void delay_us(int time_us);
+void delay_ms(float time_ms);
+/*
+ * delay_us function is not precise, please do not use this function
+ */
+void delay_us(float time_us);
+
 
 
 #endif /* SRC_DELAY_H_ */

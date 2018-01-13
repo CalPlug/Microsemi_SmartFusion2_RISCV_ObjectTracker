@@ -5,7 +5,7 @@
  *      Author: REN
  */
 #include "delay.h"
-void delay_ms(int time_ms)
+void delay_ms(float time_ms)
 {
     volatile int counter = 0;
 
@@ -14,9 +14,9 @@ void delay_ms(int time_ms)
         counter++;
     }
 }
-void delay_us(int time_us)
+void delay_us(float time_us)
 {
-    volatile int counter = 0;
+    volatile float counter = 0;
 
     while ( counter < (DELAY_COUNT_us*time_us) )
     {

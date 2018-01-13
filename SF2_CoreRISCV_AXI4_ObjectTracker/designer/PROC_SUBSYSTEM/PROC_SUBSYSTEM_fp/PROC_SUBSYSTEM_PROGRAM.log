@@ -1,9 +1,9 @@
 Software Version: 11.8.0.26
 Embedded FlashPro5 programmer detected.
 programmer 'E200108CTE' : FlashPro5
-Opened 'C:\Users\REN\Desktop\199\workplace2\M2S025-Creative-Board\Modify_The_FPGA_Design\SF2_CoreRISCV_AXI4_TickTackToe\designer\PROC_SUBSYSTEM\PROC_SUBSYSTEM_fp\PROC_SUBSYSTEM.pro'
+Opened 'C:\Users\REN\Documents\GitHub\Microsemi_SmartFusion2_RISCV_ObjectTracker\SF2_CoreRISCV_AXI4_ObjectTracker\designer\PROC_SUBSYSTEM\PROC_SUBSYSTEM_fp\PROC_SUBSYSTEM.pro'
 The 'open_project' command succeeded.
-IPD file 'C:/Users/REN/Desktop/199/workplace2/M2S025-Creative-Board/Modify_The_FPGA_Design/SF2_CoreRISCV_AXI4_TickTackToe/designer/PROC_SUBSYSTEM/PROC_SUBSYSTEM.ipd' has been loaded successfully.
+IPD file 'C:/Users/REN/Documents/GitHub/Microsemi_SmartFusion2_RISCV_ObjectTracker/SF2_CoreRISCV_AXI4_ObjectTracker/designer/PROC_SUBSYSTEM/PROC_SUBSYSTEM.ipd' has been loaded successfully.
 DESIGN : PROC_SUBSYSTEM;  CHECKSUM : 0000;  PDB_VERSION : 1.9
 The 'set_programming_file' command succeeded.
 Warning: Programming is already enabled for device 'M2S025'.
@@ -30,10 +30,10 @@ programmer 'E200108CTE' : device 'M2S025' : EXPORT Restore user FREQRNG setting 
 programmer 'E200108CTE' : device 'M2S025' : ===================================================================================
 programmer 'E200108CTE' : device 'M2S025' : EXPORT DSN[128] = 0b20d251c5e11b867b92baf2c46fa998
 programmer 'E200108CTE' : device 'M2S025' : ===================================================================================
-programmer 'E200108CTE' : device 'M2S025' : Finished: Thu Dec 07 17:47:54 2017 (Elapsed time 00:00:07)
+programmer 'E200108CTE' : device 'M2S025' : Finished: Fri Jan 12 14:48:08 2018 (Elapsed time 00:00:07)
 programmer 'E200108CTE' : device 'M2S025' : Executing action PROGRAM PASSED.
 programmer 'E200108CTE' : Chain programming PASSED.
-Chain Programming Finished: Thu Dec 07 17:47:54 2017 (Elapsed time 00:00:07)
+Chain Programming Finished: Fri Jan 12 14:48:08 2018 (Elapsed time 00:00:07)
 
                         o - o - o - o - o - o
 

@@ -31,13 +31,33 @@ set_io CLK0_PAD       \
     -DIRECTION INPUT
 
 
+#set_io {GPIO_OUT_0}   \
+    -pinname M10       \
+    -fixed yes         \
+    -DIRECTION OUTPUT
 
 
-set_io {GPIO_OUT_2}   \
+#set_io {GPIO_OUT_1}   \
+    -pinname M9        \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+#set_io {GPIO_OUT_2}   \
     -pinname G1        \
     -fixed yes         \
     -DIRECTION OUTPUT
 
+
+
+set_io {GPIO_OUT_3}   \
+    -pinname T8        \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+set_io {GPIO_IN}   \
+    -pinname R8        \
+    -fixed yes         \
+    -DIRECTION INPUT
 
 set_io CAM_EN          \
     -pinname T12       \
@@ -110,6 +130,39 @@ set_io {Servo[1]}   \
     -pinname M10       \
     -fixed yes         \
     -DIRECTION OUTPUT
+
+
+#set_io SD_EN           \
+    -pinname P8        \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+#set_io SPI_FLASH_SCLK  \
+    -pinname P13       \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+#set_io SPI_FLASH_SDI  \
+    -pinname P12      \
+    -fixed yes        \
+    -DIRECTION INPUT
+
+
+#set_io SPI_FLASH_SDO   \
+    -pinname P10       \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+#set_io TFT_EN          \
+    -pinname N10       \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+
 # 
 # Dedicated Peripheral I/O Settings
 # 

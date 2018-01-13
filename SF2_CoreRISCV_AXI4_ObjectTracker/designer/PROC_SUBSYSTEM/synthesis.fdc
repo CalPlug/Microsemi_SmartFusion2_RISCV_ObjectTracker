@@ -1,8 +1,8 @@
 # Microsemi Corp.
-# Date: 2017-Dec-07 09:46:38
+# Date: 2018-Jan-10 12:55:57
 # This file was generated based on the following SDC source files:
-#   C:/Users/REN/Desktop/199/workplace2/M2S025-Creative-Board/Modify_The_FPGA_Design/SF2_CoreRISCV_AXI4_TickTackToe/constraint/PROC_SUBSYSTEM_derived_constraints.sdc
-#   C:/Users/REN/Desktop/199/workplace2/M2S025-Creative-Board/Modify_The_FPGA_Design/SF2_CoreRISCV_AXI4_TickTackToe/constraint/user.sdc
+#   C:/Users/REN/Documents/GitHub/Microsemi_SmartFusion2_RISCV_ObjectTracker/SF2_CoreRISCV_AXI4_ObjectTracker/constraint/PROC_SUBSYSTEM_derived_constraints.sdc
+#   C:/Users/REN/Documents/GitHub/Microsemi_SmartFusion2_RISCV_ObjectTracker/SF2_CoreRISCV_AXI4_ObjectTracker/constraint/user.sdc
 #
 
 create_clock -name {CLK0_PAD} -period 20 [ get_ports { CLK0_PAD } ]

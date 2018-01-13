@@ -3,7 +3,7 @@
 <doc>
 <title>Resource Report</title>
 <text>Microsemi Corporation - Microsemi Libero Software Release v11.8 (Version 11.8.0.26)</text>
-<text>Date: Thu Dec 07 09:49:19 2017
+<text>Date: Wed Jan 10 12:58:40 2018
 </text>
 <section><name>Device Selection</name></section>
 <table>
@@ -76,7 +76,7 @@
 </row>
 <row>
  <cell>Source</cell>
- <cell>C:\Users\REN\Desktop\199\workplace2\M2S025-Creative-Board\Modify_The_FPGA_Design\SF2_CoreRISCV_AXI4_TickTackToe\synthesis\PROC_SUBSYSTEM.edn</cell>
+ <cell>C:\Users\REN\Documents\GitHub\Microsemi_SmartFusion2_RISCV_ObjectTracker\SF2_CoreRISCV_AXI4_ObjectTracker\synthesis\PROC_SUBSYSTEM.edn</cell>
 </row>
 </table>
 <section><name>Options</name></section>

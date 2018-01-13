@@ -8,6 +8,7 @@
  * SVN $Revision: $
  * SVN $Date: $
  */
+
 //#include <unistd.h>
 
 #include "include.h"
@@ -31,19 +32,17 @@ UART_instance_t g_uart;
  * GPIO instance data.
  *****************************************************************************/
 gpio_instance_t g_gpio;
-gpio_instance_t g_gpio_in;
 
 /******************************************************************************
  * Timer 0 instance data.
  *****************************************************************************/
 timer_instance_t g_timer0;
-//timer_instance_t g_timer1;
 
 /******************************************************************************
  * CoreSPI 0 instance data.
  *****************************************************************************/
-spi_instance_t g_core_spi0;
-spi_instance_t g_core_spi1;
+spi_instance_t g_core_spi0;//LCD
+spi_instance_t g_core_spi1;//Camera
 
 /******************************************************************************
  * CorePWM 0 instance data.
@@ -75,40 +74,54 @@ int main()
     //Block *block;
     int dir = 0; // dir =1 => right, dir =0 => left
     int dx = 0;
+    int dy = 0;
     int size = 0;
     int d_size = 0;
     uint16_t block[6];
     uint16_t pan = 750;
     uint16_t tilt = 750;
     int dx_body =0;
+    double distance = 0;
 
 	while(1)
 	{
 		/**
-		 * ultrasonic sensor, incomplete
-		//while (!(GPIO_get_inputs( &g_gpio_in) == 1));
-		//TMR_start( &g_timer0);
-		//while (!(GPIO_get_inputs( &g_gpio_in) == 0));
-		//TMR_stop( &g_timer0);
-		//distance = (Load_value - TMR_current_value( &g_timer0))*85/64453;
-		*/
+		 * ultrasonic sensor
+		 * distance unit: cm
+		 * uncomment LCD display, then distance is shown on the screen
+		 */
+/*		GPIO_set_output( &g_gpio, GPIO_3, 1 );
+		delay_us(10);
+		GPIO_set_output( &g_gpio, GPIO_3, 0 );
+
+		while (!(GPIO_get_inputs( &g_gpio) == 0x10));
+		TMR_start( &g_timer0);
+		while (!(GPIO_get_inputs( &g_gpio) == 0));
+		TMR_stop( &g_timer0);
+		distance = (Load_value - TMR_current_value( &g_timer0))*170/1289 + 1;
+		TMR_reload( &g_timer0, Load_value);
+		LCD_ShowNum( 90, 50, (uint16_t)distance, 10,16, &g_core_spi0, &g_gpio);*/
 
 		/**
-		 * LCD display
-		//LCD_ShowNum( 90, 50, distance, 10,16, &g_core_spi0, &g_gpio);
-		//LCD_ShowChar( 90, 10, '1', 24, 0, &g_core_spi0, &g_gpio);//typical font size is 24
-		*/
-
-i:		getBlocks( &g_core_spi1,2,block); // 0 sig, 1 x, 2 y, 3 width, 4 height, 5 angle
+		 * main control
+		 */
+		//block : 0 signature, 1 x, 2 y, 3 width, 4 height, 5 angle
+i:		getBlocks( &g_core_spi1,2,block);
 		if (block[0] == 0x0001 && block[1] <319)
 		{
 			dx = block[1] - body_x;
+			dy = block[2] - body_y;
 			size = block[3]*block[4];
 			d_size = size - standard_size;
 			pan = pan -0.03*dx*50/9;
 			if (pan <250) pan =250;
 			else if (pan >1250) pan =1250;
-			if (dx >40 || dx< (-40))
+
+			tilt = tilt +0.05*dy*50/9;
+			if (tilt <630) tilt =630;
+			else if (tilt >1100) tilt =1100;
+
+			if (dx >30 || dx< (-30) || dy >5 || dy < (-5))
 			{
 				servo(pan,tilt);
 				goto i;
@@ -216,12 +229,10 @@ void init( void )
 	 * GPIO_4 Trig; GPIO_3 Echo
 	 * CHANGE GPIO PORT
 	 *************************************************************************/
-/*	GPIO_config( &g_gpio, GPIO_3, GPIO_OUTPUT_MODE);
+	GPIO_config( &g_gpio, GPIO_3, GPIO_OUTPUT_MODE);
 	GPIO_set_output( &g_gpio, GPIO_3, 0 );
 	GPIO_config( &g_gpio, GPIO_4, GPIO_INPUT_MODE);
-	GPIO_set_output( &g_gpio, GPIO_4, 0 );*/
-	//GPIO_init( &g_gpio_in, COREGPIO_IN_BASE_ADDR, GPIO_APB_32_BITS_BUS );
-	//GPIO_config( &g_gpio_in, GPIO_0, GPIO_INPUT_MODE);
+
 	/**************************************************************************
 	 * CoreTimer init
 	 * prescaler_512
@@ -232,14 +243,16 @@ void init( void )
 	/**************************************************************************
 	 * TFT init
 	 * DO NOT CHANGE TFT GPIO
+	 * uncomment if use, and please define GPIO_0,1,2 in the FPGA constraints
 	 *************************************************************************/
-
+/*
     GPIO_config( &g_gpio, GPIO_0, GPIO_OUTPUT_MODE); // Data Command Signal
 	GPIO_set_output( &g_gpio, GPIO_0, 1 ); // Data Command Signal
 	GPIO_config( &g_gpio, GPIO_2, GPIO_OUTPUT_MODE); // reset Signal
 	GPIO_set_output( &g_gpio, GPIO_2, 1 ); // reset Signal
 	GPIO_config( &g_gpio, GPIO_1, GPIO_OUTPUT_MODE); // Chip Select Signal TS
 	GPIO_set_output( &g_gpio, GPIO_1, 1 ); // Chip Select Signal TS
+*/
     /**************************************************************************
       * Initialize CoreSPI0  in master mode.
       *************************************************************************/
@@ -251,18 +264,19 @@ void init( void )
 
 	/**************************************************************************
       * Initialize TFT Screen.
+      * uncomment if use, to init TFT screen
       *************************************************************************/
-	TFT_begin( &g_core_spi0, &g_gpio); // initialize the TFT Screen
-	for(volatile uint16_t delay0 = 0; delay0 < 0xFF; delay0++); // Delay
+	//TFT_begin( &g_core_spi0, &g_gpio); // initialize the TFT Screen
+	//for(volatile uint16_t delay0 = 0; delay0 < 0xFF; delay0++); // Delay
 
 	/**************************************************************************
       * Initialize Touch Screen (TS).
       *************************************************************************/
-	//TS_begin(&g_core_spi0, &g_gpio); // initialize the touch screen
-	//for(volatile uint16_t delay1 = 0; delay1 < 0xFF; delay1++); // Delay
-	//uint16_t baud_value;
-	//baud_value = (66000000 /(19200 * 16)) - 1;
-	//UART_init( &g_uart,COREUARTAPB0_BASE_ADDR,baud_value,(DATA_8_BITS | NO_PARITY));
+/*	TS_begin(&g_core_spi0, &g_gpio); // initialize the touch screen
+	for(volatile uint16_t delay1 = 0; delay1 < 0xFF; delay1++); // Delay
+	uint16_t baud_value;
+	baud_value = (66000000 /(19200 * 16)) - 1;
+	UART_init( &g_uart,COREUARTAPB0_BASE_ADDR,baud_value,(DATA_8_BITS | NO_PARITY));*/
 }
 
 
