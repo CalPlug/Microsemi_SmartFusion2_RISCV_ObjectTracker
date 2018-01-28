@@ -4,16 +4,16 @@
 @P:  CLK0_PAD - Estimated Period : NA
 @P:  CLK0_PAD - Requested Period : 20.000
 @P:  CLK0_PAD - Slack : NA
-@P:  COREJTAGDEBUG_85_1s|iUDRCK_inferred_clock - Estimated Frequency : 145.4 MHz
+@P:  COREJTAGDEBUG_85_1s|iUDRCK_inferred_clock - Estimated Frequency : 113.5 MHz
 @P:  COREJTAGDEBUG_85_1s|iUDRCK_inferred_clock - Requested Frequency : 100.0 MHz
-@P:  COREJTAGDEBUG_85_1s|iUDRCK_inferred_clock - Estimated Period : 6.876
+@P:  COREJTAGDEBUG_85_1s|iUDRCK_inferred_clock - Estimated Period : 8.809
 @P:  COREJTAGDEBUG_85_1s|iUDRCK_inferred_clock - Requested Period : 10.000
-@P:  COREJTAGDEBUG_85_1s|iUDRCK_inferred_clock - Slack : 1.562
-@P:  MSS_SUBSYSTEM_sb_0/CCC_0/GL0 - Estimated Frequency : 75.9 MHz
+@P:  COREJTAGDEBUG_85_1s|iUDRCK_inferred_clock - Slack : 0.595
+@P:  MSS_SUBSYSTEM_sb_0/CCC_0/GL0 - Estimated Frequency : 76.5 MHz
 @P:  MSS_SUBSYSTEM_sb_0/CCC_0/GL0 - Requested Frequency : 66.0 MHz
-@P:  MSS_SUBSYSTEM_sb_0/CCC_0/GL0 - Estimated Period : 13.180
+@P:  MSS_SUBSYSTEM_sb_0/CCC_0/GL0 - Estimated Period : 13.080
 @P:  MSS_SUBSYSTEM_sb_0/CCC_0/GL0 - Requested Period : 15.152
-@P:  MSS_SUBSYSTEM_sb_0/CCC_0/GL0 - Slack : 1.972
+@P:  MSS_SUBSYSTEM_sb_0/CCC_0/GL0 - Slack : 2.072
 @P:  MSS_SUBSYSTEM_sb_0/FABOSC_0/I_RCOSC_25_50MHZ/CLKOUT - Estimated Frequency : 372.7 MHz
 @P:  MSS_SUBSYSTEM_sb_0/FABOSC_0/I_RCOSC_25_50MHZ/CLKOUT - Requested Frequency : 50.0 MHz
 @P:  MSS_SUBSYSTEM_sb_0/FABOSC_0/I_RCOSC_25_50MHZ/CLKOUT - Estimated Period : 2.683
@@ -39,15 +39,15 @@
 @P:  uj_jtag_85|un1_duttck_inferred_clock - Estimated Period : 12.441
 @P:  uj_jtag_85|un1_duttck_inferred_clock - Requested Period : 10.000
 @P:  uj_jtag_85|un1_duttck_inferred_clock - Slack : -1.220
-@P:  System - Estimated Frequency : 162.3 MHz
+@P:  System - Estimated Frequency : 162.8 MHz
 @P:  System - Requested Frequency : 100.0 MHz
-@P:  System - Estimated Period : 6.163
+@P:  System - Estimated Period : 6.142
 @P:  System - Requested Period : 10.000
-@P:  System - Slack : 3.837
+@P:  System - Slack : 3.858
 @P: PROC_SUBSYSTEM Part : m2s025vf256std
 @P: PROC_SUBSYSTEM Register bits  : 10812 
 @P: PROC_SUBSYSTEM DSP Blocks  : 2
 @P: PROC_SUBSYSTEM I/O primitives : 75
 @P: PROC_SUBSYSTEM RAM1K18 :  8
 @P: PROC_SUBSYSTEM RAM64x18 :  21
-@P:  CPU Time : 0h:01m:43s
+@P:  CPU Time : 0h:01m:42s

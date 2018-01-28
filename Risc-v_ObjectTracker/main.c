@@ -9,6 +9,15 @@
  * SVN $Date: $
  */
 
+/*******************************************************************************
+ * Extended from the Tic-Tac-Toe demo as a project template from
+ * Microsemi RISC-V Core Toolkit.
+ *
+ * This project is an ObjectTracker
+ * Designed and constructed by Yutian Ren (UCI / Calit2)
+ * Microsemi Innovation Laboratory
+ */
+
 //#include <unistd.h>
 
 #include "include.h"

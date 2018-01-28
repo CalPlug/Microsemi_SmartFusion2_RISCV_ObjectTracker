@@ -2,7 +2,8 @@
  * delay.c
  *
  *  Created on: Nov 6, 2017
- *      Author: REN
+ *      Author: Yutian Ren
+ * Descriptions available in delay.h file
  */
 #include "delay.h"
 void delay_ms(float time_ms)

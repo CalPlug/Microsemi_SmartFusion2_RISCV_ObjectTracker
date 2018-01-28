@@ -2,9 +2,9 @@
 <?xml-stylesheet href="rptstyle.xsl" type="text/xsl" ?>
 <doc>
 <title>Combinational Loop Report</title>
-<text>SmartTime Version 11.8.0.26</text>
-<text>Microsemi Corporation - Microsemi Libero Software Release v11.8 (Version 11.8.0.26)</text>
-<text>Date: Fri Jan 12 12:12:26 2018
+<text>SmartTime Version 11.8.2.4</text>
+<text>Microsemi Corporation - Microsemi Libero Software Release Libero SoC v11.8 SP2 (Version 11.8.2.4)</text>
+<text>Date: Sat Jan 27 22:54:27 2018
 </text>
 <table>
 <header>

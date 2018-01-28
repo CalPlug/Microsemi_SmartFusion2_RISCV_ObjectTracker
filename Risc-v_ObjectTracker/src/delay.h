@@ -2,7 +2,7 @@
  * delay.h
  *
  *  Created on: Nov 6, 2017
- *      Author: REN
+ *      Author: Yutian Ren
  */
 
 #ifndef SRC_DELAY_H_

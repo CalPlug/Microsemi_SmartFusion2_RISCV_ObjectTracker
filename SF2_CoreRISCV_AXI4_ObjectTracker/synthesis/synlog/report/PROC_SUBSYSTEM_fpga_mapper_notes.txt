@@ -450,13 +450,13 @@
 @N: BN362 :"c:\users\ren\documents\github\microsemi_smartfusion2_riscv_objecttracker\sf2_coreriscv_axi4_objecttracker\component\work\proc_subsystem\coreriscv_axi4_0\rtl\vlog\core\coreriscv_axi4_i_cache.v":490:2:490:7|Removing sequential instance CORERISCV_AXI4_0.ChiselTop0.RocketTile_1.icache.icache.T_1001_0[9] (in view: work.PROC_SUBSYSTEM(verilog)) of type view:ACG4.SLE(PRIM) because it does not drive other instances.
 @N: BN362 :"c:\users\ren\documents\github\microsemi_smartfusion2_riscv_objecttracker\sf2_coreriscv_axi4_objecttracker\component\work\proc_subsystem\coreriscv_axi4_0\rtl\vlog\core\coreriscv_axi4_i_cache.v":490:2:490:7|Removing sequential instance CORERISCV_AXI4_0.ChiselTop0.RocketTile_1.icache.icache.T_1001_0[10] (in view: work.PROC_SUBSYSTEM(verilog)) of type view:ACG4.SLE(PRIM) because it does not drive other instances.
 @N: BN362 :"c:\users\ren\documents\github\microsemi_smartfusion2_riscv_objecttracker\sf2_coreriscv_axi4_objecttracker\component\work\proc_subsystem\coreriscv_axi4_0\rtl\vlog\core\coreriscv_axi4_i_cache.v":490:2:490:7|Removing sequential instance CORERISCV_AXI4_0.ChiselTop0.RocketTile_1.icache.icache.T_1001_0[11] (in view: work.PROC_SUBSYSTEM(verilog)) of type view:ACG4.SLE(PRIM) because it does not drive other instances.
-@N: FP130 |Promoting Net MSS_SUBSYSTEM_sb_0_INIT_DONE on CLKINT  I_3855 
-@N: FP130 |Promoting Net COREJTAGDEBUG_0.TGT_TRSTB on CLKINT  I_3856 
-@N: FP130 |Promoting Net MSS_SUBSYSTEM_sb_0.CORECONFIGP_0_APB_S_PRESET_N on CLKINT  I_3857 
-@N: FP130 |Promoting Net MSS_SUBSYSTEM_sb_0.CORECONFIGP_0_APB_S_PCLK on CLKINT  I_3858 
-@N: FP130 |Promoting Net MSS_SUBSYSTEM_sb_0.CORERESETP_0.sm0_areset_n_clk_base on CLKINT  I_3859 
-@N: FP130 |Promoting Net MSS_SUBSYSTEM_sb_0.CORERESETP_0.sm0_areset_n_rcosc on CLKINT  I_3860 
-@N: FP130 |Promoting Net CORERISCV_AXI4_0.debugBusReqFifo.rd_reset_i on CLKINT  I_3861 
+@N: FP130 |Promoting Net MSS_SUBSYSTEM_sb_0_INIT_DONE on CLKINT  I_3837 
+@N: FP130 |Promoting Net COREJTAGDEBUG_0.TGT_TRSTB on CLKINT  I_3838 
+@N: FP130 |Promoting Net MSS_SUBSYSTEM_sb_0.CORECONFIGP_0_APB_S_PRESET_N on CLKINT  I_3839 
+@N: FP130 |Promoting Net MSS_SUBSYSTEM_sb_0.CORECONFIGP_0_APB_S_PCLK on CLKINT  I_3840 
+@N: FP130 |Promoting Net MSS_SUBSYSTEM_sb_0.CORERESETP_0.sm0_areset_n_clk_base on CLKINT  I_3841 
+@N: FP130 |Promoting Net MSS_SUBSYSTEM_sb_0.CORERESETP_0.sm0_areset_n_rcosc on CLKINT  I_3842 
+@N: FP130 |Promoting Net CORERISCV_AXI4_0.debugBusReqFifo.rd_reset_i on CLKINT  I_3843 
 @N: FX1056 |Writing EDF file: C:\Users\REN\Documents\GitHub\Microsemi_SmartFusion2_RISCV_ObjectTracker\SF2_CoreRISCV_AXI4_ObjectTracker\synthesis\PROC_SUBSYSTEM.edn
 @N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
 @N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 

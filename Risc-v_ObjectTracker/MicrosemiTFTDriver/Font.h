@@ -2,7 +2,9 @@
  * Font.h
  *
  *  Created on: Nov 9, 2017
- *      Author: REN
+ *      Author: Yutian Ren
+ *
+ * Imported from an STM32 LCD Library
  */
 
 #ifndef MICROSEMITFTDRIVER_FONT_H_

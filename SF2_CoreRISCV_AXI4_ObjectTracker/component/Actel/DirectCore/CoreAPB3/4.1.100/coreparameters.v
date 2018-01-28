@@ -1,5 +1,5 @@
 //--------------------------------------------------------------------
-// Created by Microsemi SmartDesign Thu Dec 07 09:44:34 2017
+// Created by Microsemi SmartDesign Sat Jan 27 22:48:52 2018
 // Parameters for CoreAPB3
 //--------------------------------------------------------------------
 
@@ -15,7 +15,7 @@ parameter APBSLOT6ENABLE = 1;
 parameter APBSLOT7ENABLE = 1;
 parameter APBSLOT8ENABLE = 1;
 parameter APBSLOT9ENABLE = 1;
-parameter APBSLOT10ENABLE = 0;
+parameter APBSLOT10ENABLE = 1;
 parameter APBSLOT11ENABLE = 0;
 parameter APBSLOT12ENABLE = 0;
 parameter APBSLOT13ENABLE = 0;

@@ -19,56 +19,56 @@ Running the I/O Bank and Globals Assigner.
 Info:  I/O Bank and Globals Assigner identified 65 fixed I/O macros, 10 unfixed I/O macros
 
 I/O Bank and Globals Assigner completed successfully.
-Total time spent in I/O Bank and Globals Assigner: 4 seconds
+Total time spent in I/O Bank and Globals Assigner: 2 seconds
 
-Placer V4.0 - 11.8.0 
-Design: PROC_SUBSYSTEM                  Started: Fri Jan 12 12:13:16 2018
+Placer V4.0 - 11.8.2 
+Design: PROC_SUBSYSTEM                  Started: Sat Jan 27 22:54:53 2018
 
 Initializing Timing-Driven Placement ...
 Placing design...
 End of placement.
-Pre-Placement Runtime        : 118 seconds
-Placement Runtime            : 675 seconds
+Pre-Placement Runtime        : 63 seconds
+Placement Runtime            : 545 seconds
 
 Placer completed successfully.
 
 Design: PROC_SUBSYSTEM                  
-Finished: Fri Jan 12 12:27:49 2018
-Total CPU Time:     00:13:59            Total Elapsed Time: 00:14:33
-Total Memory Usage: 912.9 Mbytes
+Finished: Sat Jan 27 23:05:49 2018
+Total CPU Time:     00:10:40            Total Elapsed Time: 00:10:56
+Total Memory Usage: 917.8 Mbytes
                         o - o - o - o - o - o
 
 
 Router 
-Design: C:\Users\REN\Documents\GitHub\Microsemi_SmartFusion2_RISCV_ObjectTracker\SF2_CoreRISCV_AXI4_ObjectTracker\designer\PROC_SUBSYSTEM\PROC_SUBSYSTEMStarted: Fri Jan 12 12:28:22 2018
+Design: C:\Users\REN\Documents\GitHub\Microsemi_SmartFusion2_RISCV_ObjectTracker\SF2_CoreRISCV_AXI4_ObjectTracker\designer\PROC_SUBSYSTEM\PROC_SUBSYSTEMStarted: Sat Jan 27 23:06:25 2018
 
-Final stats: search run time 115.799665
+Final stats: search run time 136.434305
 
 Router completed successfully.
 
 Design: C:\Users\REN\Documents\GitHub\Microsemi_SmartFusion2_RISCV_ObjectTracker\SF2_CoreRISCV_AXI4_ObjectTracker\designer\PROC_SUBSYSTEM\PROC_SUBSYSTEM
-Finished: Fri Jan 12 12:30:34 2018
-Total CPU Time:     00:02:11            Total Elapsed Time: 00:02:12
-Total Memory Usage: 1004.9 Mbytes
+Finished: Sat Jan 27 23:09:00 2018
+Total CPU Time:     00:02:30            Total Elapsed Time: 00:02:35
+Total Memory Usage: 1006.3 Mbytes
                         o - o - o - o - o - o
 
 Info: Iteration 1:
   Total violating paths eligible for improvement: 2
-  Worst minimum delay slack: -0.096 ns
+  Worst minimum delay slack: -0.094 ns
 
 Router 
-Design: C:\Users\REN\Documents\GitHub\Microsemi_SmartFusion2_RISCV_ObjectTracker\SF2_CoreRISCV_AXI4_ObjectTracker\designer\PROC_SUBSYSTEM\PROC_SUBSYSTEMStarted: Fri Jan 12 12:31:46 2018
+Design: C:\Users\REN\Documents\GitHub\Microsemi_SmartFusion2_RISCV_ObjectTracker\SF2_CoreRISCV_AXI4_ObjectTracker\designer\PROC_SUBSYSTEM\PROC_SUBSYSTEMStarted: Sat Jan 27 23:10:18 2018
 
 Loading routing information for ECO mode...
 After loading previous routing information: Shorts = 0. Open nets = 4.
-Final stats: search run time 0.425694
+Final stats: search run time 0.065352
 
 Router completed successfully.
 
 Design: C:\Users\REN\Documents\GitHub\Microsemi_SmartFusion2_RISCV_ObjectTracker\SF2_CoreRISCV_AXI4_ObjectTracker\designer\PROC_SUBSYSTEM\PROC_SUBSYSTEM
-Finished: Fri Jan 12 12:32:05 2018
-Total CPU Time:     00:00:18            Total Elapsed Time: 00:00:19
-Total Memory Usage: 1202.9 Mbytes
+Finished: Sat Jan 27 23:10:37 2018
+Total CPU Time:     00:00:17            Total Elapsed Time: 00:00:19
+Total Memory Usage: 1200.6 Mbytes
                         o - o - o - o - o - o
 
 Info: Iteration 2:
@@ -78,9 +78,9 @@ Resource Usage
 +---------------+-------+-------+------------+
 | Type          | Used  | Total | Percentage |
 +---------------+-------+-------+------------+
-| 4LUT          | 16676 | 27696 | 60.21      |
+| 4LUT          | 16614 | 27696 | 59.99      |
 | DFF           | 11928 | 27696 | 43.07      |
 | I/O Register  | 0     | 408   | 0.00       |
-| Logic Element | 19992 | 27696 | 72.18      |
+| Logic Element | 19911 | 27696 | 71.89      |
 +---------------+-------+-------+------------+
 

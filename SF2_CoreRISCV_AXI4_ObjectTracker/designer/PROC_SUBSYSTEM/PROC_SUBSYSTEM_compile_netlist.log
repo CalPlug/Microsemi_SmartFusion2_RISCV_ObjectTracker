@@ -19,7 +19,7 @@ Info: List of globals considered for demotion:
     76     0      0      'MSS_SUBSYSTEM_sb_0/MSS_SUBSYSTEM_sb_MSS_0/MSS_ADLIB_INST_RNI1HN6' 
     22     0      0      'MSS_SUBSYSTEM_sb_0/FABOSC_0/I_RCOSC_25_50MHZ_FAB_CLKINT' 
     16     0      1      'COREJTAGDEBUG_0/genblk1.udrck_clkint' 
-    0      2731   679    'MSS_SUBSYSTEM_sb_0/CORERESETP_0/INIT_DONE_int_RNIESS' 
+    0      2731   738    'MSS_SUBSYSTEM_sb_0/CORERESETP_0/INIT_DONE_int_RNIESS' 
     0      87     0      'COREJTAGDEBUG_0/genblk1.UJTAG_0_RNIFG38' 
     0      78     0      'MSS_SUBSYSTEM_sb_0/MSS_SUBSYSTEM_sb_MSS_0/MSS_ADLIB_INST_RNI1HN6_0' 
     0      26     0      'MSS_SUBSYSTEM_sb_0/CORERESETP_0/sm0_areset_n_clk_base_RNIU66D' 
@@ -28,7 +28,7 @@ Info: List of globals considered for demotion:
 
 Info: Demotion information: 
       Disconnected 1 data pins from global 'COREJTAGDEBUG_0/genblk1.udrck_clkint'. 
-      Disconnected 679 data pins from global 'MSS_SUBSYSTEM_sb_0/CORERESETP_0/INIT_DONE_int_RNIESS'. 
+      Disconnected 738 data pins from global 'MSS_SUBSYSTEM_sb_0/CORERESETP_0/INIT_DONE_int_RNIESS'. 
 Info: CMPG4-302: Added 0 row global instances.
 Info: CMPG4-303: Deleted 0 global instances.
 

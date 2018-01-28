@@ -23,14 +23,14 @@ Max Top 5 critical clocks will be reported. For rest user needs to refer to Deta
 <row>
 <data>COREJTAGDEBUG_85_1s|iUDRCK_inferred_clock</data>
 <data>100.0 MHz</data>
-<data>145.4 MHz</data>
-<data>1.562</data>
+<data>113.5 MHz</data>
+<data>0.595</data>
 </row>
 <row>
 <data>MSS_SUBSYSTEM_sb_0/CCC_0/GL0</data>
 <data>66.0 MHz</data>
-<data>75.9 MHz</data>
-<data>1.972</data>
+<data>76.5 MHz</data>
+<data>2.072</data>
 </row>
 <row>
 <data>MSS_SUBSYSTEM_sb_0/FABOSC_0/I_RCOSC_25_50MHZ/CLKOUT</data>
@@ -65,7 +65,7 @@ Max Top 5 critical clocks will be reported. For rest user needs to refer to Deta
 <row>
 <data>System</data>
 <data>100.0 MHz</data>
-<data>162.3 MHz</data>
-<data>3.837</data>
+<data>162.8 MHz</data>
+<data>3.858</data>
 </row>
 </report_table>

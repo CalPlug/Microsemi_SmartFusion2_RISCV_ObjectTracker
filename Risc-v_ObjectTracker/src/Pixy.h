@@ -3,7 +3,7 @@
  * Pixy.h
  *
  *  Created on: Nov 9, 2017
- *      Author: REN
+ *      Author: Yutian Ren
 */
 
 
@@ -52,4 +52,5 @@ uint8_t getByte( spi_instance_t * this_spi, uint8_t out);
 uint16_t getWord(spi_instance_t * this_spi);
 int send(uint8_t *data, int len);
 int setServos(uint16_t s0, uint16_t s1);
-#endif  SRC_PIXY_H_
+
+#endif  /* SRC_PIXY_H_ */

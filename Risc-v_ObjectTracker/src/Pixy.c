@@ -2,7 +2,11 @@
  * Pixy.c
  *
  *  Created on: Nov 9, 2017
- *      Author: REN
+ *      Author: Yutian Ren
+ *
+ * Extended from the Pixy Init Guide
+ * Originial code is available here:
+ * http://cmucam.org/projects/cmucam5/wiki/Porting_Guide
 */
 
 

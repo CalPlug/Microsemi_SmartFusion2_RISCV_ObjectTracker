@@ -1,4 +1,4 @@
-# Written by Synplify Pro version map201609actrcp1, Build 005R. Synopsys Run ID: sid1515617785 
+# Written by Synplify Pro version map201609actrcp1, Build 005R. Synopsys Run ID: sid1517122303 
 # Top Level Design Parameters 
 
 # Clocks 
@@ -58,8 +58,8 @@ set_clock_groups -asynchronous -group [get_clocks {COREJTAGDEBUG_85_1s|iUDRCK_in
 # Unused constraints (intentionally commented out) 
 # set_false_path -from [get_cells { MSS_SUBSYSTEM_sb_0.CORERESETP_0.MSS_HPMS_READY_int }] -to [get_cells { MSS_SUBSYSTEM_sb_0.CORERESETP_0.sm0_areset_n_rcosc MSS_SUBSYSTEM_sb_0.CORERESETP_0.sm0_areset_n_rcosc_q1 }]
 # set_false_path -from [get_cells { MSS_SUBSYSTEM_sb_0.CORERESETP_0.MSS_HPMS_READY_int MSS_SUBSYSTEM_sb_0.CORERESETP_0.SDIF*_PERST_N_re }] -to [get_cells { MSS_SUBSYSTEM_sb_0.CORERESETP_0.sdif*_areset_n_rcosc* }]
-# set_false_path -from [get_clocks { TCK }] -to [get_clocks { MSS_SUBSYSTEM_sb_0.CCC_0.GL0 }]
-# set_false_path -from [get_clocks { MSS_SUBSYSTEM_sb_0.CCC_0.GL0 }] -to [get_clocks { TCK }]
+# set_false_path -from [get_clocks { TCK }] -to [get_clocks { MSS_SUBSYSTEM_sb_0/CCC_0/GL0 }]
+# set_false_path -from [get_clocks { MSS_SUBSYSTEM_sb_0/CCC_0/GL0 }] -to [get_clocks { TCK }]
 # set_max_delay 0 -through [get_nets { MSS_SUBSYSTEM_sb_0.CORECONFIGP_0.FIC_2_APB_M_PSEL MSS_SUBSYSTEM_sb_0.CORECONFIGP_0.FIC_2_APB_M_PENABLE }] -to [get_cells { MSS_SUBSYSTEM_sb_0.CORECONFIGP_0.FIC_2_APB_M_PREADY* MSS_SUBSYSTEM_sb_0.CORECONFIGP_0.state[0] }]
 # set_min_delay -24 -through [get_nets { MSS_SUBSYSTEM_sb_0.CORECONFIGP_0.FIC_2_APB_M_PWRITE MSS_SUBSYSTEM_sb_0.CORECONFIGP_0.FIC_2_APB_M_PADDR[*] MSS_SUBSYSTEM_sb_0.CORECONFIGP_0.FIC_2_APB_M_PWDATA[*] MSS_SUBSYSTEM_sb_0.CORECONFIGP_0.FIC_2_APB_M_PSEL MSS_SUBSYSTEM_sb_0.CORECONFIGP_0.FIC_2_APB_M_PENABLE }]
 

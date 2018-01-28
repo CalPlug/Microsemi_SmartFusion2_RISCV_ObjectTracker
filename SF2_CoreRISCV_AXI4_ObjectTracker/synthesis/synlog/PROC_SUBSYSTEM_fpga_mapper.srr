@@ -1,4 +1,4 @@
-# Wed Jan 10 12:56:25 2018
+# Sat Jan 27 22:51:43 2018
 
 Synopsys Generic Technology Mapper, Version map201609actrcp1, Build 005R, Built Jan 25 2017 01:01:33
 Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
@@ -22,7 +22,7 @@ Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h
 
 
 
-Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 185MB peak: 186MB)
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 185MB peak: 186MB)
 
 @N: MO111 :"c:\users\ren\documents\github\microsemi_smartfusion2_riscv_objecttracker\sf2_coreriscv_axi4_objecttracker\component\actel\directcore\corejtagdebug\2.0.100\rtl\vlog\core\corejtagdebug.v":217:33:217:36|Tristate driver UTDO_OUT (in view: COREJTAGDEBUG_LIB.COREJTAGDEBUG_85_1s(verilog)) on net UTDO_OUT (in view: COREJTAGDEBUG_LIB.COREJTAGDEBUG_85_1s(verilog)) has its enable tied to GND.
 @N: MO111 :"c:\users\ren\documents\github\microsemi_smartfusion2_riscv_objecttracker\sf2_coreriscv_axi4_objecttracker\component\actel\directcore\corejtagdebug\2.0.100\rtl\vlog\core\corejtagdebug.v":217:33:217:36|Tristate driver UTDODRV_OUT (in view: COREJTAGDEBUG_LIB.COREJTAGDEBUG_85_1s(verilog)) on net UTDODRV_OUT (in view: COREJTAGDEBUG_LIB.COREJTAGDEBUG_85_1s(verilog)) has its enable tied to GND.
@@ -777,7 +777,7 @@ original code -> new code
    110 -> 1000000
 @N: MO231 :"c:\users\ren\documents\github\microsemi_smartfusion2_riscv_objecttracker\sf2_coreriscv_axi4_objecttracker\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1613:4:1613:9|Found counter in view:work.CoreResetP_Z23(verilog) instance count_ddr[13:0] 
 
-Starting factoring (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:05s; Memory used current: 228MB peak: 229MB)
+Starting factoring (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:06s; Memory used current: 228MB peak: 229MB)
 
 @N: BN362 :"c:\users\ren\documents\github\microsemi_smartfusion2_riscv_objecttracker\sf2_coreriscv_axi4_objecttracker\component\actel\directcore\coreaxitoahbl\3.0.101\rtl\vlog\core\coreaxitoahbl_axislavectrl.v":301:0:301:5|Removing sequential instance U_AXISlaveCtrl.IDReg[2] (in view: COREAXITOAHBL.COREAXITOAHBL_5s_0s_0s_0s_2s_1(verilog)) because it does not drive other instances.
 @N: BN362 :"c:\users\ren\documents\github\microsemi_smartfusion2_riscv_objecttracker\sf2_coreriscv_axi4_objecttracker\component\actel\directcore\coreaxitoahbl\3.0.101\rtl\vlog\core\coreaxitoahbl_axislavectrl.v":301:0:301:5|Removing sequential instance U_AXISlaveCtrl.IDReg[0] (in view: COREAXITOAHBL.COREAXITOAHBL_5s_0s_0s_0s_2s_0(verilog)) because it does not drive other instances.
@@ -793,7 +793,7 @@ Starting factoring (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:05s; M
 @N: BN362 :"c:\users\ren\documents\github\microsemi_smartfusion2_riscv_objecttracker\sf2_coreriscv_axi4_objecttracker\component\work\proc_subsystem\coreriscv_axi4_0\rtl\vlog\core\coreriscv_axi4_locking_arbiter_1.v":177:2:177:7|Removing sequential instance uncore.NastiIOTileLinkIOConverter_1_1.gnt_arb.T_638 (in view: CORERISCV_AXI4_LIB.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_TOP_1610612736(verilog)) because it does not drive other instances.
 @N: BN362 :"c:\users\ren\documents\github\microsemi_smartfusion2_riscv_objecttracker\sf2_coreriscv_axi4_objecttracker\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance MSS_SUBSYSTEM_sb_0.CORERESETP_0.DDR_READY_int (in view: work.PROC_SUBSYSTEM(verilog)) because it does not drive other instances.
 
-Finished factoring (Real Time elapsed 0h:00m:18s; CPU Time elapsed 0h:00m:17s; Memory used current: 280MB peak: 310MB)
+Finished factoring (Real Time elapsed 0h:00m:20s; CPU Time elapsed 0h:00m:19s; Memory used current: 293MB peak: 310MB)
 
 @N: BN362 :"c:\users\ren\documents\github\microsemi_smartfusion2_riscv_objecttracker\sf2_coreriscv_axi4_objecttracker\component\actel\directcore\coreaxitoahbl\3.0.101\rtl\vlog\core\coreaxitoahbl_axioutreg.v":105:0:105:5|Removing sequential instance COREAXITOAHBL_0.U_AXIOutReg.BID[2] (in view: work.PROC_SUBSYSTEM(verilog)) because it does not drive other instances.
 @N: BN362 :"c:\users\ren\documents\github\microsemi_smartfusion2_riscv_objecttracker\sf2_coreriscv_axi4_objecttracker\component\actel\directcore\coreaxitoahbl\3.0.101\rtl\vlog\core\coreaxitoahbl_axioutreg.v":105:0:105:5|Removing sequential instance COREAXITOAHBL_0.U_AXIOutReg.RID[2] (in view: work.PROC_SUBSYSTEM(verilog)) because it does not drive other instances.
@@ -815,52 +815,52 @@ Finished factoring (Real Time elapsed 0h:00m:18s; CPU Time elapsed 0h:00m:17s; M
 @N: BN362 :"c:\users\ren\documents\github\microsemi_smartfusion2_riscv_objecttracker\sf2_coreriscv_axi4_objecttracker\component\work\proc_subsystem\coreriscv_axi4_0\rtl\vlog\core\coreriscv_axi4_reorder_queue.v":172:2:172:7|Removing sequential instance CORERISCV_AXI4_0.ChiselTop0.uncore.outmemsys.ClientTileLinkIOUnwrapper_1.acqRoq.T_45_3 (in view: work.PROC_SUBSYSTEM(verilog)) because it does not drive other instances.
 @N: BN362 :"c:\users\ren\documents\github\microsemi_smartfusion2_riscv_objecttracker\sf2_coreriscv_axi4_objecttracker\component\work\proc_subsystem\coreriscv_axi4_0\rtl\vlog\core\coreriscv_axi4_reorder_queue.v":172:2:172:7|Removing sequential instance CORERISCV_AXI4_0.ChiselTop0.uncore.outmemsys.ClientTileLinkIOUnwrapper_1.acqRoq.T_45_1 (in view: work.PROC_SUBSYSTEM(verilog)) because it does not drive other instances.
 
-Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:25s; CPU Time elapsed 0h:00m:23s; Memory used current: 301MB peak: 310MB)
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:27s; CPU Time elapsed 0h:00m:26s; Memory used current: 308MB peak: 310MB)
 
 
-Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:34s; CPU Time elapsed 0h:00m:32s; Memory used current: 307MB peak: 349MB)
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:35s; CPU Time elapsed 0h:00m:34s; Memory used current: 303MB peak: 349MB)
 
 @N: BN362 :"c:\users\ren\documents\github\microsemi_smartfusion2_riscv_objecttracker\sf2_coreriscv_axi4_objecttracker\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_slavearbiter.v":449:4:449:9|Removing sequential instance CoreAHBLite_0.matrix4x16.slavestage_6.slave_arbiter.arbRegSMCurrentState[5] (in view: work.PROC_SUBSYSTEM(verilog)) because it does not drive other instances.
 @N: BN362 :"c:\users\ren\documents\github\microsemi_smartfusion2_riscv_objecttracker\sf2_coreriscv_axi4_objecttracker\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_slavearbiter.v":449:4:449:9|Removing sequential instance CoreAHBLite_0.matrix4x16.slavestage_7.slave_arbiter.arbRegSMCurrentState[5] (in view: work.PROC_SUBSYSTEM(verilog)) because it does not drive other instances.
 @N: BN362 :"c:\users\ren\documents\github\microsemi_smartfusion2_riscv_objecttracker\sf2_coreriscv_axi4_objecttracker\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_slavearbiter.v":449:4:449:9|Removing sequential instance CoreAHBLite_1.matrix4x16.slavestage_16.slave_arbiter.arbRegSMCurrentState[5] (in view: work.PROC_SUBSYSTEM(verilog)) because it does not drive other instances.
 
-Starting Early Timing Optimization (Real Time elapsed 0h:00m:39s; CPU Time elapsed 0h:00m:37s; Memory used current: 313MB peak: 349MB)
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:40s; CPU Time elapsed 0h:00m:38s; Memory used current: 310MB peak: 349MB)
 
 
-Finished Early Timing Optimization (Real Time elapsed 0h:00m:57s; CPU Time elapsed 0h:00m:55s; Memory used current: 318MB peak: 349MB)
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:59s; CPU Time elapsed 0h:00m:56s; Memory used current: 314MB peak: 349MB)
 
 
-Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:59s; CPU Time elapsed 0h:00m:56s; Memory used current: 312MB peak: 349MB)
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:01m:00s; CPU Time elapsed 0h:00m:58s; Memory used current: 308MB peak: 349MB)
 
 @N: MO106 :"c:\users\ren\documents\github\microsemi_smartfusion2_riscv_objecttracker\sf2_coreriscv_axi4_objecttracker\component\work\proc_subsystem\coreriscv_axi4_0\rtl\vlog\core\coreriscv_axi4_rom_slave.v":415:18:415:50|Found ROM .delname. (in view: work.PROC_SUBSYSTEM(verilog)) with 51 words by 56 bits.
 @N: BN362 :"c:\users\ren\documents\github\microsemi_smartfusion2_riscv_objecttracker\sf2_coreriscv_axi4_objecttracker\component\actel\directcore\corespi\5.1.104\rtl\vlog\core\spi_chanctrl.v":267:0:267:5|Removing sequential instance CORESPI_1.USPI.UCC.spi_clk_next (in view: work.PROC_SUBSYSTEM(verilog)) because it does not drive other instances.
 @N: BN362 :"c:\users\ren\documents\github\microsemi_smartfusion2_riscv_objecttracker\sf2_coreriscv_axi4_objecttracker\component\actel\directcore\corespi\5.1.104\rtl\vlog\core\spi_chanctrl.v":267:0:267:5|Removing sequential instance CORESPI_0.USPI.UCC.spi_clk_next (in view: work.PROC_SUBSYSTEM(verilog)) because it does not drive other instances.
 
-Finished preparing to map (Real Time elapsed 0h:01m:06s; CPU Time elapsed 0h:01m:03s; Memory used current: 312MB peak: 349MB)
+Finished preparing to map (Real Time elapsed 0h:01m:07s; CPU Time elapsed 0h:01m:04s; Memory used current: 309MB peak: 349MB)
 
 @N: BN362 :"c:\users\ren\documents\github\microsemi_smartfusion2_riscv_objecttracker\sf2_coreriscv_axi4_objecttracker\component\work\proc_subsystem\coreriscv_axi4_0\rtl\vlog\core\coreriscv_axi4_queue_2.v":339:2:339:7|Removing sequential instance CORERISCV_AXI4_0.ChiselTop0.uncore.outmemsys.l1tol2net.TileLinkEnqueuer_1_1.Queue_6_1.T_1012 (in view: work.PROC_SUBSYSTEM(verilog)) because it does not drive other instances.
 
-Finished technology mapping (Real Time elapsed 0h:01m:14s; CPU Time elapsed 0h:01m:11s; Memory used current: 350MB peak: 384MB)
+Finished technology mapping (Real Time elapsed 0h:01m:15s; CPU Time elapsed 0h:01m:12s; Memory used current: 352MB peak: 383MB)
 
 Pass		 CPU time		Worst Slack		Luts / Registers
 ------------------------------------------------------------
-   1		0h:01m:13s		    -5.61ns		17466 /     10878
-   2		0h:01m:14s		    -5.61ns		15697 /     10878
-   3		0h:01m:14s		    -5.61ns		15683 /     10878
-   4		0h:01m:15s		    -5.61ns		15683 /     10878
+   1		0h:01m:14s		    -5.61ns		17403 /     10878
+   2		0h:01m:15s		    -5.61ns		15602 /     10878
+   3		0h:01m:15s		    -5.61ns		15589 /     10878
+   4		0h:01m:15s		    -5.61ns		15589 /     10878
 
-   5		0h:01m:20s		    -4.39ns		15688 /     10878
-   6		0h:01m:21s		    -3.43ns		15689 /     10878
-   7		0h:01m:21s		    -2.87ns		15690 /     10878
-   8		0h:01m:21s		    -2.33ns		15685 /     10878
-   9		0h:01m:21s		    -2.10ns		15686 /     10878
-  10		0h:01m:22s		    -2.10ns		15687 /     10878
-  11		0h:01m:22s		    -2.10ns		15687 /     10878
-  12		0h:01m:22s		    -2.10ns		15688 /     10878
-  13		0h:01m:23s		    -2.10ns		15693 /     10878
+   5		0h:01m:21s		    -4.39ns		15596 /     10878
+   6		0h:01m:21s		    -2.78ns		15597 /     10878
+   7		0h:01m:21s		    -2.33ns		15591 /     10878
+   8		0h:01m:21s		    -2.10ns		15592 /     10878
+   9		0h:01m:22s		    -2.10ns		15595 /     10878
+  10		0h:01m:22s		    -2.10ns		15596 /     10878
+  11		0h:01m:22s		    -2.10ns		15594 /     10878
+  12		0h:01m:23s		    -2.10ns		15599 /     10878
+  13		0h:01m:23s		    -2.10ns		15599 /     10878
 
 
-  14		0h:01m:24s		    -2.03ns		15682 /     10878
+  14		0h:01m:24s		    -2.03ns		15586 /     10878
 @N: BN362 :"c:\users\ren\documents\github\microsemi_smartfusion2_riscv_objecttracker\sf2_coreriscv_axi4_objecttracker\component\work\proc_subsystem\coreriscv_axi4_0\rtl\vlog\core\coreriscv_axi4_locking_rr_arbiter_1.v":317:2:317:7|Removing sequential instance CORERISCV_AXI4_0.ChiselTop0.uncore.outmemsys.l1tol2net.relNet.arb.lastGrant[1] (in view: work.PROC_SUBSYSTEM(verilog)) because it does not drive other instances.
 @N: BN362 :"c:\users\ren\documents\github\microsemi_smartfusion2_riscv_objecttracker\sf2_coreriscv_axi4_objecttracker\component\work\proc_subsystem\coreriscv_axi4_0\rtl\vlog\core\coreriscv_axi4_locking_rr_arbiter_1.v":317:2:317:7|Removing sequential instance CORERISCV_AXI4_0.ChiselTop0.uncore.outmemsys.l1tol2net.relNet.arb.lastGrant[0] (in view: work.PROC_SUBSYSTEM(verilog)) because it does not drive other instances.
 @N: BN362 :"c:\users\ren\documents\github\microsemi_smartfusion2_riscv_objecttracker\sf2_coreriscv_axi4_objecttracker\component\work\proc_subsystem\coreriscv_axi4_0\rtl\vlog\core\coreriscv_axi4_i_cache.v":490:2:490:7|Removing sequential instance CORERISCV_AXI4_0.ChiselTop0.RocketTile_1.icache.icache.T_1001_0[57] (in view: work.PROC_SUBSYSTEM(verilog)) of type view:ACG4.SLE(PRIM) because it does not drive other instances.
@@ -927,23 +927,23 @@ Pass		 CPU time		Worst Slack		Luts / Registers
 @N: BN362 :"c:\users\ren\documents\github\microsemi_smartfusion2_riscv_objecttracker\sf2_coreriscv_axi4_objecttracker\component\work\proc_subsystem\coreriscv_axi4_0\rtl\vlog\core\coreriscv_axi4_i_cache.v":490:2:490:7|Removing sequential instance CORERISCV_AXI4_0.ChiselTop0.RocketTile_1.icache.icache.T_1001_0[9] (in view: work.PROC_SUBSYSTEM(verilog)) of type view:ACG4.SLE(PRIM) because it does not drive other instances.
 @N: BN362 :"c:\users\ren\documents\github\microsemi_smartfusion2_riscv_objecttracker\sf2_coreriscv_axi4_objecttracker\component\work\proc_subsystem\coreriscv_axi4_0\rtl\vlog\core\coreriscv_axi4_i_cache.v":490:2:490:7|Removing sequential instance CORERISCV_AXI4_0.ChiselTop0.RocketTile_1.icache.icache.T_1001_0[10] (in view: work.PROC_SUBSYSTEM(verilog)) of type view:ACG4.SLE(PRIM) because it does not drive other instances.
 @N: BN362 :"c:\users\ren\documents\github\microsemi_smartfusion2_riscv_objecttracker\sf2_coreriscv_axi4_objecttracker\component\work\proc_subsystem\coreriscv_axi4_0\rtl\vlog\core\coreriscv_axi4_i_cache.v":490:2:490:7|Removing sequential instance CORERISCV_AXI4_0.ChiselTop0.RocketTile_1.icache.icache.T_1001_0[11] (in view: work.PROC_SUBSYSTEM(verilog)) of type view:ACG4.SLE(PRIM) because it does not drive other instances.
-@N: FP130 |Promoting Net MSS_SUBSYSTEM_sb_0_INIT_DONE on CLKINT  I_3855 
-@N: FP130 |Promoting Net COREJTAGDEBUG_0.TGT_TRSTB on CLKINT  I_3856 
-@N: FP130 |Promoting Net MSS_SUBSYSTEM_sb_0.CORECONFIGP_0_APB_S_PRESET_N on CLKINT  I_3857 
-@N: FP130 |Promoting Net MSS_SUBSYSTEM_sb_0.CORECONFIGP_0_APB_S_PCLK on CLKINT  I_3858 
-@N: FP130 |Promoting Net MSS_SUBSYSTEM_sb_0.CORERESETP_0.sm0_areset_n_clk_base on CLKINT  I_3859 
-@N: FP130 |Promoting Net MSS_SUBSYSTEM_sb_0.CORERESETP_0.sm0_areset_n_rcosc on CLKINT  I_3860 
-@N: FP130 |Promoting Net CORERISCV_AXI4_0.debugBusReqFifo.rd_reset_i on CLKINT  I_3861 
+@N: FP130 |Promoting Net MSS_SUBSYSTEM_sb_0_INIT_DONE on CLKINT  I_3837 
+@N: FP130 |Promoting Net COREJTAGDEBUG_0.TGT_TRSTB on CLKINT  I_3838 
+@N: FP130 |Promoting Net MSS_SUBSYSTEM_sb_0.CORECONFIGP_0_APB_S_PRESET_N on CLKINT  I_3839 
+@N: FP130 |Promoting Net MSS_SUBSYSTEM_sb_0.CORECONFIGP_0_APB_S_PCLK on CLKINT  I_3840 
+@N: FP130 |Promoting Net MSS_SUBSYSTEM_sb_0.CORERESETP_0.sm0_areset_n_clk_base on CLKINT  I_3841 
+@N: FP130 |Promoting Net MSS_SUBSYSTEM_sb_0.CORERESETP_0.sm0_areset_n_rcosc on CLKINT  I_3842 
+@N: FP130 |Promoting Net CORERISCV_AXI4_0.debugBusReqFifo.rd_reset_i on CLKINT  I_3843 
 
 Added 0 Buffers
 Added 0 Cells via replication
 	Added 0 Sequential Cells via replication
 	Added 0 Combinational Cells via replication
 
-Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:01m:32s; CPU Time elapsed 0h:01m:29s; Memory used current: 357MB peak: 384MB)
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:01m:32s; CPU Time elapsed 0h:01m:29s; Memory used current: 360MB peak: 383MB)
 
 
-Finished restoring hierarchy (Real Time elapsed 0h:01m:34s; CPU Time elapsed 0h:01m:30s; Memory used current: 371MB peak: 384MB)
+Finished restoring hierarchy (Real Time elapsed 0h:01m:33s; CPU Time elapsed 0h:01m:30s; Memory used current: 373MB peak: 383MB)
 
 
 
@@ -976,11 +976,11 @@ Clock Tree ID     Driving Element                                  Drive Element
 ##### END OF CLOCK OPTIMIZATION REPORT ######]
 
 
-Start Writing Netlists (Real Time elapsed 0h:01m:36s; CPU Time elapsed 0h:01m:32s; Memory used current: 257MB peak: 384MB)
+Start Writing Netlists (Real Time elapsed 0h:01m:35s; CPU Time elapsed 0h:01m:32s; Memory used current: 259MB peak: 383MB)
 
 Writing Analyst data base C:\Users\REN\Documents\GitHub\Microsemi_SmartFusion2_RISCV_ObjectTracker\SF2_CoreRISCV_AXI4_ObjectTracker\synthesis\synwork\PROC_SUBSYSTEM_m.srm
 
-Finished Writing Netlist Databases (Real Time elapsed 0h:01m:41s; CPU Time elapsed 0h:01m:37s; Memory used current: 335MB peak: 384MB)
+Finished Writing Netlist Databases (Real Time elapsed 0h:01m:39s; CPU Time elapsed 0h:01m:36s; Memory used current: 337MB peak: 383MB)
 
 Writing EDIF Netlist and constraint files
 @N: FX1056 |Writing EDF file: C:\Users\REN\Documents\GitHub\Microsemi_SmartFusion2_RISCV_ObjectTracker\SF2_CoreRISCV_AXI4_ObjectTracker\synthesis\PROC_SUBSYSTEM.edn
@@ -988,10 +988,10 @@ Writing EDIF Netlist and constraint files
 @N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
 L-2016.09M-2
 
-Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:01m:45s; CPU Time elapsed 0h:01m:41s; Memory used current: 339MB peak: 384MB)
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:01m:43s; CPU Time elapsed 0h:01m:40s; Memory used current: 341MB peak: 383MB)
 
 
-Start final timing analysis (Real Time elapsed 0h:01m:46s; CPU Time elapsed 0h:01m:42s; Memory used current: 324MB peak: 384MB)
+Start final timing analysis (Real Time elapsed 0h:01m:44s; CPU Time elapsed 0h:01m:41s; Memory used current: 326MB peak: 383MB)
 
 @W: MT246 :"c:\users\ren\documents\github\microsemi_smartfusion2_riscv_objecttracker\sf2_coreriscv_axi4_objecttracker\component\work\mss_subsystem_sb\ccc_0\mss_subsystem_sb_ccc_0_fccc.v":23:36:23:43|Blackbox CCC is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
 @N: MT615 |Found clock CLK0_PAD with period 20.00ns 
@@ -1005,7 +1005,7 @@ Start final timing analysis (Real Time elapsed 0h:01m:46s; CPU Time elapsed 0h:0
 
 
 ##### START OF TIMING REPORT #####[
-# Timing Report written on Wed Jan 10 12:58:13 2018
+# Timing Report written on Sat Jan 27 22:53:29 2018
 #
 
 
@@ -1031,14 +1031,14 @@ Worst slack in design: -1.220
 Starting Clock                                               Frequency     Frequency     Period        Period        Slack      Type                          Group              
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 CLK0_PAD                                                     50.0 MHz      NA            20.000        NA            NA         declared                      default_clkgroup   
-COREJTAGDEBUG_85_1s|iUDRCK_inferred_clock                    100.0 MHz     145.4 MHz     10.000        6.876         1.562      inferred                      Inferred_clkgroup_2
-MSS_SUBSYSTEM_sb_0/CCC_0/GL0                                 66.0 MHz      75.9 MHz      15.152        13.180        1.972      generated (from CLK0_PAD)     default_clkgroup   
+COREJTAGDEBUG_85_1s|iUDRCK_inferred_clock                    100.0 MHz     113.5 MHz     10.000        8.809         0.595      inferred                      Inferred_clkgroup_2
+MSS_SUBSYSTEM_sb_0/CCC_0/GL0                                 66.0 MHz      76.5 MHz      15.152        13.080        2.072      generated (from CLK0_PAD)     default_clkgroup   
 MSS_SUBSYSTEM_sb_0/FABOSC_0/I_RCOSC_25_50MHZ/CLKOUT          50.0 MHz      372.7 MHz     20.000        2.683         17.317     declared                      default_clkgroup   
 MSS_SUBSYSTEM_sb_0/MSS_SUBSYSTEM_sb_MSS_0/CLK_CONFIG_APB     16.5 MHz      86.7 MHz      60.606        11.538        24.534     declared                      default_clkgroup   
 TCK                                                          6.0 MHz       NA            166.670       NA            NA         declared                      default_clkgroup   
 spi_chanctrl_Z19|un5_resetn_rx_inferred_clock                100.0 MHz     NA            10.000        NA            NA         inferred                      Inferred_clkgroup_0
 uj_jtag_85|un1_duttck_inferred_clock                         100.0 MHz     80.4 MHz      10.000        12.441        -1.220     inferred                      Inferred_clkgroup_1
-System                                                       100.0 MHz     162.3 MHz     10.000        6.163         3.837      system                        system_clkgroup    
+System                                                       100.0 MHz     162.8 MHz     10.000        6.142         3.858      system                        system_clkgroup    
 =================================================================================================================================================================================
 @N: MT582 |Estimated period and frequency not reported for given clock unless the clock has at least one timing path which is not a false or a max delay path and that does not have excessive slack
 
@@ -1053,15 +1053,15 @@ Clocks                                                                          
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Starting                                                  Ending                                                    |  constraint  slack   |  constraint  slack  |  constraint  slack   |  constraint  slack 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-System                                                    uj_jtag_85|un1_duttck_inferred_clock                      |  No paths    -       |  No paths    -      |  10.000      4.237   |  No paths    -     
-System                                                    COREJTAGDEBUG_85_1s|iUDRCK_inferred_clock                 |  10.000      3.837   |  No paths    -      |  10.000      7.505   |  No paths    -     
+System                                                    uj_jtag_85|un1_duttck_inferred_clock                      |  No paths    -       |  No paths    -      |  10.000      4.239   |  No paths    -     
+System                                                    COREJTAGDEBUG_85_1s|iUDRCK_inferred_clock                 |  10.000      3.858   |  No paths    -      |  10.000      5.799   |  No paths    -     
 MSS_SUBSYSTEM_sb_0/FABOSC_0/I_RCOSC_25_50MHZ/CLKOUT       MSS_SUBSYSTEM_sb_0/FABOSC_0/I_RCOSC_25_50MHZ/CLKOUT       |  20.000      17.317  |  No paths    -      |  No paths    -       |  No paths    -     
 MSS_SUBSYSTEM_sb_0/FABOSC_0/I_RCOSC_25_50MHZ/CLKOUT       MSS_SUBSYSTEM_sb_0/CCC_0/GL0                              |  0.690       False   |  No paths    -      |  No paths    -       |  No paths    -     
 MSS_SUBSYSTEM_sb_0/MSS_SUBSYSTEM_sb_MSS_0/CLK_CONFIG_APB  MSS_SUBSYSTEM_sb_0/MSS_SUBSYSTEM_sb_MSS_0/CLK_CONFIG_APB  |  60.606      52.938  |  No paths    -      |  30.303      27.991  |  30.303      24.534
 MSS_SUBSYSTEM_sb_0/MSS_SUBSYSTEM_sb_MSS_0/CLK_CONFIG_APB  MSS_SUBSYSTEM_sb_0/CCC_0/GL0                              |  15.152      False   |  No paths    -      |  No paths    -       |  No paths    -     
 MSS_SUBSYSTEM_sb_0/CCC_0/GL0                              MSS_SUBSYSTEM_sb_0/FABOSC_0/I_RCOSC_25_50MHZ/CLKOUT       |  0.690       False   |  No paths    -      |  No paths    -       |  No paths    -     
 MSS_SUBSYSTEM_sb_0/CCC_0/GL0                              MSS_SUBSYSTEM_sb_0/MSS_SUBSYSTEM_sb_MSS_0/CLK_CONFIG_APB  |  15.152      False   |  No paths    -      |  No paths    -       |  No paths    -     
-MSS_SUBSYSTEM_sb_0/CCC_0/GL0                              MSS_SUBSYSTEM_sb_0/CCC_0/GL0                              |  15.152      1.972   |  No paths    -      |  No paths    -       |  No paths    -     
+MSS_SUBSYSTEM_sb_0/CCC_0/GL0                              MSS_SUBSYSTEM_sb_0/CCC_0/GL0                              |  15.152      2.072   |  No paths    -      |  No paths    -       |  No paths    -     
 MSS_SUBSYSTEM_sb_0/CCC_0/GL0                              spi_chanctrl_Z19|un5_resetn_rx_inferred_clock             |  No paths    -       |  No paths    -      |  Diff grp    -       |  No paths    -     
 MSS_SUBSYSTEM_sb_0/CCC_0/GL0                              uj_jtag_85|un1_duttck_inferred_clock                      |  Diff grp    -       |  No paths    -      |  Diff grp    -       |  No paths    -     
 spi_chanctrl_Z19|un5_resetn_rx_inferred_clock             MSS_SUBSYSTEM_sb_0/CCC_0/GL0                              |  No paths    -       |  No paths    -      |  No paths    -       |  Diff grp    -     
@@ -1070,7 +1070,7 @@ uj_jtag_85|un1_duttck_inferred_clock                      uj_jtag_85|un1_duttck_
 uj_jtag_85|un1_duttck_inferred_clock                      COREJTAGDEBUG_85_1s|iUDRCK_inferred_clock                 |  Diff grp    -       |  No paths    -      |  No paths    -       |  No paths    -     
 COREJTAGDEBUG_85_1s|iUDRCK_inferred_clock                 System                                                    |  10.000      8.775   |  No paths    -      |  No paths    -       |  No paths    -     
 COREJTAGDEBUG_85_1s|iUDRCK_inferred_clock                 uj_jtag_85|un1_duttck_inferred_clock                      |  No paths    -       |  Diff grp    -      |  No paths    -       |  No paths    -     
-COREJTAGDEBUG_85_1s|iUDRCK_inferred_clock                 COREJTAGDEBUG_85_1s|iUDRCK_inferred_clock                 |  10.000      3.493   |  No paths    -      |  5.000       1.562   |  No paths    -     
+COREJTAGDEBUG_85_1s|iUDRCK_inferred_clock                 COREJTAGDEBUG_85_1s|iUDRCK_inferred_clock                 |  10.000      3.666   |  No paths    -      |  5.000       0.595   |  No paths    -     
 =============================================================================================================================================================================================================
  Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
        'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
@@ -1097,16 +1097,16 @@ Starting Points with Worst Slack
 Instance                                        Reference                                     Type     Pin     Net          Time        Slack
                                                 Clock                                                                                        
 ---------------------------------------------------------------------------------------------------------------------------------------------
-COREJTAGDEBUG_0.genblk1\.UJ_JTAG_0.state[0]     COREJTAGDEBUG_85_1s|iUDRCK_inferred_clock     SLE      Q       state[0]     0.108       1.562
-COREJTAGDEBUG_0.genblk1\.UJ_JTAG_0.state[2]     COREJTAGDEBUG_85_1s|iUDRCK_inferred_clock     SLE      Q       state[2]     0.108       1.625
-COREJTAGDEBUG_0.genblk1\.UJ_JTAG_0.state[1]     COREJTAGDEBUG_85_1s|iUDRCK_inferred_clock     SLE      Q       state[1]     0.108       1.668
-COREJTAGDEBUG_0.genblk1\.UJ_JTAG_0.state[3]     COREJTAGDEBUG_85_1s|iUDRCK_inferred_clock     SLE      Q       state[3]     0.087       1.811
-COREJTAGDEBUG_0.genblk1\.UJ_JTAG_0.count[3]     COREJTAGDEBUG_85_1s|iUDRCK_inferred_clock     SLE      Q       count[3]     0.108       1.959
-COREJTAGDEBUG_0.genblk1\.UJ_JTAG_0.count[4]     COREJTAGDEBUG_85_1s|iUDRCK_inferred_clock     SLE      Q       count[4]     0.108       2.101
-COREJTAGDEBUG_0.genblk1\.UJ_JTAG_0.count[5]     COREJTAGDEBUG_85_1s|iUDRCK_inferred_clock     SLE      Q       count[5]     0.108       2.194
-COREJTAGDEBUG_0.genblk1\.UJ_JTAG_0.count[0]     COREJTAGDEBUG_85_1s|iUDRCK_inferred_clock     SLE      Q       count[0]     0.108       2.521
-COREJTAGDEBUG_0.genblk1\.UJ_JTAG_0.count[2]     COREJTAGDEBUG_85_1s|iUDRCK_inferred_clock     SLE      Q       count[2]     0.108       2.715
-COREJTAGDEBUG_0.genblk1\.UJ_JTAG_0.count[1]     COREJTAGDEBUG_85_1s|iUDRCK_inferred_clock     SLE      Q       count[1]     0.108       2.796
+COREJTAGDEBUG_0.genblk1\.UJ_JTAG_0.state[0]     COREJTAGDEBUG_85_1s|iUDRCK_inferred_clock     SLE      Q       state[0]     0.108       0.595
+COREJTAGDEBUG_0.genblk1\.UJ_JTAG_0.state[1]     COREJTAGDEBUG_85_1s|iUDRCK_inferred_clock     SLE      Q       state[1]     0.108       0.641
+COREJTAGDEBUG_0.genblk1\.UJ_JTAG_0.state[2]     COREJTAGDEBUG_85_1s|iUDRCK_inferred_clock     SLE      Q       state[2]     0.108       0.718
+COREJTAGDEBUG_0.genblk1\.UJ_JTAG_0.count[1]     COREJTAGDEBUG_85_1s|iUDRCK_inferred_clock     SLE      Q       count[1]     0.108       0.802
+COREJTAGDEBUG_0.genblk1\.UJ_JTAG_0.count[0]     COREJTAGDEBUG_85_1s|iUDRCK_inferred_clock     SLE      Q       count[0]     0.108       0.850
+COREJTAGDEBUG_0.genblk1\.UJ_JTAG_0.state[3]     COREJTAGDEBUG_85_1s|iUDRCK_inferred_clock     SLE      Q       state[3]     0.108       0.852
+COREJTAGDEBUG_0.genblk1\.UJ_JTAG_0.count[3]     COREJTAGDEBUG_85_1s|iUDRCK_inferred_clock     SLE      Q       count[3]     0.108       0.905
+COREJTAGDEBUG_0.genblk1\.UJ_JTAG_0.count[4]     COREJTAGDEBUG_85_1s|iUDRCK_inferred_clock     SLE      Q       count[4]     0.108       1.635
+COREJTAGDEBUG_0.genblk1\.UJ_JTAG_0.count[2]     COREJTAGDEBUG_85_1s|iUDRCK_inferred_clock     SLE      Q       count[2]     0.108       1.666
+COREJTAGDEBUG_0.genblk1\.UJ_JTAG_0.count[5]     COREJTAGDEBUG_85_1s|iUDRCK_inferred_clock     SLE      Q       count[5]     0.108       2.699
 =============================================================================================================================================
 
 
@@ -1117,16 +1117,16 @@ Ending Points with Worst Slack
 Instance                                          Reference                                     Type     Pin     Net              Time         Slack
                                                   Clock                                                                                             
 ----------------------------------------------------------------------------------------------------------------------------------------------------
-COREJTAGDEBUG_0.genblk1\.UJ_JTAG_0.endofshift     COREJTAGDEBUG_85_1s|iUDRCK_inferred_clock     SLE      D       endofshift_2     4.745        1.562
-COREJTAGDEBUG_0.genblk1\.UJ_JTAG_0.tmsenb         COREJTAGDEBUG_85_1s|iUDRCK_inferred_clock     SLE      D       state_i_0[3]     4.745        3.370
-COREJTAGDEBUG_0.genblk1\.UJ_JTAG_0.tckgo          COREJTAGDEBUG_85_1s|iUDRCK_inferred_clock     SLE      D       tckgo_10         9.745        3.493
-COREJTAGDEBUG_0.genblk1\.UJ_JTAG_0.state[0]       COREJTAGDEBUG_85_1s|iUDRCK_inferred_clock     SLE      D       state_20[0]      9.745        3.551
-COREJTAGDEBUG_0.genblk1\.UJ_JTAG_0.state[1]       COREJTAGDEBUG_85_1s|iUDRCK_inferred_clock     SLE      D       state_20[1]      9.745        3.555
-COREJTAGDEBUG_0.genblk1\.UJ_JTAG_0.state[2]       COREJTAGDEBUG_85_1s|iUDRCK_inferred_clock     SLE      D       state_20[2]      9.745        3.588
-COREJTAGDEBUG_0.genblk1\.UJ_JTAG_0.state[3]       COREJTAGDEBUG_85_1s|iUDRCK_inferred_clock     SLE      D       state_20[3]      9.745        3.990
-COREJTAGDEBUG_0.genblk1\.UJ_JTAG_0.state[4]       COREJTAGDEBUG_85_1s|iUDRCK_inferred_clock     SLE      D       state_20[4]      9.745        4.143
-COREJTAGDEBUG_0.genblk1\.UJ_JTAG_0.count[3]       COREJTAGDEBUG_85_1s|iUDRCK_inferred_clock     SLE      D       count_16[3]      9.745        4.818
-COREJTAGDEBUG_0.genblk1\.UJ_JTAG_0.count[0]       COREJTAGDEBUG_85_1s|iUDRCK_inferred_clock     SLE      D       count_16[0]      9.745        4.857
+COREJTAGDEBUG_0.genblk1\.UJ_JTAG_0.endofshift     COREJTAGDEBUG_85_1s|iUDRCK_inferred_clock     SLE      D       endofshift_2     4.745        0.595
+COREJTAGDEBUG_0.genblk1\.UJ_JTAG_0.tmsenb         COREJTAGDEBUG_85_1s|iUDRCK_inferred_clock     SLE      D       state_i_0[3]     4.745        3.356
+COREJTAGDEBUG_0.genblk1\.UJ_JTAG_0.state[4]       COREJTAGDEBUG_85_1s|iUDRCK_inferred_clock     SLE      D       state_20[4]      9.745        3.666
+COREJTAGDEBUG_0.genblk1\.UJ_JTAG_0.state[0]       COREJTAGDEBUG_85_1s|iUDRCK_inferred_clock     SLE      D       state_20[0]      9.745        3.722
+COREJTAGDEBUG_0.genblk1\.UJ_JTAG_0.state[2]       COREJTAGDEBUG_85_1s|iUDRCK_inferred_clock     SLE      D       state_20[2]      9.745        3.779
+COREJTAGDEBUG_0.genblk1\.UJ_JTAG_0.tckgo          COREJTAGDEBUG_85_1s|iUDRCK_inferred_clock     SLE      D       tckgo_10         9.745        3.902
+COREJTAGDEBUG_0.genblk1\.UJ_JTAG_0.state[3]       COREJTAGDEBUG_85_1s|iUDRCK_inferred_clock     SLE      D       state_20[3]      9.745        3.966
+COREJTAGDEBUG_0.genblk1\.UJ_JTAG_0.state[1]       COREJTAGDEBUG_85_1s|iUDRCK_inferred_clock     SLE      D       state_20[1]      9.745        4.085
+COREJTAGDEBUG_0.genblk1\.UJ_JTAG_0.count[3]       COREJTAGDEBUG_85_1s|iUDRCK_inferred_clock     SLE      D       count_16[3]      9.745        4.465
+COREJTAGDEBUG_0.genblk1\.UJ_JTAG_0.count[0]       COREJTAGDEBUG_85_1s|iUDRCK_inferred_clock     SLE      D       count_16[0]      9.745        4.503
 ====================================================================================================================================================
 
 
@@ -1141,33 +1141,36 @@ Path information for path number 1:
     + Clock delay at ending point:           0.000 (ideal)
     = Required time:                         4.745
 
-    - Propagation time:                      3.183
+    - Propagation time:                      4.149
     - Clock delay at starting point:         0.000 (ideal)
-    = Slack (non-critical) :                 1.562
+    = Slack (non-critical) :                 0.595
 
-    Number of logic level(s):                3
+    Number of logic level(s):                4
     Starting point:                          COREJTAGDEBUG_0.genblk1\.UJ_JTAG_0.state[0] / Q
     Ending point:                            COREJTAGDEBUG_0.genblk1\.UJ_JTAG_0.endofshift / D
     The start point is clocked by            COREJTAGDEBUG_85_1s|iUDRCK_inferred_clock [rising] on pin CLK
     The end   point is clocked by            COREJTAGDEBUG_85_1s|iUDRCK_inferred_clock [falling] on pin CLK
 
-Instance / Net                                                   Pin      Pin               Arrival     No. of    
-Name                                                    Type     Name     Dir     Delay     Time        Fan Out(s)
-------------------------------------------------------------------------------------------------------------------
-COREJTAGDEBUG_0.genblk1\.UJ_JTAG_0.state[0]             SLE      Q        Out     0.108     0.108       -         
-state[0]                                                Net      -        -       0.976     -           12        
-COREJTAGDEBUG_0.genblk1\.UJ_JTAG_0.countnext            CFG3     C        In      -         1.084       -         
-COREJTAGDEBUG_0.genblk1\.UJ_JTAG_0.countnext            CFG3     Y        Out     0.210     1.294       -         
-countnext                                               Net      -        -       0.846     -           10        
-COREJTAGDEBUG_0.genblk1\.UJ_JTAG_0.endofshift_RNO_1     CFG4     B        In      -         2.140       -         
-COREJTAGDEBUG_0.genblk1\.UJ_JTAG_0.endofshift_RNO_1     CFG4     Y        Out     0.165     2.304       -         
-endofshift_m7_1                                         Net      -        -       0.556     -           1         
-COREJTAGDEBUG_0.genblk1\.UJ_JTAG_0.endofshift_RNO       CFG4     B        In      -         2.860       -         
-COREJTAGDEBUG_0.genblk1\.UJ_JTAG_0.endofshift_RNO       CFG4     Y        Out     0.165     3.024       -         
-endofshift_2                                            Net      -        -       0.159     -           1         
-COREJTAGDEBUG_0.genblk1\.UJ_JTAG_0.endofshift           SLE      D        In      -         3.183       -         
-==================================================================================================================
-Total path delay (propagation time + setup) of 3.438 is 0.902(26.2%) logic and 2.536(73.8%) route.
+Instance / Net                                                    Pin      Pin               Arrival     No. of    
+Name                                                     Type     Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------------------------
+COREJTAGDEBUG_0.genblk1\.UJ_JTAG_0.state[0]              SLE      Q        Out     0.108     0.108       -         
+state[0]                                                 Net      -        -       0.958     -           11        
+COREJTAGDEBUG_0.genblk1\.UJ_JTAG_0.countnext             CFG3     C        In      -         1.067       -         
+COREJTAGDEBUG_0.genblk1\.UJ_JTAG_0.countnext             CFG3     Y        Out     0.210     1.276       -         
+countnext                                                Net      -        -       0.812     -           8         
+COREJTAGDEBUG_0.genblk1\.UJ_JTAG_0.count_RNIHSRD1[2]     CFG4     C        In      -         2.088       -         
+COREJTAGDEBUG_0.genblk1\.UJ_JTAG_0.count_RNIHSRD1[2]     CFG4     Y        Out     0.226     2.314       -         
+count_RNIHSRD1[2]                                        Net      -        -       0.715     -           4         
+COREJTAGDEBUG_0.genblk1\.UJ_JTAG_0.endofshift_2_1        CFG3     C        In      -         3.029       -         
+COREJTAGDEBUG_0.genblk1\.UJ_JTAG_0.endofshift_2_1        CFG3     Y        Out     0.203     3.232       -         
+endofshift_2_1                                           Net      -        -       0.556     -           1         
+COREJTAGDEBUG_0.genblk1\.UJ_JTAG_0.endofshift_2          CFG4     C        In      -         3.788       -         
+COREJTAGDEBUG_0.genblk1\.UJ_JTAG_0.endofshift_2          CFG4     Y        Out     0.203     3.991       -         
+endofshift_2                                             Net      -        -       0.159     -           1         
+COREJTAGDEBUG_0.genblk1\.UJ_JTAG_0.endofshift            SLE      D        In      -         4.149       -         
+===================================================================================================================
+Total path delay (propagation time + setup) of 4.405 is 1.205(27.4%) logic and 3.200(72.6%) route.
 Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
 
 
@@ -1182,41 +1185,41 @@ Detailed Report for Clock: MSS_SUBSYSTEM_sb_0/CCC_0/GL0
 Starting Points with Worst Slack
 ********************************
 
-                                                                           Starting                                                                                              Arrival          
-Instance                                                                   Reference                        Type        Pin                Net                                   Time        Slack
-                                                                           Clock                                                                                                                  
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-CORERISCV_AXI4_0.ChiselTop0.RocketTile_1.icache.s2_pc[2]                   MSS_SUBSYSTEM_sb_0/CCC_0/GL0     SLE         Q                  icache_io_cpu_resp_bits_pc[2]         0.108       1.972
-CORERISCV_AXI4_0.ChiselTop0.RocketTile_1.icache.icache.T_974_T_974_0_2     MSS_SUBSYSTEM_sb_0/CCC_0/GL0     RAM1K18     A_DOUT[15]         icache_io_resp_bits_datablock[47]     0.335       2.270
-CORERISCV_AXI4_0.ChiselTop0.RocketTile_1.icache.icache.T_974_T_974_0_3     MSS_SUBSYSTEM_sb_0/CCC_0/GL0     RAM1K18     A_DOUT[4]          icache_io_resp_bits_datablock[52]     0.335       2.272
-CORERISCV_AXI4_0.ChiselTop0.RocketTile_1.icache.icache.T_974_T_974_0_3     MSS_SUBSYSTEM_sb_0/CCC_0/GL0     RAM1K18     A_DOUT[5]          icache_io_resp_bits_datablock[53]     0.335       2.300
-CORERISCV_AXI4_0.ChiselTop0.RocketTile_1.icache.icache.T_974_T_974_0_3     MSS_SUBSYSTEM_sb_0/CCC_0/GL0     RAM1K18     A_DOUT[0]          icache_io_resp_bits_datablock[48]     0.310       2.383
-CORERISCV_AXI4_0.ChiselTop0.RocketTile_1.icache.icache.T_974_T_974_0_0     MSS_SUBSYSTEM_sb_0/CCC_0/GL0     RAM1K18     A_DOUT[15]         icache_io_resp_bits_datablock[15]     0.335       2.393
-CORERISCV_AXI4_0.ChiselTop0.RocketTile_1.icache.icache.T_974_T_974_0_1     MSS_SUBSYSTEM_sb_0/CCC_0/GL0     RAM1K18     A_DOUT[4]          icache_io_resp_bits_datablock[20]     0.335       2.395
-CORERISCV_AXI4_0.ChiselTop0.RocketTile_1.icache.icache.T_974_T_974_0_1     MSS_SUBSYSTEM_sb_0/CCC_0/GL0     RAM1K18     A_DOUT[5]          icache_io_resp_bits_datablock[21]     0.335       2.422
-MSS_SUBSYSTEM_sb_0.MSS_SUBSYSTEM_sb_MSS_0.MSS_ADLIB_INST                   MSS_SUBSYSTEM_sb_0/CCC_0/GL0     MSS_025     F_FM0_READYOUT     CoreAHBLite_0_AHBmslave6_HREADY       3.244       2.490
-CORERISCV_AXI4_0.ChiselTop0.RocketTile_1.icache.icache.T_974_T_974_0_1     MSS_SUBSYSTEM_sb_0/CCC_0/GL0     RAM1K18     A_DOUT[0]          icache_io_resp_bits_datablock[16]     0.310       2.509
-==================================================================================================================================================================================================
+                                                                           Starting                                                                                                    Arrival          
+Instance                                                                   Reference                        Type        Pin                      Net                                   Time        Slack
+                                                                           Clock                                                                                                                        
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+CORERISCV_AXI4_0.ChiselTop0.RocketTile_1.icache.s2_pc[2]                   MSS_SUBSYSTEM_sb_0/CCC_0/GL0     SLE         Q                        icache_io_cpu_resp_bits_pc[2]         0.108       2.072
+CORERISCV_AXI4_0.ChiselTop0.RocketTile_1.icache.icache.T_974_T_974_0_3     MSS_SUBSYSTEM_sb_0/CCC_0/GL0     RAM1K18     A_DOUT[5]                icache_io_resp_bits_datablock[53]     0.335       2.375
+CORERISCV_AXI4_0.ChiselTop0.RocketTile_1.icache.icache.T_974_T_974_0_3     MSS_SUBSYSTEM_sb_0/CCC_0/GL0     RAM1K18     A_DOUT[4]                icache_io_resp_bits_datablock[52]     0.335       2.465
+CORERISCV_AXI4_0.ChiselTop0.RocketTile_1.icache.icache.T_974_T_974_0_1     MSS_SUBSYSTEM_sb_0/CCC_0/GL0     RAM1K18     A_DOUT[5]                icache_io_resp_bits_datablock[21]     0.335       2.497
+MSS_SUBSYSTEM_sb_0.MSS_SUBSYSTEM_sb_MSS_0.MSS_ADLIB_INST                   MSS_SUBSYSTEM_sb_0/CCC_0/GL0     MSS_025     F_FM0_READYOUT           CoreAHBLite_0_AHBmslave6_HREADY       3.244       2.564
+CORERISCV_AXI4_0.ChiselTop0.RocketTile_1.icache.icache.T_974_T_974_0_1     MSS_SUBSYSTEM_sb_0/CCC_0/GL0     RAM1K18     A_DOUT[4]                icache_io_resp_bits_datablock[20]     0.335       2.588
+CORERISCV_AXI4_0.ChiselTop0.RocketTile_1.icache.icache.T_974_T_974_0_2     MSS_SUBSYSTEM_sb_0/CCC_0/GL0     RAM1K18     A_DOUT[7]                icache_io_resp_bits_datablock[39]     0.335       2.805
+MSS_SUBSYSTEM_sb_0.MSS_SUBSYSTEM_sb_MSS_0.MSS_ADLIB_INST                   MSS_SUBSYSTEM_sb_0/CCC_0/GL0     MSS_025     F_AWREADY_HREADYOUT0     CoreAHBLite_1_AHBmslave16_HREADY      2.956       2.825
+CORERISCV_AXI4_0.ChiselTop0.RocketTile_1.icache.icache.T_974_T_974_0_2     MSS_SUBSYSTEM_sb_0/CCC_0/GL0     RAM1K18     A_DOUT[8]                icache_io_resp_bits_datablock[40]     0.335       2.849
+CORERISCV_AXI4_0.ChiselTop0.RocketTile_1.icache.icache.T_974_T_974_0_0     MSS_SUBSYSTEM_sb_0/CCC_0/GL0     RAM1K18     A_DOUT[7]                icache_io_resp_bits_datablock[7]      0.335       2.927
+========================================================================================================================================================================================================
 
 
 Ending Points with Worst Slack
 ******************************
 
-                                                                           Starting                                                              Required          
-Instance                                                                   Reference                        Type        Pin            Net       Time         Slack
-                                                                           Clock                                                                                   
--------------------------------------------------------------------------------------------------------------------------------------------------------------------
-CORERISCV_AXI4_0.ChiselTop0.RocketTile_1.icache.icache.T_974_T_974_0_0     MSS_SUBSYSTEM_sb_0/CCC_0/GL0     RAM1K18     A_ADDR[10]     N_193     14.564       1.972
-CORERISCV_AXI4_0.ChiselTop0.RocketTile_1.icache.icache.T_974_T_974_0_0     MSS_SUBSYSTEM_sb_0/CCC_0/GL0     RAM1K18     A_ADDR[11]     N_192     14.564       1.972
-CORERISCV_AXI4_0.ChiselTop0.RocketTile_1.icache.icache.T_974_T_974_0_0     MSS_SUBSYSTEM_sb_0/CCC_0/GL0     RAM1K18     A_ADDR[12]     N_191     14.564       1.972
-CORERISCV_AXI4_0.ChiselTop0.RocketTile_1.icache.icache.T_974_T_974_0_0     MSS_SUBSYSTEM_sb_0/CCC_0/GL0     RAM1K18     A_ADDR[13]     N_190     14.564       1.972
-CORERISCV_AXI4_0.ChiselTop0.RocketTile_1.icache.icache.T_974_T_974_0_1     MSS_SUBSYSTEM_sb_0/CCC_0/GL0     RAM1K18     A_ADDR[10]     N_193     14.564       1.972
-CORERISCV_AXI4_0.ChiselTop0.RocketTile_1.icache.icache.T_974_T_974_0_1     MSS_SUBSYSTEM_sb_0/CCC_0/GL0     RAM1K18     A_ADDR[11]     N_192     14.564       1.972
-CORERISCV_AXI4_0.ChiselTop0.RocketTile_1.icache.icache.T_974_T_974_0_1     MSS_SUBSYSTEM_sb_0/CCC_0/GL0     RAM1K18     A_ADDR[12]     N_191     14.564       1.972
-CORERISCV_AXI4_0.ChiselTop0.RocketTile_1.icache.icache.T_974_T_974_0_1     MSS_SUBSYSTEM_sb_0/CCC_0/GL0     RAM1K18     A_ADDR[13]     N_190     14.564       1.972
-CORERISCV_AXI4_0.ChiselTop0.RocketTile_1.icache.icache.T_974_T_974_0_2     MSS_SUBSYSTEM_sb_0/CCC_0/GL0     RAM1K18     A_ADDR[10]     N_193     14.564       1.972
-CORERISCV_AXI4_0.ChiselTop0.RocketTile_1.icache.icache.T_974_T_974_0_2     MSS_SUBSYSTEM_sb_0/CCC_0/GL0     RAM1K18     A_ADDR[11]     N_192     14.564       1.972
-===================================================================================================================================================================
+                                                                           Starting                                                                    Required          
+Instance                                                                   Reference                        Type        Pin            Net             Time         Slack
+                                                                           Clock                                                                                         
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+CORERISCV_AXI4_0.ChiselTop0.RocketTile_1.icache.icache.T_974_T_974_0_0     MSS_SUBSYSTEM_sb_0/CCC_0/GL0     RAM1K18     A_ADDR[4]      s0_vaddr[3]     14.564       2.072
+CORERISCV_AXI4_0.ChiselTop0.RocketTile_1.icache.icache.T_974_T_974_0_1     MSS_SUBSYSTEM_sb_0/CCC_0/GL0     RAM1K18     A_ADDR[4]      s0_vaddr[3]     14.564       2.072
+CORERISCV_AXI4_0.ChiselTop0.RocketTile_1.icache.icache.T_974_T_974_0_2     MSS_SUBSYSTEM_sb_0/CCC_0/GL0     RAM1K18     A_ADDR[4]      s0_vaddr[3]     14.564       2.072
+CORERISCV_AXI4_0.ChiselTop0.RocketTile_1.icache.icache.T_974_T_974_0_3     MSS_SUBSYSTEM_sb_0/CCC_0/GL0     RAM1K18     A_ADDR[4]      s0_vaddr[3]     14.564       2.072
+CORERISCV_AXI4_0.ChiselTop0.RocketTile_1.icache.icache.T_974_T_974_0_0     MSS_SUBSYSTEM_sb_0/CCC_0/GL0     RAM1K18     A_ADDR[9]      N_194           14.564       2.125
+CORERISCV_AXI4_0.ChiselTop0.RocketTile_1.icache.icache.T_974_T_974_0_0     MSS_SUBSYSTEM_sb_0/CCC_0/GL0     RAM1K18     A_ADDR[10]     N_193           14.564       2.125
+CORERISCV_AXI4_0.ChiselTop0.RocketTile_1.icache.icache.T_974_T_974_0_0     MSS_SUBSYSTEM_sb_0/CCC_0/GL0     RAM1K18     A_ADDR[11]     N_192           14.564       2.125
+CORERISCV_AXI4_0.ChiselTop0.RocketTile_1.icache.icache.T_974_T_974_0_0     MSS_SUBSYSTEM_sb_0/CCC_0/GL0     RAM1K18     A_ADDR[13]     N_190           14.564       2.125
+CORERISCV_AXI4_0.ChiselTop0.RocketTile_1.icache.icache.T_974_T_974_0_1     MSS_SUBSYSTEM_sb_0/CCC_0/GL0     RAM1K18     A_ADDR[9]      N_194           14.564       2.125
+CORERISCV_AXI4_0.ChiselTop0.RocketTile_1.icache.icache.T_974_T_974_0_1     MSS_SUBSYSTEM_sb_0/CCC_0/GL0     RAM1K18     A_ADDR[10]     N_193           14.564       2.125
+=========================================================================================================================================================================
 
 
 
@@ -1230,54 +1233,54 @@ Path information for path number 1:
     + Clock delay at ending point:           0.000 (ideal)
     = Required time:                         14.564
 
-    - Propagation time:                      12.592
+    - Propagation time:                      12.492
     - Clock delay at starting point:         0.000 (ideal)
-    = Slack (non-critical) :                 1.972
+    = Slack (non-critical) :                 2.072
 
     Number of logic level(s):                10
     Starting point:                          CORERISCV_AXI4_0.ChiselTop0.RocketTile_1.icache.s2_pc[2] / Q
-    Ending point:                            CORERISCV_AXI4_0.ChiselTop0.RocketTile_1.icache.icache.T_974_T_974_0_0 / A_ADDR[10]
+    Ending point:                            CORERISCV_AXI4_0.ChiselTop0.RocketTile_1.icache.icache.T_974_T_974_0_0 / A_ADDR[4]
     The start point is clocked by            MSS_SUBSYSTEM_sb_0/CCC_0/GL0 [rising] on pin CLK
     The end   point is clocked by            MSS_SUBSYSTEM_sb_0/CCC_0/GL0 [rising] on pin A_CLK
 
-Instance / Net                                                                          Pin            Pin               Arrival     No. of    
-Name                                                                        Type        Name           Dir     Delay     Time        Fan Out(s)
------------------------------------------------------------------------------------------------------------------------------------------------
-CORERISCV_AXI4_0.ChiselTop0.RocketTile_1.icache.s2_pc[2]                    SLE         Q              Out     0.108     0.108       -         
-icache_io_cpu_resp_bits_pc[2]                                               Net         -              -       1.687     -           48        
-CORERISCV_AXI4_0.ChiselTop0.RocketTile_1.icache.fetch_data[15]              CFG3        B              In      -         1.796       -         
-CORERISCV_AXI4_0.ChiselTop0.RocketTile_1.icache.fetch_data[15]              CFG3        Y              Out     0.165     1.960       -         
-icache_io_cpu_resp_bits_data_0[15]                                          Net         -              -       1.682     -           280       
-CORERISCV_AXI4_0.ChiselTop0.RocketTile_1.core.T_7664_RNI8TRU[0]             CFG4        D              In      -         3.642       -         
-CORERISCV_AXI4_0.ChiselTop0.RocketTile_1.core.T_7664_RNI8TRU[0]             CFG4        Y              Out     0.326     3.968       -         
-m0_0_03_1_1                                                                 Net         -              -       0.556     -           1         
-CORERISCV_AXI4_0.ChiselTop0.RocketTile_1.core.T_7664_RNIFGE62[0]            CFG4        D              In      -         4.524       -         
-CORERISCV_AXI4_0.ChiselTop0.RocketTile_1.core.T_7664_RNIFGE62[0]            CFG4        Y              Out     0.288     4.811       -         
-m0_2_03_2                                                                   Net         -              -       0.556     -           1         
-CORERISCV_AXI4_0.ChiselTop0.RocketTile_1.core.T_7664_RNI6U4A9[0]            CFG4        D              In      -         5.367       -         
-CORERISCV_AXI4_0.ChiselTop0.RocketTile_1.core.T_7664_RNI6U4A9[0]            CFG4        Y              Out     0.288     5.655       -         
-m0_2_03                                                                     Net         -              -       0.556     -           1         
-CORERISCV_AXI4_0.ChiselTop0.RocketTile_1.core.core.T_7673_5_ns              CFG3        C              In      -         6.210       -         
-CORERISCV_AXI4_0.ChiselTop0.RocketTile_1.core.core.T_7673_5_ns              CFG3        Y              Out     0.210     6.420       -         
-T_7673[0]                                                                   Net         -              -       0.556     -           1         
-CORERISCV_AXI4_0.ChiselTop0.RocketTile_1.core.ctrl_stalld_5                 CFG4        D              In      -         6.976       -         
-CORERISCV_AXI4_0.ChiselTop0.RocketTile_1.core.ctrl_stalld_5                 CFG4        Y              Out     0.288     7.263       -         
-ctrl_stalld_5                                                               Net         -              -       0.715     -           4         
-CORERISCV_AXI4_0.ChiselTop0.RocketTile_1.icache.stall_2_1                   CFG4        D              In      -         7.978       -         
-CORERISCV_AXI4_0.ChiselTop0.RocketTile_1.icache.stall_2_1                   CFG4        Y              Out     0.317     8.296       -         
-stall_2_1                                                                   Net         -              -       0.556     -           1         
-CORERISCV_AXI4_0.ChiselTop0.RocketTile_1.icache.stall_2                     CFG4        D              In      -         8.851       -         
-CORERISCV_AXI4_0.ChiselTop0.RocketTile_1.icache.stall_2                     CFG4        Y              Out     0.326     9.178       -         
-stall                                                                       Net         -              -       0.875     -           12        
-CORERISCV_AXI4_0.ChiselTop0.RocketTile_1.icache.T_1401                      CFG2        A              In      -         10.053      -         
-CORERISCV_AXI4_0.ChiselTop0.RocketTile_1.icache.T_1401                      CFG2        Y              Out     0.100     10.153      -         
-T_1401                                                                      Net         -              -       1.138     -           12        
-CORERISCV_AXI4_0.ChiselTop0.RocketTile_1.icache.icache.s0_vaddr_i_m3[9]     CFG4        B              In      -         11.291      -         
-CORERISCV_AXI4_0.ChiselTop0.RocketTile_1.icache.icache.s0_vaddr_i_m3[9]     CFG4        Y              Out     0.165     11.455      -         
-N_193                                                                       Net         -              -       1.137     -           10        
-CORERISCV_AXI4_0.ChiselTop0.RocketTile_1.icache.icache.T_974_T_974_0_0      RAM1K18     A_ADDR[10]     In      -         12.592      -         
-===============================================================================================================================================
-Total path delay (propagation time + setup) of 13.180 is 3.168(24.0%) logic and 10.012(76.0%) route.
+Instance / Net                                                                         Pin           Pin               Arrival     No. of    
+Name                                                                       Type        Name          Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------------------------------------------------
+CORERISCV_AXI4_0.ChiselTop0.RocketTile_1.icache.s2_pc[2]                   SLE         Q             Out     0.108     0.108       -         
+icache_io_cpu_resp_bits_pc[2]                                              Net         -             -       1.692     -           49        
+CORERISCV_AXI4_0.ChiselTop0.RocketTile_1.icache.fetch_data[21]             CFG3        B             In      -         1.800       -         
+CORERISCV_AXI4_0.ChiselTop0.RocketTile_1.icache.fetch_data[21]             CFG3        Y             Out     0.165     1.965       -         
+icache_io_cpu_resp_bits_data_0[21]                                         Net         -             -       1.701     -           509       
+CORERISCV_AXI4_0.ChiselTop0.RocketTile_1.core.m4_0_1_0_wmux                ARI1        B             In      -         3.666       -         
+CORERISCV_AXI4_0.ChiselTop0.RocketTile_1.core.m4_0_1_0_wmux                ARI1        Y             Out     0.165     3.831       -         
+m4_0_1_0_y0                                                                Net         -             -       0.372     -           1         
+CORERISCV_AXI4_0.ChiselTop0.RocketTile_1.core.m4_0_1_0_wmux_0              ARI1        A             In      -         4.203       -         
+CORERISCV_AXI4_0.ChiselTop0.RocketTile_1.core.m4_0_1_0_wmux_0              ARI1        Y             Out     0.100     4.303       -         
+m4_0_03_0                                                                  Net         -             -       1.117     -           1         
+CORERISCV_AXI4_0.ChiselTop0.RocketTile_1.core.m0_2_1                       CFG4        D             In      -         5.420       -         
+CORERISCV_AXI4_0.ChiselTop0.RocketTile_1.core.m0_2_1                       CFG4        Y             Out     0.326     5.747       -         
+m0_2_1                                                                     Net         -             -       0.556     -           1         
+CORERISCV_AXI4_0.ChiselTop0.RocketTile_1.core.m0_2                         CFG4        D             In      -         6.302       -         
+CORERISCV_AXI4_0.ChiselTop0.RocketTile_1.core.m0_2                         CFG4        Y             Out     0.326     6.629       -         
+m0_2_03_0                                                                  Net         -             -       0.556     -           1         
+CORERISCV_AXI4_0.ChiselTop0.RocketTile_1.core.core.T_7673_40               CFG4        D             In      -         7.184       -         
+CORERISCV_AXI4_0.ChiselTop0.RocketTile_1.core.core.T_7673_40               CFG4        Y             Out     0.288     7.472       -         
+T_7676[0]                                                                  Net         -             -       0.630     -           2         
+CORERISCV_AXI4_0.ChiselTop0.RocketTile_1.icache.stall_sn                   CFG4        C             In      -         8.102       -         
+CORERISCV_AXI4_0.ChiselTop0.RocketTile_1.icache.stall_sn                   CFG4        Y             Out     0.223     8.325       -         
+stall_sn                                                                   Net         -             -       0.556     -           1         
+CORERISCV_AXI4_0.ChiselTop0.RocketTile_1.icache.stall_mb                   CFG4        C             In      -         8.881       -         
+CORERISCV_AXI4_0.ChiselTop0.RocketTile_1.icache.stall_mb                   CFG4        Y             Out     0.226     9.106       -         
+stall                                                                      Net         -             -       0.792     -           7         
+CORERISCV_AXI4_0.ChiselTop0.RocketTile_1.icache.T_1401                     CFG2        A             In      -         9.899       -         
+CORERISCV_AXI4_0.ChiselTop0.RocketTile_1.icache.T_1401                     CFG2        Y             Out     0.100     9.999       -         
+T_1401                                                                     Net         -             -       1.138     -           12        
+CORERISCV_AXI4_0.ChiselTop0.RocketTile_1.icache.icache.s0_vaddr_0[3]       CFG4        C             In      -         11.137      -         
+CORERISCV_AXI4_0.ChiselTop0.RocketTile_1.icache.icache.s0_vaddr_0[3]       CFG4        Y             Out     0.226     11.363      -         
+s0_vaddr[3]                                                                Net         -             -       1.129     -           4         
+CORERISCV_AXI4_0.ChiselTop0.RocketTile_1.icache.icache.T_974_T_974_0_0     RAM1K18     A_ADDR[4]     In      -         12.492      -         
+=============================================================================================================================================
+Total path delay (propagation time + setup) of 13.080 is 2.841(21.7%) logic and 10.239(78.3%) route.
 Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
 
 
@@ -1355,9 +1358,9 @@ Name                                                  Type     Name     Dir     
 ----------------------------------------------------------------------------------------------------------------
 MSS_SUBSYSTEM_sb_0.CORERESETP_0.count_ddr[0]          SLE      Q        Out     0.108     0.108       -         
 count_ddr[0]                                          Net      -        -       0.733     -           3         
-MSS_SUBSYSTEM_sb_0.CORERESETP_0.count_ddr_s_3834      ARI1     B        In      -         0.841       -         
-MSS_SUBSYSTEM_sb_0.CORERESETP_0.count_ddr_s_3834      ARI1     FCO      Out     0.201     1.042       -         
-count_ddr_s_3834_FCO                                  Net      -        -       0.000     -           1         
+MSS_SUBSYSTEM_sb_0.CORERESETP_0.count_ddr_s_3818      ARI1     B        In      -         0.841       -         
+MSS_SUBSYSTEM_sb_0.CORERESETP_0.count_ddr_s_3818      ARI1     FCO      Out     0.201     1.042       -         
+count_ddr_s_3818_FCO                                  Net      -        -       0.000     -           1         
 MSS_SUBSYSTEM_sb_0.CORERESETP_0.count_ddr_cry[1]      ARI1     FCI      In      -         1.042       -         
 MSS_SUBSYSTEM_sb_0.CORERESETP_0.count_ddr_cry[1]      ARI1     FCO      Out     0.016     1.058       -         
 count_ddr_cry[1]                                      Net      -        -       0.000     -           1         
@@ -1583,7 +1586,7 @@ CORERISCV_AXI4_0.debugTransportModuleJtag0.shiftReg_4_sqmuxa                CFG4
 shiftReg_4_sqmuxa                                                           Net      -        -       1.101     -           42        
 CORERISCV_AXI4_0.debugTransportModuleJtag0.un1_shiftReg21_0_a2_RNISMH82     CFG4     C        In      -         4.158       -         
 CORERISCV_AXI4_0.debugTransportModuleJtag0.un1_shiftReg21_0_a2_RNISMH82     CFG4     Y        Out     0.226     4.384       -         
-shiftReg_11_5_1[3]                                                          Net      -        -       1.097     -           41        
+shiftReg_11_5_1[2]                                                          Net      -        -       1.097     -           41        
 CORERISCV_AXI4_0.debugTransportModuleJtag0.shiftReg_11[1]                   CFG4     D        In      -         5.480       -         
 CORERISCV_AXI4_0.debugTransportModuleJtag0.shiftReg_11[1]                   CFG4     Y        Out     0.326     5.807       -         
 shiftReg_11[1]                                                              Net      -        -       0.159     -           1         
@@ -1605,7 +1608,7 @@ Path information for path number 2:
 
     Number of logic level(s):                5
     Starting point:                          CORERISCV_AXI4_0.debugTransportModuleJtag0.irReg[3] / Q
-    Ending point:                            CORERISCV_AXI4_0.debugTransportModuleJtag0.shiftReg[30] / D
+    Ending point:                            CORERISCV_AXI4_0.debugTransportModuleJtag0.shiftReg[27] / D
     The start point is clocked by            uj_jtag_85|un1_duttck_inferred_clock [rising] on pin CLK
     The end   point is clocked by            uj_jtag_85|un1_duttck_inferred_clock [falling] on pin CLK
 
@@ -1625,11 +1628,11 @@ CORERISCV_AXI4_0.debugTransportModuleJtag0.shiftReg_4_sqmuxa                CFG4
 shiftReg_4_sqmuxa                                                           Net      -        -       1.101     -           42        
 CORERISCV_AXI4_0.debugTransportModuleJtag0.un1_shiftReg21_0_a2_RNISMH82     CFG4     C        In      -         4.158       -         
 CORERISCV_AXI4_0.debugTransportModuleJtag0.un1_shiftReg21_0_a2_RNISMH82     CFG4     Y        Out     0.226     4.384       -         
-shiftReg_11_5_1[3]                                                          Net      -        -       1.097     -           41        
-CORERISCV_AXI4_0.debugTransportModuleJtag0.shiftReg_RNO[30]                 CFG4     D        In      -         5.480       -         
-CORERISCV_AXI4_0.debugTransportModuleJtag0.shiftReg_RNO[30]                 CFG4     Y        Out     0.317     5.798       -         
-shiftReg_11[30]                                                             Net      -        -       0.159     -           1         
-CORERISCV_AXI4_0.debugTransportModuleJtag0.shiftReg[30]                     SLE      D        In      -         5.956       -         
+shiftReg_11_5_1[2]                                                          Net      -        -       1.097     -           41        
+CORERISCV_AXI4_0.debugTransportModuleJtag0.shiftReg_RNO[27]                 CFG4     D        In      -         5.480       -         
+CORERISCV_AXI4_0.debugTransportModuleJtag0.shiftReg_RNO[27]                 CFG4     Y        Out     0.317     5.798       -         
+shiftReg_11[27]                                                             Net      -        -       0.159     -           1         
+CORERISCV_AXI4_0.debugTransportModuleJtag0.shiftReg[27]                     SLE      D        In      -         5.956       -         
 ======================================================================================================================================
 Total path delay (propagation time + setup) of 6.212 is 1.491(24.0%) logic and 4.720(76.0%) route.
 Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
@@ -1647,7 +1650,7 @@ Path information for path number 3:
 
     Number of logic level(s):                5
     Starting point:                          CORERISCV_AXI4_0.debugTransportModuleJtag0.irReg[3] / Q
-    Ending point:                            CORERISCV_AXI4_0.debugTransportModuleJtag0.shiftReg[7] / D
+    Ending point:                            CORERISCV_AXI4_0.debugTransportModuleJtag0.shiftReg[26] / D
     The start point is clocked by            uj_jtag_85|un1_duttck_inferred_clock [rising] on pin CLK
     The end   point is clocked by            uj_jtag_85|un1_duttck_inferred_clock [falling] on pin CLK
 
@@ -1667,11 +1670,11 @@ CORERISCV_AXI4_0.debugTransportModuleJtag0.shiftReg_4_sqmuxa                CFG4
 shiftReg_4_sqmuxa                                                           Net      -        -       1.101     -           42        
 CORERISCV_AXI4_0.debugTransportModuleJtag0.un1_shiftReg21_0_a2_RNISMH82     CFG4     C        In      -         4.158       -         
 CORERISCV_AXI4_0.debugTransportModuleJtag0.un1_shiftReg21_0_a2_RNISMH82     CFG4     Y        Out     0.226     4.384       -         
-shiftReg_11_5_1[3]                                                          Net      -        -       1.097     -           41        
-CORERISCV_AXI4_0.debugTransportModuleJtag0.shiftReg_RNO[7]                  CFG4     D        In      -         5.480       -         
-CORERISCV_AXI4_0.debugTransportModuleJtag0.shiftReg_RNO[7]                  CFG4     Y        Out     0.317     5.798       -         
-shiftReg_11[7]                                                              Net      -        -       0.159     -           1         
-CORERISCV_AXI4_0.debugTransportModuleJtag0.shiftReg[7]                      SLE      D        In      -         5.956       -         
+shiftReg_11_5_1[2]                                                          Net      -        -       1.097     -           41        
+CORERISCV_AXI4_0.debugTransportModuleJtag0.shiftReg_RNO[26]                 CFG4     D        In      -         5.480       -         
+CORERISCV_AXI4_0.debugTransportModuleJtag0.shiftReg_RNO[26]                 CFG4     Y        Out     0.317     5.798       -         
+shiftReg_11[26]                                                             Net      -        -       0.159     -           1         
+CORERISCV_AXI4_0.debugTransportModuleJtag0.shiftReg[26]                     SLE      D        In      -         5.956       -         
 ======================================================================================================================================
 Total path delay (propagation time + setup) of 6.212 is 1.491(24.0%) logic and 4.720(76.0%) route.
 Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
@@ -1689,7 +1692,7 @@ Path information for path number 4:
 
     Number of logic level(s):                5
     Starting point:                          CORERISCV_AXI4_0.debugTransportModuleJtag0.irReg[3] / Q
-    Ending point:                            CORERISCV_AXI4_0.debugTransportModuleJtag0.shiftReg[9] / D
+    Ending point:                            CORERISCV_AXI4_0.debugTransportModuleJtag0.shiftReg[25] / D
     The start point is clocked by            uj_jtag_85|un1_duttck_inferred_clock [rising] on pin CLK
     The end   point is clocked by            uj_jtag_85|un1_duttck_inferred_clock [falling] on pin CLK
 
@@ -1709,11 +1712,11 @@ CORERISCV_AXI4_0.debugTransportModuleJtag0.shiftReg_4_sqmuxa                CFG4
 shiftReg_4_sqmuxa                                                           Net      -        -       1.101     -           42        
 CORERISCV_AXI4_0.debugTransportModuleJtag0.un1_shiftReg21_0_a2_RNISMH82     CFG4     C        In      -         4.158       -         
 CORERISCV_AXI4_0.debugTransportModuleJtag0.un1_shiftReg21_0_a2_RNISMH82     CFG4     Y        Out     0.226     4.384       -         
-shiftReg_11_5_1[3]                                                          Net      -        -       1.097     -           41        
-CORERISCV_AXI4_0.debugTransportModuleJtag0.shiftReg_RNO[9]                  CFG4     D        In      -         5.480       -         
-CORERISCV_AXI4_0.debugTransportModuleJtag0.shiftReg_RNO[9]                  CFG4     Y        Out     0.317     5.798       -         
-shiftReg_11[9]                                                              Net      -        -       0.159     -           1         
-CORERISCV_AXI4_0.debugTransportModuleJtag0.shiftReg[9]                      SLE      D        In      -         5.956       -         
+shiftReg_11_5_1[2]                                                          Net      -        -       1.097     -           41        
+CORERISCV_AXI4_0.debugTransportModuleJtag0.shiftReg_RNO[25]                 CFG4     D        In      -         5.480       -         
+CORERISCV_AXI4_0.debugTransportModuleJtag0.shiftReg_RNO[25]                 CFG4     Y        Out     0.317     5.798       -         
+shiftReg_11[25]                                                             Net      -        -       0.159     -           1         
+CORERISCV_AXI4_0.debugTransportModuleJtag0.shiftReg[25]                     SLE      D        In      -         5.956       -         
 ======================================================================================================================================
 Total path delay (propagation time + setup) of 6.212 is 1.491(24.0%) logic and 4.720(76.0%) route.
 Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
@@ -1731,7 +1734,7 @@ Path information for path number 5:
 
     Number of logic level(s):                5
     Starting point:                          CORERISCV_AXI4_0.debugTransportModuleJtag0.irReg[3] / Q
-    Ending point:                            CORERISCV_AXI4_0.debugTransportModuleJtag0.shiftReg[13] / D
+    Ending point:                            CORERISCV_AXI4_0.debugTransportModuleJtag0.shiftReg[18] / D
     The start point is clocked by            uj_jtag_85|un1_duttck_inferred_clock [rising] on pin CLK
     The end   point is clocked by            uj_jtag_85|un1_duttck_inferred_clock [falling] on pin CLK
 
@@ -1751,11 +1754,11 @@ CORERISCV_AXI4_0.debugTransportModuleJtag0.shiftReg_4_sqmuxa                CFG4
 shiftReg_4_sqmuxa                                                           Net      -        -       1.101     -           42        
 CORERISCV_AXI4_0.debugTransportModuleJtag0.un1_shiftReg21_0_a2_RNISMH82     CFG4     C        In      -         4.158       -         
 CORERISCV_AXI4_0.debugTransportModuleJtag0.un1_shiftReg21_0_a2_RNISMH82     CFG4     Y        Out     0.226     4.384       -         
-shiftReg_11_5_1[3]                                                          Net      -        -       1.097     -           41        
-CORERISCV_AXI4_0.debugTransportModuleJtag0.shiftReg_RNO[13]                 CFG4     D        In      -         5.480       -         
-CORERISCV_AXI4_0.debugTransportModuleJtag0.shiftReg_RNO[13]                 CFG4     Y        Out     0.317     5.798       -         
-shiftReg_11[13]                                                             Net      -        -       0.159     -           1         
-CORERISCV_AXI4_0.debugTransportModuleJtag0.shiftReg[13]                     SLE      D        In      -         5.956       -         
+shiftReg_11_5_1[2]                                                          Net      -        -       1.097     -           41        
+CORERISCV_AXI4_0.debugTransportModuleJtag0.shiftReg_RNO[18]                 CFG4     D        In      -         5.480       -         
+CORERISCV_AXI4_0.debugTransportModuleJtag0.shiftReg_RNO[18]                 CFG4     Y        Out     0.317     5.798       -         
+shiftReg_11[18]                                                             Net      -        -       0.159     -           1         
+CORERISCV_AXI4_0.debugTransportModuleJtag0.shiftReg[18]                     SLE      D        In      -         5.956       -         
 ======================================================================================================================================
 Total path delay (propagation time + setup) of 6.212 is 1.491(24.0%) logic and 4.720(76.0%) route.
 Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
@@ -1776,16 +1779,16 @@ Starting Points with Worst Slack
 Instance                             Reference     Type      Pin          Net                         Time        Slack
                                      Clock                                                                             
 -----------------------------------------------------------------------------------------------------------------------
-COREJTAGDEBUG_0.genblk1\.UJTAG_0     System        UJTAG     UIREG[1]     UIREG_OUT[1]                0.000       3.837
-COREJTAGDEBUG_0.genblk1\.UJTAG_0     System        UJTAG     UDRCAP       UDRCAP_OUT                  0.000       3.853
-COREJTAGDEBUG_0.genblk1\.UJTAG_0     System        UJTAG     UIREG[4]     UIREG_OUT[4]                0.000       3.899
-COREJTAGDEBUG_0.genblk1\.UJTAG_0     System        UJTAG     UIREG[0]     UIREG_OUT[0]                0.000       3.931
-COREJTAGDEBUG_0.genblk1\.UJTAG_0     System        UJTAG     UTDI         COREJTAGDEBUG_0_TGT_TDI     0.000       3.941
-COREJTAGDEBUG_0.genblk1\.UJTAG_0     System        UJTAG     UIREG[6]     UIREG_OUT[6]                0.000       3.976
-COREJTAGDEBUG_0.genblk1\.UJTAG_0     System        UJTAG     UIREG[2]     UIREG_OUT[2]                0.000       3.977
-COREJTAGDEBUG_0.genblk1\.UJTAG_0     System        UJTAG     UIREG[7]     UIREG_OUT[7]                0.000       4.041
-COREJTAGDEBUG_0.genblk1\.UJTAG_0     System        UJTAG     UIREG[5]     UIREG_OUT[5]                0.000       4.763
-COREJTAGDEBUG_0.genblk1\.UJTAG_0     System        UJTAG     UIREG[3]     UIREG_OUT[3]                0.000       4.806
+COREJTAGDEBUG_0.genblk1\.UJTAG_0     System        UJTAG     UTDI         COREJTAGDEBUG_0_TGT_TDI     0.000       3.858
+COREJTAGDEBUG_0.genblk1\.UJTAG_0     System        UJTAG     UIREG[1]     UIREG_OUT[1]                0.000       3.863
+COREJTAGDEBUG_0.genblk1\.UJTAG_0     System        UJTAG     UDRCAP       UDRCAP_OUT                  0.000       3.879
+COREJTAGDEBUG_0.genblk1\.UJTAG_0     System        UJTAG     UIREG[4]     UIREG_OUT[4]                0.000       3.924
+COREJTAGDEBUG_0.genblk1\.UJTAG_0     System        UJTAG     UIREG[0]     UIREG_OUT[0]                0.000       3.957
+COREJTAGDEBUG_0.genblk1\.UJTAG_0     System        UJTAG     UIREG[6]     UIREG_OUT[6]                0.000       4.001
+COREJTAGDEBUG_0.genblk1\.UJTAG_0     System        UJTAG     UIREG[2]     UIREG_OUT[2]                0.000       4.002
+COREJTAGDEBUG_0.genblk1\.UJTAG_0     System        UJTAG     UIREG[7]     UIREG_OUT[7]                0.000       4.066
+COREJTAGDEBUG_0.genblk1\.UJTAG_0     System        UJTAG     UIREG[5]     UIREG_OUT[5]                0.000       4.789
+COREJTAGDEBUG_0.genblk1\.UJTAG_0     System        UJTAG     UIREG[3]     UIREG_OUT[3]                0.000       4.831
 =======================================================================================================================
 
 
@@ -1796,16 +1799,16 @@ Ending Points with Worst Slack
 Instance                                                       Reference     Type     Pin     Net                    Time         Slack
                                                                Clock                                                                   
 ---------------------------------------------------------------------------------------------------------------------------------------
-COREJTAGDEBUG_0.genblk1\.UJ_JTAG_0.state[3]                    System        SLE      D       state_20[3]            9.745        3.837
-COREJTAGDEBUG_0.genblk1\.UJ_JTAG_0.state[0]                    System        SLE      D       state_20[0]            9.745        3.848
-COREJTAGDEBUG_0.genblk1\.UJ_JTAG_0.tckgo                       System        SLE      D       tckgo_10               9.745        3.941
-COREJTAGDEBUG_0.genblk1\.UJ_JTAG_0.state[2]                    System        SLE      D       state_20[2]            9.745        3.971
-COREJTAGDEBUG_0.genblk1\.UJ_JTAG_0.state[1]                    System        SLE      D       state_20[1]            9.745        4.003
-COREJTAGDEBUG_0.genblk1\.UJ_JTAG_0.state[4]                    System        SLE      D       state_20[4]            9.745        4.062
-CORERISCV_AXI4_0.debugTransportModuleJtag0.jtagStateReg[0]     System        SLE      D       jtagStateReg_ns[0]     9.745        4.237
-CORERISCV_AXI4_0.debugTransportModuleJtag0.jtagStateReg[2]     System        SLE      D       jtagStateReg_ns[2]     9.745        4.673
-COREJTAGDEBUG_0.genblk1\.UJ_JTAG_0.count[3]                    System        SLE      D       count_16[3]            9.745        4.740
-COREJTAGDEBUG_0.genblk1\.UJ_JTAG_0.count[0]                    System        SLE      D       count_16[0]            9.745        4.778
+COREJTAGDEBUG_0.genblk1\.UJ_JTAG_0.state[4]                    System        SLE      D       state_20[4]            9.745        3.858
+COREJTAGDEBUG_0.genblk1\.UJ_JTAG_0.state[3]                    System        SLE      D       state_20[3]            9.745        3.895
+COREJTAGDEBUG_0.genblk1\.UJ_JTAG_0.state[0]                    System        SLE      D       state_20[0]            9.745        3.926
+COREJTAGDEBUG_0.genblk1\.UJ_JTAG_0.state[2]                    System        SLE      D       state_20[2]            9.745        3.983
+COREJTAGDEBUG_0.genblk1\.UJ_JTAG_0.tckgo                       System        SLE      D       tckgo_10               9.745        4.094
+CORERISCV_AXI4_0.debugTransportModuleJtag0.jtagStateReg[0]     System        SLE      D       jtagStateReg_ns[0]     9.745        4.239
+COREJTAGDEBUG_0.genblk1\.UJ_JTAG_0.state[1]                    System        SLE      D       state_20[1]            9.745        4.466
+COREJTAGDEBUG_0.genblk1\.UJ_JTAG_0.count[3]                    System        SLE      D       count_16[3]            9.745        4.668
+CORERISCV_AXI4_0.debugTransportModuleJtag0.jtagStateReg[2]     System        SLE      D       jtagStateReg_ns[2]     9.745        4.674
+COREJTAGDEBUG_0.genblk1\.UJ_JTAG_0.count[0]                    System        SLE      D       count_16[0]            9.745        4.707
 =======================================================================================================================================
 
 
@@ -1820,43 +1823,43 @@ Path information for path number 1:
     + Clock delay at ending point:           0.000 (ideal)
     = Required time:                         9.745
 
-    - Propagation time:                      5.907
+    - Propagation time:                      5.887
     - Clock delay at starting point:         0.000 (ideal)
     - Estimated clock delay at start point:  -0.000
-    = Slack (non-critical) :                 3.837
+    = Slack (non-critical) :                 3.858
 
     Number of logic level(s):                6
-    Starting point:                          COREJTAGDEBUG_0.genblk1\.UJTAG_0 / UIREG[1]
-    Ending point:                            COREJTAGDEBUG_0.genblk1\.UJ_JTAG_0.state[3] / D
+    Starting point:                          COREJTAGDEBUG_0.genblk1\.UJTAG_0 / UTDI
+    Ending point:                            COREJTAGDEBUG_0.genblk1\.UJ_JTAG_0.state[4] / D
     The start point is clocked by            System [rising]
     The end   point is clocked by            COREJTAGDEBUG_85_1s|iUDRCK_inferred_clock [rising] on pin CLK
 
-Instance / Net                                                           Pin          Pin               Arrival     No. of    
-Name                                                           Type      Name         Dir     Delay     Time        Fan Out(s)
-------------------------------------------------------------------------------------------------------------------------------
-COREJTAGDEBUG_0.genblk1\.UJTAG_0                               UJTAG     UIREG[1]     Out     0.000     0.000       -         
-UIREG_OUT[1]                                                   Net       -            -       1.117     -           1         
-COREJTAGDEBUG_0.genblk1\.UJ_JTAG_0.state6_4                    CFG3      C            In      -         1.117       -         
-COREJTAGDEBUG_0.genblk1\.UJ_JTAG_0.state6_4                    CFG3      Y            Out     0.226     1.343       -         
-state6_4                                                       Net       -            -       0.556     -           1         
-COREJTAGDEBUG_0.genblk1\.UJ_JTAG_0.state6                      CFG4      D            In      -         1.898       -         
-COREJTAGDEBUG_0.genblk1\.UJ_JTAG_0.state6                      CFG4      Y            Out     0.288     2.186       -         
-state6                                                         Net       -            -       0.861     -           11        
-COREJTAGDEBUG_0.genblk1\.UJ_JTAG_0.un3_endofshift_RNIO9GB1     CFG3      C            In      -         3.047       -         
-COREJTAGDEBUG_0.genblk1\.UJ_JTAG_0.un3_endofshift_RNIO9GB1     CFG3      Y            Out     0.223     3.270       -         
-state_4_sqmuxa_1_s13_0                                         Net       -            -       0.678     -           3         
-COREJTAGDEBUG_0.genblk1\.UJ_JTAG_0.state_20_m_ns_1_RNO[3]      CFG4      D            In      -         3.949       -         
-COREJTAGDEBUG_0.genblk1\.UJ_JTAG_0.state_20_m_ns_1_RNO[3]      CFG4      Y            Out     0.271     4.220       -         
-state_200_1[3]                                                 Net       -            -       0.556     -           1         
-COREJTAGDEBUG_0.genblk1\.UJ_JTAG_0.state_20_m_ns_1[3]          CFG3      A            In      -         4.776       -         
-COREJTAGDEBUG_0.genblk1\.UJ_JTAG_0.state_20_m_ns_1[3]          CFG3      Y            Out     0.100     4.876       -         
-state_20_m_ns_1[3]                                             Net       -            -       0.556     -           1         
-COREJTAGDEBUG_0.genblk1\.UJ_JTAG_0.state_20_m_ns[3]            CFG4      D            In      -         5.432       -         
-COREJTAGDEBUG_0.genblk1\.UJ_JTAG_0.state_20_m_ns[3]            CFG4      Y            Out     0.317     5.749       -         
-state_20[3]                                                    Net       -            -       0.159     -           1         
-COREJTAGDEBUG_0.genblk1\.UJ_JTAG_0.state[3]                    SLE       D            In      -         5.907       -         
-==============================================================================================================================
-Total path delay (propagation time + setup) of 6.163 is 1.681(27.3%) logic and 4.482(72.7%) route.
+Instance / Net                                                      Pin      Pin               Arrival     No. of    
+Name                                                      Type      Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------------------------
+COREJTAGDEBUG_0.genblk1\.UJTAG_0                          UJTAG     UTDI     Out     0.000     0.000       -         
+COREJTAGDEBUG_0_TGT_TDI                                   Net       -        -       1.135     -           8         
+COREJTAGDEBUG_0.genblk1\.UJ_JTAG_0.count_RNIR62S[3]       CFG3      B        In      -         1.135       -         
+COREJTAGDEBUG_0.genblk1\.UJ_JTAG_0.count_RNIR62S[3]       CFG3      Y        Out     0.143     1.278       -         
+countnext_m4_1_1                                          Net       -        -       0.556     -           1         
+COREJTAGDEBUG_0.genblk1\.UJ_JTAG_0.count_RNIHSRD1[2]      CFG4      D        In      -         1.834       -         
+COREJTAGDEBUG_0.genblk1\.UJ_JTAG_0.count_RNIHSRD1[2]      CFG4      Y        Out     0.288     2.121       -         
+count_RNIHSRD1[2]                                         Net       -        -       0.715     -           4         
+COREJTAGDEBUG_0.genblk1\.UJ_JTAG_0.countnextzero_0        CFG3      C        In      -         2.836       -         
+COREJTAGDEBUG_0.genblk1\.UJ_JTAG_0.countnextzero_0        CFG3      Y        Out     0.210     3.046       -         
+countnextzero_0                                           Net       -        -       0.556     -           1         
+COREJTAGDEBUG_0.genblk1\.UJ_JTAG_0.countnextzero          CFG4      C        In      -         3.602       -         
+COREJTAGDEBUG_0.genblk1\.UJ_JTAG_0.countnextzero          CFG4      Y        Out     0.210     3.811       -         
+countnextzero                                             Net       -        -       0.812     -           8         
+COREJTAGDEBUG_0.genblk1\.UJ_JTAG_0.state_20_m_ns_1[4]     CFG4      D        In      -         4.623       -         
+COREJTAGDEBUG_0.genblk1\.UJ_JTAG_0.state_20_m_ns_1[4]     CFG4      Y        Out     0.326     4.949       -         
+state_20_m_ns_1[4]                                        Net       -        -       0.556     -           1         
+COREJTAGDEBUG_0.genblk1\.UJ_JTAG_0.state_20_m_ns[4]       CFG4      C        In      -         5.505       -         
+COREJTAGDEBUG_0.genblk1\.UJ_JTAG_0.state_20_m_ns[4]       CFG4      Y        Out     0.223     5.728       -         
+state_20[4]                                               Net       -        -       0.159     -           1         
+COREJTAGDEBUG_0.genblk1\.UJ_JTAG_0.state[4]               SLE       D        In      -         5.887       -         
+=====================================================================================================================
+Total path delay (propagation time + setup) of 6.142 is 1.655(26.9%) logic and 4.487(73.1%) route.
 Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
 
 
@@ -1866,14 +1869,14 @@ Path delay compensated for clock skew. Clock skew is added to clock-to-out value
 Timing exceptions that could not be applied
 @W: MT447 :"c:/users/ren/documents/github/microsemi_smartfusion2_riscv_objecttracker/sf2_coreriscv_axi4_objecttracker/designer/proc_subsystem/synthesis.fdc":15:0:15:0|Timing constraint (from [get_cells { MSS_SUBSYSTEM_sb_0.CORERESETP_0.MSS_HPMS_READY_int }] to [get_cells { MSS_SUBSYSTEM_sb_0.CORERESETP_0.sm0_areset_n_rcosc MSS_SUBSYSTEM_sb_0.CORERESETP_0.sm0_areset_n_rcosc_q1 }]) (false path) was not applied to the design because none of the paths specified by the constraint exist in the design 
 @W: MT447 :"c:/users/ren/documents/github/microsemi_smartfusion2_riscv_objecttracker/sf2_coreriscv_axi4_objecttracker/designer/proc_subsystem/synthesis.fdc":16:0:16:0|Timing constraint (from [get_cells { MSS_SUBSYSTEM_sb_0.CORERESETP_0.MSS_HPMS_READY_int MSS_SUBSYSTEM_sb_0.CORERESETP_0.SDIF*_PERST_N_re }] to [get_cells { MSS_SUBSYSTEM_sb_0.CORERESETP_0.sdif*_areset_n_rcosc* }]) (false path) was not applied to the design because none of the paths specified by the constraint exist in the design 
-@W: MT447 :"c:/users/ren/documents/github/microsemi_smartfusion2_riscv_objecttracker/sf2_coreriscv_axi4_objecttracker/designer/proc_subsystem/synthesis.fdc":18:0:18:0|Timing constraint (from [get_clocks { TCK }] to [get_clocks { MSS_SUBSYSTEM_sb_0.CCC_0.GL0 }]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
-@W: MT447 :"c:/users/ren/documents/github/microsemi_smartfusion2_riscv_objecttracker/sf2_coreriscv_axi4_objecttracker/designer/proc_subsystem/synthesis.fdc":19:0:19:0|Timing constraint (from [get_clocks { MSS_SUBSYSTEM_sb_0.CCC_0.GL0 }] to [get_clocks { TCK }]) (false path) was not applied to the design because none of the '-from' objects specified by the constraint exist in the design 
+@W: MT447 :"c:/users/ren/documents/github/microsemi_smartfusion2_riscv_objecttracker/sf2_coreriscv_axi4_objecttracker/designer/proc_subsystem/synthesis.fdc":18:0:18:0|Timing constraint (from [get_clocks { TCK }] to [get_clocks { MSS_SUBSYSTEM_sb_0/CCC_0/GL0 }]) (false path) was not applied to the design because none of the paths specified by the constraint exist in the design 
+@W: MT447 :"c:/users/ren/documents/github/microsemi_smartfusion2_riscv_objecttracker/sf2_coreriscv_axi4_objecttracker/designer/proc_subsystem/synthesis.fdc":19:0:19:0|Timing constraint (from [get_clocks { MSS_SUBSYSTEM_sb_0/CCC_0/GL0 }] to [get_clocks { TCK }]) (false path) was not applied to the design because none of the paths specified by the constraint exist in the design 
 @W: MT443 :"c:/users/ren/documents/github/microsemi_smartfusion2_riscv_objecttracker/sf2_coreriscv_axi4_objecttracker/designer/proc_subsystem/synthesis.fdc":20:0:20:0|Timing constraint (through [get_nets { MSS_SUBSYSTEM_sb_0.CORECONFIGP_0.FIC_2_APB_M_PSEL MSS_SUBSYSTEM_sb_0.CORECONFIGP_0.FIC_2_APB_M_PENABLE }] to [get_cells { MSS_SUBSYSTEM_sb_0.CORECONFIGP_0.FIC_2_APB_M_PREADY* MSS_SUBSYSTEM_sb_0.CORECONFIGP_0.state[0] }]) (max delay 0.000000) was not applied to the design because none of the paths specified by the constraint exist in the design 
 
-Finished final timing analysis (Real Time elapsed 0h:01m:47s; CPU Time elapsed 0h:01m:43s; Memory used current: 326MB peak: 384MB)
+Finished final timing analysis (Real Time elapsed 0h:01m:45s; CPU Time elapsed 0h:01m:42s; Memory used current: 328MB peak: 383MB)
 
 
-Finished timing report (Real Time elapsed 0h:01m:47s; CPU Time elapsed 0h:01m:43s; Memory used current: 326MB peak: 384MB)
+Finished timing report (Real Time elapsed 0h:01m:45s; CPU Time elapsed 0h:01m:42s; Memory used current: 328MB peak: 383MB)
 
 ---------------------------------------
 Resource Usage Report for PROC_SUBSYSTEM 
@@ -1889,14 +1892,14 @@ RCOSC_25_50MHZ_FAB  1 use
 SYSRESET        1 use
 UJTAG           1 use
 CFG1           42 uses
-CFG2           1535 uses
-CFG3           3447 uses
-CFG4           5579 uses
+CFG2           1504 uses
+CFG3           3453 uses
+CFG4           5498 uses
 
 Carry cells:
-ARI1            1617 uses - used for arithmetic functions
-ARI1            3311 uses - used for Wide-Mux implementation
-Total ARI1      4928 uses
+ARI1            1619 uses - used for arithmetic functions
+ARI1            3353 uses - used for Wide-Mux implementation
+Total ARI1      4972 uses
 
 
 Sequential Cells: 
@@ -1922,7 +1925,7 @@ RAM/ROM usage summary
 Total Block RAMs (RAM1K18) : 8 of 31 (25%)
 Total Block RAMs (RAM64x18) : 21 of 34 (61%)
 
-Total LUTs:    15531
+Total LUTs:    15469
 
 Extra resources required for RAM and MACC interface logic during P&R:
 
@@ -1931,13 +1934,13 @@ RAM1K18  Interface Logic : SLEs = 288; LUTs = 288;
 MACC     Interface Logic : SLEs = 72; LUTs = 72;
 
 Total number of SLEs after P&R:  10812 + 756 + 288 + 72 = 11928;
-Total number of LUTs after P&R:  15531 + 756 + 288 + 72 = 16647;
+Total number of LUTs after P&R:  15469 + 756 + 288 + 72 = 16585;
 
 Mapper successful!
 
-At Mapper Exit (Real Time elapsed 0h:01m:48s; CPU Time elapsed 0h:01m:43s; Memory used current: 86MB peak: 384MB)
+At Mapper Exit (Real Time elapsed 0h:01m:46s; CPU Time elapsed 0h:01m:42s; Memory used current: 85MB peak: 383MB)
 
-Process took 0h:01m:48s realtime, 0h:01m:43s cputime
-# Wed Jan 10 12:58:13 2018
+Process took 0h:01m:46s realtime, 0h:01m:42s cputime
+# Sat Jan 27 22:53:29 2018
 
 ###########################################################]

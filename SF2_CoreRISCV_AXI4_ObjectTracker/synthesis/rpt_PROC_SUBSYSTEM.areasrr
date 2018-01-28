@@ -11,17 +11,17 @@ Name     Total elements     Utilization     Notes
 -------------------------------------------------
 SLE      10812              100 %                
 =================================================
-Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM:	10812 (40.26 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM:	10812 (40.35 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           10603              100 %                
-ARI1          4928               100 %                
+CFG           10497              100 %                
+ARI1          4972               100 %                
 BLACK BOX     761                100 %                
 ======================================================
-Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM:	16292 (60.66 % Utilization)
+Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM:	16230 (60.57 % Utilization)
 
 
 DSP
@@ -64,9 +64,9 @@ Instance path:   PROC_SUBSYSTEM.AXI_GLUE_LOGIC
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      22                 0.2070 %             
+CFG      20                 0.1910 %             
 =================================================
-Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM.AXI_GLUE_LOGIC:	22 (0.08 % Utilization)
+Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM.AXI_GLUE_LOGIC:	20 (0.07 % Utilization)
 
 --------------------------------------------------------------------------
 ########   Utilization report for  cell:   COREAHBTOAPB3_19s_0s   ########
@@ -84,10 +84,10 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM.COREAHBTOAPB3_19s_0s:	99 (
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           39                 0.3680 %             
+CFG           38                 0.3620 %             
 BLACK BOX     42                 5.52 %               
 ======================================================
-Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM.COREAHBTOAPB3_19s_0s:	81 (0.30 % Utilization)
+Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM.COREAHBTOAPB3_19s_0s:	80 (0.30 % Utilization)
 
 -----------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   CoreAHBtoAPB3_AhbToApbSM_0s_0_1_0_1_2_3_4   ########
@@ -105,10 +105,10 @@ Total SEQUENTIAL ELEMENTS in the block COREAHBTOAPB3_19s_0s.CoreAHBtoAPB3_AhbToA
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           24                 0.2260 %             
+CFG           23                 0.2190 %             
 BLACK BOX     1                  0.1310 %             
 ======================================================
-Total COMBINATIONAL LOGIC in the block COREAHBTOAPB3_19s_0s.CoreAHBtoAPB3_AhbToApbSM_0s_0_1_0_1_2_3_4:	25 (0.09 % Utilization)
+Total COMBINATIONAL LOGIC in the block COREAHBTOAPB3_19s_0s.CoreAHBtoAPB3_AhbToApbSM_0s_0_1_0_1_2_3_4:	24 (0.09 % Utilization)
 
 ----------------------------------------------------------------------------------
 ########   Utilization report for  cell:   CoreAHBtoAPB3_ApbAddrData_0s   ########
@@ -126,7 +126,7 @@ Total SEQUENTIAL ELEMENTS in the block COREAHBTOAPB3_19s_0s.CoreAHBtoAPB3_ApbAdd
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           13                 0.1230 %             
+CFG           13                 0.1240 %             
 BLACK BOX     40                 5.26 %               
 ======================================================
 Total COMBINATIONAL LOGIC in the block COREAHBTOAPB3_19s_0s.CoreAHBtoAPB3_ApbAddrData_0s:	53 (0.20 % Utilization)
@@ -147,7 +147,7 @@ Total SEQUENTIAL ELEMENTS in the block COREAHBTOAPB3_19s_0s.CoreAHBtoAPB3_Penabl
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           2                  0.01890 %            
+CFG           2                  0.01910 %            
 BLACK BOX     1                  0.1310 %             
 ======================================================
 Total COMBINATIONAL LOGIC in the block COREAHBTOAPB3_19s_0s.CoreAHBtoAPB3_PenableScheduler_0s_0_1_2:	3 (0.01 % Utilization)
@@ -168,11 +168,11 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM.COREAXITOAHBL_5s_0s_0s_0s_
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           691                6.52 %               
-ARI1          80                 1.62 %               
+CFG           694                6.61 %               
+ARI1          80                 1.61 %               
 BLACK BOX     10                 1.31 %               
 ======================================================
-Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM.COREAXITOAHBL_5s_0s_0s_0s_2s_1:	781 (2.91 % Utilization)
+Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM.COREAXITOAHBL_5s_0s_0s_0s_2s_1:	784 (2.93 % Utilization)
 
 
 MEMORY ELEMENTS
@@ -198,11 +198,11 @@ Total SEQUENTIAL ELEMENTS in the block COREAXITOAHBL_5s_0s_0s_0s_2s_1.COREAXITOA
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           397                3.74 %               
-ARI1          40                 0.8120 %             
+CFG           400                3.81 %               
+ARI1          40                 0.8050 %             
 BLACK BOX     1                  0.1310 %             
 ======================================================
-Total COMBINATIONAL LOGIC in the block COREAXITOAHBL_5s_0s_0s_0s_2s_1.COREAXITOAHBL_AHBMasterCtrl_Z10_1:	438 (1.63 % Utilization)
+Total COMBINATIONAL LOGIC in the block COREAXITOAHBL_5s_0s_0s_0s_2s_1.COREAXITOAHBL_AHBMasterCtrl_Z10_1:	441 (1.65 % Utilization)
 
 --------------------------------------------------------------------------------
 ########   Utilization report for  cell:   COREAXITOAHBL_AXIOutReg_5s   ########
@@ -240,8 +240,8 @@ Total SEQUENTIAL ELEMENTS in the block COREAXITOAHBL_5s_0s_0s_0s_2s_1.COREAXITOA
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           294                2.77 %               
-ARI1          40                 0.8120 %             
+CFG           294                2.8 %                
+ARI1          40                 0.8050 %             
 BLACK BOX     2                  0.2630 %             
 ======================================================
 Total COMBINATIONAL LOGIC in the block COREAXITOAHBL_5s_0s_0s_0s_2s_1.COREAXITOAHBL_AXISlaveCtrl_Z9:	336 (1.25 % Utilization)
@@ -254,7 +254,7 @@ Instance path:   COREAXITOAHBL_AXISlaveCtrl_Z9.COREAXITOAHBL_WSRTBAddrOffset
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      5                  0.04720 %            
+CFG      5                  0.04760 %            
 =================================================
 Total COMBINATIONAL LOGIC in the block COREAXITOAHBL_AXISlaveCtrl_Z9.COREAXITOAHBL_WSRTBAddrOffset:	5 (0.02 % Utilization)
 
@@ -266,7 +266,7 @@ Instance path:   COREAXITOAHBL_AXISlaveCtrl_Z9.COREAXITOAHBL_WSTRBPopCntr
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      36                 0.340 %              
+CFG      36                 0.3430 %             
 =================================================
 Total COMBINATIONAL LOGIC in the block COREAXITOAHBL_AXISlaveCtrl_Z9.COREAXITOAHBL_WSTRBPopCntr:	36 (0.13 % Utilization)
 
@@ -326,11 +326,11 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM.COREAXITOAHBL_5s_0s_0s_0s_
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           712                6.72 %               
-ARI1          80                 1.62 %               
+CFG           717                6.83 %               
+ARI1          80                 1.61 %               
 BLACK BOX     9                  1.18 %               
 ======================================================
-Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM.COREAXITOAHBL_5s_0s_0s_0s_2s_1_0:	801 (2.98 % Utilization)
+Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM.COREAXITOAHBL_5s_0s_0s_0s_2s_1_0:	806 (3.01 % Utilization)
 
 
 MEMORY ELEMENTS
@@ -356,11 +356,11 @@ Total SEQUENTIAL ELEMENTS in the block COREAXITOAHBL_5s_0s_0s_0s_2s_1_0.COREAXIT
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           392                3.7 %                
-ARI1          40                 0.8120 %             
+CFG           393                3.74 %               
+ARI1          40                 0.8050 %             
 BLACK BOX     1                  0.1310 %             
 ======================================================
-Total COMBINATIONAL LOGIC in the block COREAXITOAHBL_5s_0s_0s_0s_2s_1_0.COREAXITOAHBL_AHBMasterCtrl_Z10_1_0:	433 (1.61 % Utilization)
+Total COMBINATIONAL LOGIC in the block COREAXITOAHBL_5s_0s_0s_0s_2s_1_0.COREAXITOAHBL_AHBMasterCtrl_Z10_1_0:	434 (1.62 % Utilization)
 
 ----------------------------------------------------------------------------------
 ########   Utilization report for  cell:   COREAXITOAHBL_AXIOutReg_5s_0   ########
@@ -398,11 +398,11 @@ Total SEQUENTIAL ELEMENTS in the block COREAXITOAHBL_5s_0s_0s_0s_2s_1_0.COREAXIT
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           320                3.02 %               
-ARI1          40                 0.8120 %             
+CFG           324                3.09 %               
+ARI1          40                 0.8050 %             
 BLACK BOX     2                  0.2630 %             
 ======================================================
-Total COMBINATIONAL LOGIC in the block COREAXITOAHBL_5s_0s_0s_0s_2s_1_0.COREAXITOAHBL_AXISlaveCtrl_Z9_1:	362 (1.35 % Utilization)
+Total COMBINATIONAL LOGIC in the block COREAXITOAHBL_5s_0s_0s_0s_2s_1_0.COREAXITOAHBL_AXISlaveCtrl_Z9_1:	366 (1.37 % Utilization)
 
 -------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   COREAXITOAHBL_WSRTBAddrOffset_1   ########
@@ -412,9 +412,9 @@ Instance path:   COREAXITOAHBL_AXISlaveCtrl_Z9_1.COREAXITOAHBL_WSRTBAddrOffset_1
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      7                  0.0660 %             
+CFG      6                  0.05720 %            
 =================================================
-Total COMBINATIONAL LOGIC in the block COREAXITOAHBL_AXISlaveCtrl_Z9_1.COREAXITOAHBL_WSRTBAddrOffset_1:	7 (0.03 % Utilization)
+Total COMBINATIONAL LOGIC in the block COREAXITOAHBL_AXISlaveCtrl_Z9_1.COREAXITOAHBL_WSRTBAddrOffset_1:	6 (0.02 % Utilization)
 
 ----------------------------------------------------------------------------------
 ########   Utilization report for  cell:   COREAXITOAHBL_WSTRBPopCntr_1   ########
@@ -424,7 +424,7 @@ Instance path:   COREAXITOAHBL_AXISlaveCtrl_Z9_1.COREAXITOAHBL_WSTRBPopCntr_1
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      37                 0.3490 %             
+CFG      37                 0.3520 %             
 =================================================
 Total COMBINATIONAL LOGIC in the block COREAXITOAHBL_AXISlaveCtrl_Z9_1.COREAXITOAHBL_WSTRBPopCntr_1:	37 (0.14 % Utilization)
 
@@ -484,10 +484,10 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM.COREJTAGDEBUG_85_1s:	16 (0
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           103                0.9710 %             
+CFG           91                 0.8670 %             
 BLACK BOX     8                  1.05 %               
 ======================================================
-Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM.COREJTAGDEBUG_85_1s:	111 (0.41 % Utilization)
+Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM.COREJTAGDEBUG_85_1s:	99 (0.37 % Utilization)
 
 
 GLOBAL BUFFERS
@@ -513,10 +513,10 @@ Total SEQUENTIAL ELEMENTS in the block COREJTAGDEBUG_85_1s.uj_jtag_85:	16 (0.06 
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           101                0.9530 %             
+CFG           89                 0.8480 %             
 BLACK BOX     6                  0.7880 %             
 ======================================================
-Total COMBINATIONAL LOGIC in the block COREJTAGDEBUG_85_1s.uj_jtag_85:	107 (0.40 % Utilization)
+Total COMBINATIONAL LOGIC in the block COREJTAGDEBUG_85_1s.uj_jtag_85:	95 (0.35 % Utilization)
 
 -----------------------------------------------------------------
 ########   Utilization report for  cell:   COREPWM_Z12   ########
@@ -528,16 +528,16 @@ Name     Total elements     Utilization     Notes
 -------------------------------------------------
 SLE      457                4.23 %               
 =================================================
-Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM.COREPWM_Z12:	457 (1.70 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM.COREPWM_Z12:	457 (1.71 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      116                1.09 %               
-ARI1     528                10.7 %               
+CFG      96                 0.9150 %             
+ARI1     530                10.7 %               
 =================================================
-Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM.COREPWM_Z12:	644 (2.40 % Utilization)
+Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM.COREPWM_Z12:	626 (2.34 % Utilization)
 
 ------------------------------------------------------------------------------
 ########   Utilization report for  cell:   corepwm_pwm_gen_4s_32s_0   ########
@@ -555,8 +555,8 @@ Total SEQUENTIAL ELEMENTS in the block COREPWM_Z12.corepwm_pwm_gen_4s_32s_0:	4 (
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      20                 0.1890 %             
-ARI1     192                3.9 %                
+CFG      20                 0.1910 %             
+ARI1     192                3.86 %               
 =================================================
 Total COMBINATIONAL LOGIC in the block COREPWM_Z12.corepwm_pwm_gen_4s_32s_0:	212 (0.79 % Utilization)
 
@@ -576,10 +576,10 @@ Total SEQUENTIAL ELEMENTS in the block COREPWM_Z12.corepwm_reg_if_Z13:	389 (1.45
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      94                 0.8870 %             
-ARI1     190                3.86 %               
+CFG      74                 0.7050 %             
+ARI1     192                3.86 %               
 =================================================
-Total COMBINATIONAL LOGIC in the block COREPWM_Z12.corepwm_reg_if_Z13:	284 (1.06 % Utilization)
+Total COMBINATIONAL LOGIC in the block COREPWM_Z12.corepwm_reg_if_Z13:	266 (0.99 % Utilization)
 
 --------------------------------------------------------------------------
 ########   Utilization report for  cell:   corepwm_timebase_32s   ########
@@ -597,8 +597,8 @@ Total SEQUENTIAL ELEMENTS in the block COREPWM_Z12.corepwm_timebase_32s:	64 (0.2
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      1                  0.009430 %           
-ARI1     146                2.96 %               
+CFG      1                  0.009530 %           
+ARI1     146                2.94 %               
 =================================================
 Total COMBINATIONAL LOGIC in the block COREPWM_Z12.corepwm_timebase_32s:	147 (0.55 % Utilization)
 
@@ -618,10 +618,10 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM.COREPWM_Z14:	325 (1.21 % U
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      153                1.44 %               
-ARI1     302                6.13 %               
+CFG      156                1.49 %               
+ARI1     302                6.07 %               
 =================================================
-Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM.COREPWM_Z14:	455 (1.69 % Utilization)
+Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM.COREPWM_Z14:	458 (1.71 % Utilization)
 
 ------------------------------------------------------------------------------
 ########   Utilization report for  cell:   corepwm_pwm_gen_2s_32s_0   ########
@@ -639,8 +639,8 @@ Total SEQUENTIAL ELEMENTS in the block COREPWM_Z14.corepwm_pwm_gen_2s_32s_0:	2 (
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      4                  0.03770 %            
-ARI1     96                 1.95 %               
+CFG      4                  0.03810 %            
+ARI1     96                 1.93 %               
 =================================================
 Total COMBINATIONAL LOGIC in the block COREPWM_Z14.corepwm_pwm_gen_2s_32s_0:	100 (0.37 % Utilization)
 
@@ -654,16 +654,16 @@ Name     Total elements     Utilization     Notes
 -------------------------------------------------
 SLE      259                2.4 %                
 =================================================
-Total SEQUENTIAL ELEMENTS in the block COREPWM_Z14.corepwm_reg_if_Z15:	259 (0.96 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block COREPWM_Z14.corepwm_reg_if_Z15:	259 (0.97 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      84                 0.7920 %             
-ARI1     60                 1.22 %               
+CFG      76                 0.7240 %             
+ARI1     60                 1.21 %               
 =================================================
-Total COMBINATIONAL LOGIC in the block COREPWM_Z14.corepwm_reg_if_Z15:	144 (0.54 % Utilization)
+Total COMBINATIONAL LOGIC in the block COREPWM_Z14.corepwm_reg_if_Z15:	136 (0.51 % Utilization)
 
 ----------------------------------------------------------------------------
 ########   Utilization report for  cell:   corepwm_timebase_32s_0   ########
@@ -681,10 +681,10 @@ Total SEQUENTIAL ELEMENTS in the block COREPWM_Z14.corepwm_timebase_32s_0:	64 (0
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      65                 0.6130 %             
-ARI1     146                2.96 %               
+CFG      76                 0.7240 %             
+ARI1     146                2.94 %               
 =================================================
-Total COMBINATIONAL LOGIC in the block COREPWM_Z14.corepwm_timebase_32s_0:	211 (0.79 % Utilization)
+Total COMBINATIONAL LOGIC in the block COREPWM_Z14.corepwm_timebase_32s_0:	222 (0.83 % Utilization)
 
 -----------------------------------------------------------------
 ########   Utilization report for  cell:   CORESPI_Z18   ########
@@ -702,11 +702,11 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM.CORESPI_Z18:	191 (0.71 % U
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           302                2.85 %               
-ARI1          23                 0.4670 %             
+CFG           296                2.82 %               
+ARI1          26                 0.5230 %             
 BLACK BOX     9                  1.18 %               
 ======================================================
-Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM.CORESPI_Z18:	334 (1.24 % Utilization)
+Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM.CORESPI_Z18:	331 (1.24 % Utilization)
 
 
 MEMORY ELEMENTS
@@ -732,11 +732,11 @@ Total SEQUENTIAL ELEMENTS in the block CORESPI_Z18.spi_32s_8s_32s_33s_1_1_0_0s_0
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           302                2.85 %               
-ARI1          23                 0.4670 %             
+CFG           296                2.82 %               
+ARI1          26                 0.5230 %             
 BLACK BOX     9                  1.18 %               
 ======================================================
-Total COMBINATIONAL LOGIC in the block CORESPI_Z18.spi_32s_8s_32s_33s_1_1_0_0s_0s:	334 (1.24 % Utilization)
+Total COMBINATIONAL LOGIC in the block CORESPI_Z18.spi_32s_8s_32s_33s_1_1_0_0s_0s:	331 (1.24 % Utilization)
 
 
 MEMORY ELEMENTS
@@ -762,11 +762,11 @@ Total SEQUENTIAL ELEMENTS in the block spi_32s_8s_32s_33s_1_1_0_0s_0s.spi_chanct
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           147                1.39 %               
-ARI1          11                 0.2230 %             
+CFG           142                1.35 %               
+ARI1          14                 0.2820 %             
 BLACK BOX     5                  0.6570 %             
 ======================================================
-Total COMBINATIONAL LOGIC in the block spi_32s_8s_32s_33s_1_1_0_0s_0s.spi_chanctrl_Z17:	163 (0.61 % Utilization)
+Total COMBINATIONAL LOGIC in the block spi_32s_8s_32s_33s_1_1_0_0s_0s.spi_chanctrl_Z17:	161 (0.60 % Utilization)
 
 ------------------------------------------------------------------
 ########   Utilization report for  cell:   spi_clockmux   ########
@@ -776,7 +776,7 @@ Instance path:   spi_chanctrl_Z17.spi_clockmux
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      1                  0.009430 %           
+CFG      1                  0.009530 %           
 =================================================
 Total COMBINATIONAL LOGIC in the block spi_chanctrl_Z17.spi_clockmux:	1 (0.00 % Utilization)
 
@@ -788,9 +788,9 @@ Instance path:   spi_32s_8s_32s_33s_1_1_0_0s_0s.spi_control_8s
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      7                  0.0660 %             
+CFG      5                  0.04760 %            
 =================================================
-Total COMBINATIONAL LOGIC in the block spi_32s_8s_32s_33s_1_1_0_0s_0s.spi_control_8s:	7 (0.03 % Utilization)
+Total COMBINATIONAL LOGIC in the block spi_32s_8s_32s_33s_1_1_0_0s_0s.spi_control_8s:	5 (0.02 % Utilization)
 
 -------------------------------------------------------------------------
 ########   Utilization report for  cell:   spi_fifo_8s_32s_5_0   ########
@@ -808,8 +808,8 @@ Total SEQUENTIAL ELEMENTS in the block spi_32s_8s_32s_33s_1_1_0_0s_0s.spi_fifo_8
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           28                 0.2640 %             
-ARI1          6                  0.1220 %             
+CFG           28                 0.2670 %             
+ARI1          6                  0.1210 %             
 BLACK BOX     2                  0.2630 %             
 ======================================================
 Total COMBINATIONAL LOGIC in the block spi_32s_8s_32s_33s_1_1_0_0s_0s.spi_fifo_8s_32s_5_0:	36 (0.13 % Utilization)
@@ -838,11 +838,11 @@ Total SEQUENTIAL ELEMENTS in the block spi_32s_8s_32s_33s_1_1_0_0s_0s.spi_fifo_8
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           22                 0.2070 %             
-ARI1          6                  0.1220 %             
+CFG           25                 0.2380 %             
+ARI1          6                  0.1210 %             
 BLACK BOX     2                  0.2630 %             
 ======================================================
-Total COMBINATIONAL LOGIC in the block spi_32s_8s_32s_33s_1_1_0_0s_0s.spi_fifo_8s_32s_5_1:	30 (0.11 % Utilization)
+Total COMBINATIONAL LOGIC in the block spi_32s_8s_32s_33s_1_1_0_0s_0s.spi_fifo_8s_32s_5_1:	33 (0.12 % Utilization)
 
 
 MEMORY ELEMENTS
@@ -868,9 +868,9 @@ Total SEQUENTIAL ELEMENTS in the block spi_32s_8s_32s_33s_1_1_0_0s_0s.spi_rf_32s
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      60                 0.5660 %             
+CFG      56                 0.5330 %             
 =================================================
-Total COMBINATIONAL LOGIC in the block spi_32s_8s_32s_33s_1_1_0_0s_0s.spi_rf_32s_0_1:	60 (0.22 % Utilization)
+Total COMBINATIONAL LOGIC in the block spi_32s_8s_32s_33s_1_1_0_0s_0s.spi_rf_32s_0_1:	56 (0.21 % Utilization)
 
 -----------------------------------------------------------------
 ########   Utilization report for  cell:   CORESPI_Z20   ########
@@ -888,11 +888,11 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM.CORESPI_Z20:	193 (0.72 % U
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           285                2.69 %               
-ARI1          26                 0.5280 %             
+CFG           307                2.92 %               
+ARI1          26                 0.5230 %             
 BLACK BOX     11                 1.45 %               
 ======================================================
-Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM.CORESPI_Z20:	322 (1.20 % Utilization)
+Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM.CORESPI_Z20:	344 (1.28 % Utilization)
 
 -----------------------------------------------------------------------------------
 ########   Utilization report for  cell:   spi_32s_8s_1s_33s_0_0_0_0s_0s   ########
@@ -910,11 +910,11 @@ Total SEQUENTIAL ELEMENTS in the block CORESPI_Z20.spi_32s_8s_1s_33s_0_0_0_0s_0s
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           285                2.69 %               
-ARI1          26                 0.5280 %             
+CFG           307                2.92 %               
+ARI1          26                 0.5230 %             
 BLACK BOX     11                 1.45 %               
 ======================================================
-Total COMBINATIONAL LOGIC in the block CORESPI_Z20.spi_32s_8s_1s_33s_0_0_0_0s_0s:	322 (1.20 % Utilization)
+Total COMBINATIONAL LOGIC in the block CORESPI_Z20.spi_32s_8s_1s_33s_0_0_0_0s_0s:	344 (1.28 % Utilization)
 
 ----------------------------------------------------------------------
 ########   Utilization report for  cell:   spi_chanctrl_Z19   ########
@@ -932,11 +932,11 @@ Total SEQUENTIAL ELEMENTS in the block spi_32s_8s_1s_33s_0_0_0_0s_0s.spi_chanctr
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           161                1.52 %               
-ARI1          14                 0.2840 %             
+CFG           132                1.26 %               
+ARI1          14                 0.2820 %             
 BLACK BOX     7                  0.920 %              
 ======================================================
-Total COMBINATIONAL LOGIC in the block spi_32s_8s_1s_33s_0_0_0_0s_0s.spi_chanctrl_Z19:	182 (0.68 % Utilization)
+Total COMBINATIONAL LOGIC in the block spi_32s_8s_1s_33s_0_0_0_0s_0s.spi_chanctrl_Z19:	153 (0.57 % Utilization)
 
 --------------------------------------------------------------------
 ########   Utilization report for  cell:   spi_clockmux_0   ########
@@ -946,7 +946,7 @@ Instance path:   spi_chanctrl_Z19.spi_clockmux_0
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      1                  0.009430 %           
+CFG      1                  0.009530 %           
 =================================================
 Total COMBINATIONAL LOGIC in the block spi_chanctrl_Z19.spi_clockmux_0:	1 (0.00 % Utilization)
 
@@ -958,7 +958,7 @@ Instance path:   spi_32s_8s_1s_33s_0_0_0_0s_0s.spi_control_8s_0
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      4                  0.03770 %            
+CFG      4                  0.03810 %            
 =================================================
 Total COMBINATIONAL LOGIC in the block spi_32s_8s_1s_33s_0_0_0_0s_0s.spi_control_8s_0:	4 (0.01 % Utilization)
 
@@ -978,11 +978,11 @@ Total SEQUENTIAL ELEMENTS in the block spi_32s_8s_1s_33s_0_0_0_0s_0s.spi_fifo_8s
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           13                 0.1230 %             
-ARI1          6                  0.1220 %             
+CFG           14                 0.1330 %             
+ARI1          6                  0.1210 %             
 BLACK BOX     2                  0.2630 %             
 ======================================================
-Total COMBINATIONAL LOGIC in the block spi_32s_8s_1s_33s_0_0_0_0s_0s.spi_fifo_8s_1s_0_0:	21 (0.08 % Utilization)
+Total COMBINATIONAL LOGIC in the block spi_32s_8s_1s_33s_0_0_0_0s_0s.spi_fifo_8s_1s_0_0:	22 (0.08 % Utilization)
 
 ------------------------------------------------------------------------
 ########   Utilization report for  cell:   spi_fifo_8s_1s_0_1   ########
@@ -1000,11 +1000,11 @@ Total SEQUENTIAL ELEMENTS in the block spi_32s_8s_1s_33s_0_0_0_0s_0s.spi_fifo_8s
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           14                 0.1320 %             
-ARI1          6                  0.1220 %             
+CFG           15                 0.1430 %             
+ARI1          6                  0.1210 %             
 BLACK BOX     2                  0.2630 %             
 ======================================================
-Total COMBINATIONAL LOGIC in the block spi_32s_8s_1s_33s_0_0_0_0s_0s.spi_fifo_8s_1s_0_1:	22 (0.08 % Utilization)
+Total COMBINATIONAL LOGIC in the block spi_32s_8s_1s_33s_0_0_0_0s_0s.spi_fifo_8s_1s_0_1:	23 (0.09 % Utilization)
 
 ----------------------------------------------------------------------
 ########   Utilization report for  cell:   spi_rf_32s_0_1_0   ########
@@ -1022,9 +1022,9 @@ Total SEQUENTIAL ELEMENTS in the block spi_32s_8s_1s_33s_0_0_0_0s_0s.spi_rf_32s_
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      57                 0.5380 %             
+CFG      104                0.9910 %             
 =================================================
-Total COMBINATIONAL LOGIC in the block spi_32s_8s_1s_33s_0_0_0_0s_0s.spi_rf_32s_0_1_0:	57 (0.21 % Utilization)
+Total COMBINATIONAL LOGIC in the block spi_32s_8s_1s_33s_0_0_0_0s_0s.spi_rf_32s_0_1_0:	104 (0.39 % Utilization)
 
 --------------------------------------------------------------------
 ########   Utilization report for  cell:   CoreAHBLite_Z4   ########
@@ -1042,11 +1042,11 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM.CoreAHBLite_Z4:	66 (0.25 %
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           208                1.96 %               
-ARI1          2                  0.04060 %            
+CFG           216                2.06 %               
+ARI1          2                  0.04020 %            
 BLACK BOX     15                 1.97 %               
 ======================================================
-Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM.CoreAHBLite_Z4:	225 (0.84 % Utilization)
+Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM.CoreAHBLite_Z4:	233 (0.87 % Utilization)
 
 -----------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   COREAHBLITE_MATRIX4X16_1_1_0_192_0_0_0_0s   ########
@@ -1064,11 +1064,11 @@ Total SEQUENTIAL ELEMENTS in the block CoreAHBLite_Z4.COREAHBLITE_MATRIX4X16_1_1
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           208                1.96 %               
-ARI1          2                  0.04060 %            
+CFG           216                2.06 %               
+ARI1          2                  0.04020 %            
 BLACK BOX     15                 1.97 %               
 ======================================================
-Total COMBINATIONAL LOGIC in the block CoreAHBLite_Z4.COREAHBLITE_MATRIX4X16_1_1_0_192_0_0_0_0s:	225 (0.84 % Utilization)
+Total COMBINATIONAL LOGIC in the block CoreAHBLite_Z4.COREAHBLITE_MATRIX4X16_1_1_0_192_0_0_0_0s:	233 (0.87 % Utilization)
 
 -----------------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   COREAHBLITE_MASTERSTAGE_1_1_0_192_0s_0_1_0   ########     
@@ -1086,10 +1086,10 @@ Total SEQUENTIAL ELEMENTS in the block COREAHBLITE_MATRIX4X16_1_1_0_192_0_0_0_0s
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           54                 0.5090 %             
+CFG           60                 0.5720 %             
 BLACK BOX     1                  0.1310 %             
 ======================================================
-Total COMBINATIONAL LOGIC in the block COREAHBLITE_MATRIX4X16_1_1_0_192_0_0_0_0s.COREAHBLITE_MASTERSTAGE_1_1_0_192_0s_0_1_0:	55 (0.20 % Utilization)
+Total COMBINATIONAL LOGIC in the block COREAHBLITE_MATRIX4X16_1_1_0_192_0_0_0_0s.COREAHBLITE_MASTERSTAGE_1_1_0_192_0s_0_1_0:	61 (0.23 % Utilization)
 
 ---------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   COREAHBLITE_DEFAULTSLAVESM_0s_0_1   ########      
@@ -1107,9 +1107,9 @@ Total SEQUENTIAL ELEMENTS in the block COREAHBLITE_MASTERSTAGE_1_1_0_192_0s_0_1_
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      4                  0.03770 %            
+CFG      7                  0.06670 %            
 =================================================
-Total COMBINATIONAL LOGIC in the block COREAHBLITE_MASTERSTAGE_1_1_0_192_0s_0_1_0.COREAHBLITE_DEFAULTSLAVESM_0s_0_1:	4 (0.01 % Utilization)
+Total COMBINATIONAL LOGIC in the block COREAHBLITE_MASTERSTAGE_1_1_0_192_0s_0_1_0.COREAHBLITE_DEFAULTSLAVESM_0s_0_1:	7 (0.03 % Utilization)
 
 ----------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   COREAHBLITE_SLAVESTAGE_0s_0_0   ########     
@@ -1127,11 +1127,11 @@ Total SEQUENTIAL ELEMENTS in the block COREAHBLITE_MATRIX4X16_1_1_0_192_0_0_0_0s
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           104                0.9810 %             
-ARI1          2                  0.04060 %            
+CFG           105                1 %                  
+ARI1          2                  0.04020 %            
 BLACK BOX     7                  0.920 %              
 ======================================================
-Total COMBINATIONAL LOGIC in the block COREAHBLITE_MATRIX4X16_1_1_0_192_0_0_0_0s.COREAHBLITE_SLAVESTAGE_0s_0_0:	113 (0.42 % Utilization)
+Total COMBINATIONAL LOGIC in the block COREAHBLITE_MATRIX4X16_1_1_0_192_0_0_0_0s.COREAHBLITE_SLAVESTAGE_0s_0_0:	114 (0.43 % Utilization)
 
 ---------------------------------------------------------------------------------
 ########   Utilization report for  cell:   COREAHBLITE_SLAVEARBITER_Z3   ########
@@ -1149,10 +1149,10 @@ Total SEQUENTIAL ELEMENTS in the block COREAHBLITE_SLAVESTAGE_0s_0_0.COREAHBLITE
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           35                 0.330 %              
+CFG           37                 0.3520 %             
 BLACK BOX     4                  0.5260 %             
 ======================================================
-Total COMBINATIONAL LOGIC in the block COREAHBLITE_SLAVESTAGE_0s_0_0.COREAHBLITE_SLAVEARBITER_Z3:	39 (0.15 % Utilization)
+Total COMBINATIONAL LOGIC in the block COREAHBLITE_SLAVESTAGE_0s_0_0.COREAHBLITE_SLAVEARBITER_Z3:	41 (0.15 % Utilization)
 
 ------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   COREAHBLITE_SLAVESTAGE_0s_0_0_0   ########     
@@ -1170,10 +1170,10 @@ Total SEQUENTIAL ELEMENTS in the block COREAHBLITE_MATRIX4X16_1_1_0_192_0_0_0_0s
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           50                 0.4720 %             
+CFG           51                 0.4860 %             
 BLACK BOX     7                  0.920 %              
 ======================================================
-Total COMBINATIONAL LOGIC in the block COREAHBLITE_MATRIX4X16_1_1_0_192_0_0_0_0s.COREAHBLITE_SLAVESTAGE_0s_0_0_0:	57 (0.21 % Utilization)
+Total COMBINATIONAL LOGIC in the block COREAHBLITE_MATRIX4X16_1_1_0_192_0_0_0_0s.COREAHBLITE_SLAVESTAGE_0s_0_0_0:	58 (0.22 % Utilization)
 
 -----------------------------------------------------------------------------------
 ########   Utilization report for  cell:   COREAHBLITE_SLAVEARBITER_Z3_0   ########
@@ -1191,7 +1191,7 @@ Total SEQUENTIAL ELEMENTS in the block COREAHBLITE_SLAVESTAGE_0s_0_0_0.COREAHBLI
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           7                  0.0660 %             
+CFG           7                  0.06670 %            
 BLACK BOX     4                  0.5260 %             
 ======================================================
 Total COMBINATIONAL LOGIC in the block COREAHBLITE_SLAVESTAGE_0s_0_0_0.COREAHBLITE_SLAVEARBITER_Z3_0:	11 (0.04 % Utilization)
@@ -1206,13 +1206,13 @@ Name     Total elements     Utilization     Notes
 -------------------------------------------------
 SLE      63                 0.5830 %             
 =================================================
-Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM.CoreAHBLite_Z7:	63 (0.23 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM.CoreAHBLite_Z7:	63 (0.24 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           182                1.72 %               
+CFG           182                1.73 %               
 BLACK BOX     8                  1.05 %               
 ======================================================
 Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM.CoreAHBLite_Z7:	190 (0.71 % Utilization)
@@ -1227,13 +1227,13 @@ Name     Total elements     Utilization     Notes
 -------------------------------------------------
 SLE      63                 0.5830 %             
 =================================================
-Total SEQUENTIAL ELEMENTS in the block CoreAHBLite_Z7.COREAHBLITE_MATRIX4X16_0_1_0_65536_0_0_0_0s:	63 (0.23 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block CoreAHBLite_Z7.COREAHBLITE_MATRIX4X16_0_1_0_65536_0_0_0_0s:	63 (0.24 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           182                1.72 %               
+CFG           182                1.73 %               
 BLACK BOX     8                  1.05 %               
 ======================================================
 Total COMBINATIONAL LOGIC in the block CoreAHBLite_Z7.COREAHBLITE_MATRIX4X16_0_1_0_65536_0_0_0_0s:	190 (0.71 % Utilization)
@@ -1254,7 +1254,7 @@ Total SEQUENTIAL ELEMENTS in the block COREAHBLITE_MATRIX4X16_0_1_0_65536_0_0_0_
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           104                0.9810 %             
+CFG           104                0.9910 %             
 BLACK BOX     1                  0.1310 %             
 ======================================================
 Total COMBINATIONAL LOGIC in the block COREAHBLITE_MATRIX4X16_0_1_0_65536_0_0_0_0s.COREAHBLITE_MASTERSTAGE_0_1_0_65536_0s_0_1_0:	105 (0.39 % Utilization)
@@ -1267,7 +1267,7 @@ Instance path:   COREAHBLITE_MASTERSTAGE_0_1_0_65536_0s_0_1_0.COREAHBLITE_ADDRDE
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      6                  0.05660 %            
+CFG      6                  0.05720 %            
 =================================================
 Total COMBINATIONAL LOGIC in the block COREAHBLITE_MASTERSTAGE_0_1_0_65536_0s_0_1_0.COREAHBLITE_ADDRDEC_Z5:	6 (0.02 % Utilization)
 
@@ -1287,7 +1287,7 @@ Total SEQUENTIAL ELEMENTS in the block COREAHBLITE_MASTERSTAGE_0_1_0_65536_0s_0_
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      1                  0.009430 %           
+CFG      1                  0.009530 %           
 =================================================
 Total COMBINATIONAL LOGIC in the block COREAHBLITE_MASTERSTAGE_0_1_0_65536_0s_0_1_0.COREAHBLITE_DEFAULTSLAVESM_0s_0_1_0:	1 (0.00 % Utilization)
 
@@ -1307,7 +1307,7 @@ Total SEQUENTIAL ELEMENTS in the block COREAHBLITE_MATRIX4X16_0_1_0_65536_0_0_0_
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           78                 0.7360 %             
+CFG           78                 0.7430 %             
 BLACK BOX     7                  0.920 %              
 ======================================================
 Total COMBINATIONAL LOGIC in the block COREAHBLITE_MATRIX4X16_0_1_0_65536_0_0_0_0s.COREAHBLITE_SLAVESTAGE_0s_0_0_1:	85 (0.32 % Utilization)
@@ -1328,10 +1328,10 @@ Total SEQUENTIAL ELEMENTS in the block COREAHBLITE_SLAVESTAGE_0s_0_0_1.COREAHBLI
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           34                 0.3210 %             
+CFG           45                 0.4290 %             
 BLACK BOX     4                  0.5260 %             
 ======================================================
-Total COMBINATIONAL LOGIC in the block COREAHBLITE_SLAVESTAGE_0s_0_0_1.COREAHBLITE_SLAVEARBITER_Z3_2:	38 (0.14 % Utilization)
+Total COMBINATIONAL LOGIC in the block COREAHBLITE_SLAVESTAGE_0s_0_0_1.COREAHBLITE_SLAVEARBITER_Z3_2:	49 (0.18 % Utilization)
 
 -----------------------------------------------------------------
 ########   Utilization report for  cell:   CoreAPB3_Z8   ########
@@ -1341,9 +1341,9 @@ Instance path:   PROC_SUBSYSTEM.CoreAPB3_Z8
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      143                1.35 %               
+CFG      147                1.4 %                
 =================================================
-Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM.CoreAPB3_Z8:	143 (0.53 % Utilization)
+Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM.CoreAPB3_Z8:	147 (0.55 % Utilization)
 
 -----------------------------------------------------------------------
 ########   Utilization report for  cell:   COREAPB3_MUXPTOB3   ########
@@ -1353,9 +1353,9 @@ Instance path:   CoreAPB3_Z8.COREAPB3_MUXPTOB3
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      141                1.33 %               
+CFG      133                1.27 %               
 =================================================
-Total COMBINATIONAL LOGIC in the block CoreAPB3_Z8.COREAPB3_MUXPTOB3:	141 (0.52 % Utilization)
+Total COMBINATIONAL LOGIC in the block CoreAPB3_Z8.COREAPB3_MUXPTOB3:	133 (0.50 % Utilization)
 
 -----------------------------------------------------------------------------
 ########   Utilization report for  cell:   CoreTimer_32s_1s_19s_0s   ########
@@ -1373,10 +1373,10 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM.CoreTimer_32s_1s_19s_0s:	1
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      87                 0.8210 %             
-ARI1     44                 0.8930 %             
+CFG      88                 0.8380 %             
+ARI1     44                 0.8850 %             
 =================================================
-Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM.CoreTimer_32s_1s_19s_0s:	131 (0.49 % Utilization)
+Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM.CoreTimer_32s_1s_19s_0s:	132 (0.49 % Utilization)
 
 -------------------------------------------------------------------------------
 ########   Utilization report for  cell:   CoreTimer_32s_1s_19s_0s_0   ########
@@ -1394,10 +1394,10 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM.CoreTimer_32s_1s_19s_0s_0:
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      104                0.9810 %             
-ARI1     43                 0.8730 %             
+CFG      88                 0.8380 %             
+ARI1     44                 0.8850 %             
 =================================================
-Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM.CoreTimer_32s_1s_19s_0s_0:	147 (0.55 % Utilization)
+Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM.CoreTimer_32s_1s_19s_0s_0:	132 (0.49 % Utilization)
 
 -------------------------------------------------------------------------------
 ########   Utilization report for  cell:   CoreTimer_32s_1s_19s_0s_1   ########
@@ -1415,10 +1415,10 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM.CoreTimer_32s_1s_19s_0s_1:
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      101                0.9530 %             
-ARI1     43                 0.8730 %             
+CFG      88                 0.8380 %             
+ARI1     44                 0.8850 %             
 =================================================
-Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM.CoreTimer_32s_1s_19s_0s_1:	144 (0.54 % Utilization)
+Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM.CoreTimer_32s_1s_19s_0s_1:	132 (0.49 % Utilization)
 
 ----------------------------------------------------------------------
 ########   Utilization report for  cell:   MSS_SUBSYSTEM_sb   ########
@@ -1436,8 +1436,8 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM.MSS_SUBSYSTEM_sb:	134 (0.5
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           68                 0.6410 %             
-ARI1          14                 0.2840 %             
+CFG           68                 0.6480 %             
+ARI1          14                 0.2820 %             
 BLACK BOX     124                16.3 %               
 ======================================================
 Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM.MSS_SUBSYSTEM_sb:	206 (0.77 % Utilization)
@@ -1474,7 +1474,7 @@ Total SEQUENTIAL ELEMENTS in the block MSS_SUBSYSTEM_sb.CoreConfigP_Z22:	75 (0.2
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           45                 0.4240 %             
+CFG           45                 0.4290 %             
 BLACK BOX     57                 7.49 %               
 ======================================================
 Total COMBINATIONAL LOGIC in the block MSS_SUBSYSTEM_sb.CoreConfigP_Z22:	102 (0.38 % Utilization)
@@ -1495,11 +1495,11 @@ Total SEQUENTIAL ELEMENTS in the block MSS_SUBSYSTEM_sb.CoreResetP_Z23:	59 (0.22
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           22                 0.2070 %             
-ARI1          14                 0.2840 %             
+CFG           22                 0.210 %              
+ARI1          14                 0.2820 %             
 BLACK BOX     62                 8.15 %               
 ======================================================
-Total COMBINATIONAL LOGIC in the block MSS_SUBSYSTEM_sb.CoreResetP_Z23:	98 (0.36 % Utilization)
+Total COMBINATIONAL LOGIC in the block MSS_SUBSYSTEM_sb.CoreResetP_Z23:	98 (0.37 % Utilization)
 
 
 GLOBAL BUFFERS
@@ -1565,7 +1565,7 @@ Instance path:   MSS_SUBSYSTEM_sb.MSS_SUBSYSTEM_sb_MSS
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           1                  0.009430 %           
+CFG           1                  0.009530 %           
 BLACK BOX     1                  0.1310 %             
 ======================================================
 Total COMBINATIONAL LOGIC in the block MSS_SUBSYSTEM_sb.MSS_SUBSYSTEM_sb_MSS:	2 (0.01 % Utilization)
@@ -1596,17 +1596,17 @@ Name     Total elements     Utilization     Notes
 -------------------------------------------------
 SLE      7912               73.2 %               
 =================================================
-Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_1610612736_2s_5s_34s_2s:	7912 (29.46 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_1610612736_2s_5s_34s_2s:	7912 (29.53 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           7090               66.9 %               
-ARI1          3676               74.6 %               
+CFG           7021               66.9 %               
+ARI1          3711               74.6 %               
 BLACK BOX     520                68.3 %               
 ======================================================
-Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_1610612736_2s_5s_34s_2s:	11286 (42.02 % Utilization)
+Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_1610612736_2s_5s_34s_2s:	11252 (41.99 % Utilization)
 
 
 DSP
@@ -1649,7 +1649,7 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           14                 0.1320 %             
+CFG           14                 0.1330 %             
 BLACK BOX     2                  0.2630 %             
 ======================================================
 Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_1610612736_2s_5s_34s_2s.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_ASYNC_FIFO_1s_36s_0s_2s:	16 (0.06 % Utilization)
@@ -1664,13 +1664,13 @@ Name     Total elements     Utilization     Notes
 -------------------------------------------------
 SLE      98                 0.9060 %             
 =================================================
-Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_1610612736_2s_5s_34s_2s.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_ASYNC_FIFO_1s_41s_1s_2s:	98 (0.36 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_1610612736_2s_5s_34s_2s.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_ASYNC_FIFO_1s_41s_1s_2s:	98 (0.37 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      49                 0.4620 %             
+CFG      49                 0.4670 %             
 =================================================
 Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_1610612736_2s_5s_34s_2s.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_ASYNC_FIFO_1s_41s_1s_2s:	49 (0.18 % Utilization)
 
@@ -1698,8 +1698,8 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           200                1.89 %               
-ARI1          4                  0.08120 %            
+CFG           200                1.91 %               
+ARI1          4                  0.08050 %            
 BLACK BOX     2                  0.2630 %             
 ======================================================
 Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_1610612736_2s_5s_34s_2s.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_DEBUG_TRANSPORT_MODULE_JTAG_Z16:	206 (0.77 % Utilization)
@@ -1714,17 +1714,17 @@ Name     Total elements     Utilization     Notes
 -------------------------------------------------
 SLE      7634               70.6 %               
 =================================================
-Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_1610612736_2s_5s_34s_2s.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_TOP_1610612736:	7634 (28.42 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_1610612736_2s_5s_34s_2s.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_TOP_1610612736:	7634 (28.49 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           6827               64.4 %               
-ARI1          3672               74.5 %               
+CFG           6758               64.4 %               
+ARI1          3707               74.6 %               
 BLACK BOX     516                67.8 %               
 ======================================================
-Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_1610612736_2s_5s_34s_2s.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_TOP_1610612736:	11015 (41.01 % Utilization)
+Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_1610612736_2s_5s_34s_2s.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_TOP_1610612736:	10981 (40.98 % Utilization)
 
 
 DSP
@@ -1753,17 +1753,17 @@ Name     Total elements     Utilization     Notes
 -------------------------------------------------
 SLE      5225               48.3 %               
 =================================================
-Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_TOP_1610612736.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_ROCKET_TILE_1610612736:	5225 (19.45 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_TOP_1610612736.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_ROCKET_TILE_1610612736:	5225 (19.50 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           3940               37.2 %               
-ARI1          3496               70.9 %               
+CFG           3888               37 %                 
+ARI1          3530               71 %                 
 BLACK BOX     184                24.2 %               
 ======================================================
-Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_TOP_1610612736.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_ROCKET_TILE_1610612736:	7620 (28.37 % Utilization)
+Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_TOP_1610612736.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_ROCKET_TILE_1610612736:	7602 (28.37 % Utilization)
 
 
 DSP
@@ -1792,17 +1792,17 @@ Name     Total elements     Utilization     Notes
 -------------------------------------------------
 SLE      3031               28 %                 
 =================================================
-Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_ROCKET_TILE_1610612736.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_D_CACHE:	3031 (11.29 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_ROCKET_TILE_1610612736.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_D_CACHE:	3031 (11.31 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           740                6.98 %               
-ARI1          1915               38.9 %               
+CFG           736                7.01 %               
+ARI1          1915               38.5 %               
 BLACK BOX     10                 1.31 %               
 ======================================================
-Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_ROCKET_TILE_1610612736.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_D_CACHE:	2665 (9.92 % Utilization)
+Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_ROCKET_TILE_1610612736.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_D_CACHE:	2661 (9.93 % Utilization)
 
 
 MEMORY ELEMENTS
@@ -1820,7 +1820,7 @@ Instance path:   PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_D_CACHE.PROC_SUB
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      8                  0.07550 %            
+CFG      8                  0.07620 %            
 =================================================
 Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_D_CACHE.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_ARBITER:	8 (0.03 % Utilization)
 
@@ -1832,7 +1832,7 @@ Instance path:   PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_D_CACHE.PROC_SUB
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      1                  0.009430 %           
+CFG      1                  0.009530 %           
 =================================================
 Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_D_CACHE.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_ARBITER_1:	1 (0.00 % Utilization)
 
@@ -1844,9 +1844,9 @@ Instance path:   PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_D_CACHE.PROC_SUB
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      102                0.9620 %             
+CFG      101                0.9620 %             
 =================================================
-Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_D_CACHE.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_ARBITER_2:	102 (0.38 % Utilization)
+Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_D_CACHE.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_ARBITER_2:	101 (0.38 % Utilization)
 
 -----------------------------------------------------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_D_CACHE_DATA_ARRAY   ########                  
@@ -1876,7 +1876,7 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      2                  0.01890 %            
+CFG      2                  0.01910 %            
 =================================================
 Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_D_CACHE.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_FINISH_QUEUE:	2 (0.01 % Utilization)
 
@@ -1890,17 +1890,17 @@ Name     Total elements     Utilization     Notes
 -------------------------------------------------
 SLE      2703               25 %                 
 =================================================
-Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_D_CACHE.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_METADATA_ARRAY:	2703 (10.06 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_D_CACHE.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_METADATA_ARRAY:	2703 (10.09 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           183                1.73 %               
-ARI1          1898               38.5 %               
+CFG           183                1.74 %               
+ARI1          1898               38.2 %               
 BLACK BOX     1                  0.1310 %             
 ======================================================
-Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_D_CACHE.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_METADATA_ARRAY:	2082 (7.75 % Utilization)
+Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_D_CACHE.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_METADATA_ARRAY:	2082 (7.77 % Utilization)
 
 ----------------------------------------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_TLB_1   ########                  
@@ -1910,7 +1910,7 @@ Instance path:   PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_D_CACHE.PROC_SUB
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      2                  0.01890 %            
+CFG      2                  0.01910 %            
 =================================================
 Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_D_CACHE.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_TLB_1:	2 (0.01 % Utilization)
 
@@ -1930,11 +1930,11 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           541                5.1 %                
-ARI1          40                 0.8120 %             
+CFG           522                4.97 %               
+ARI1          50                 1.01 %               
 BLACK BOX     65                 8.54 %               
 ======================================================
-Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_ROCKET_TILE_1610612736.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_FRONTEND_1610612736:	646 (2.41 % Utilization)
+Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_ROCKET_TILE_1610612736.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_FRONTEND_1610612736:	637 (2.38 % Utilization)
 
 
 MEMORY ELEMENTS
@@ -1961,11 +1961,11 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           315                2.97 %               
-ARI1          10                 0.2030 %             
+CFG           290                2.76 %               
+ARI1          20                 0.4020 %             
 BLACK BOX     65                 8.54 %               
 ======================================================
-Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_FRONTEND_1610612736.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_I_CACHE:	390 (1.45 % Utilization)
+Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_FRONTEND_1610612736.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_I_CACHE:	375 (1.40 % Utilization)
 
 
 MEMORY ELEMENTS
@@ -1984,7 +1984,7 @@ Instance path:   PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_FRONTEND_1610612
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      8                  0.07550 %            
+CFG      8                  0.07620 %            
 =================================================
 Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_FRONTEND_1610612736.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_TLB_0:	8 (0.03 % Utilization)
 
@@ -1998,17 +1998,17 @@ Name     Total elements     Utilization     Notes
 -------------------------------------------------
 SLE      1957               18.1 %               
 =================================================
-Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_ROCKET_TILE_1610612736.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_ROCKET:	1957 (7.29 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_ROCKET_TILE_1610612736.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_ROCKET:	1957 (7.30 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           2659               25.1 %               
-ARI1          1541               31.3 %               
+CFG           2630               25.1 %               
+ARI1          1565               31.5 %               
 BLACK BOX     109                14.3 %               
 ======================================================
-Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_ROCKET_TILE_1610612736.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_ROCKET:	4309 (16.04 % Utilization)
+Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_ROCKET_TILE_1610612736.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_ROCKET:	4304 (16.06 % Utilization)
 
 
 DSP
@@ -2026,10 +2026,10 @@ Instance path:   PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_ROCKET.PROC_SUBS
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      457                4.31 %               
-ARI1     43                 0.8730 %             
+CFG      470                4.48 %               
+ARI1     33                 0.6640 %             
 =================================================
-Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_ROCKET.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_ALU:	500 (1.86 % Utilization)
+Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_ROCKET.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_ALU:	503 (1.88 % Utilization)
 
 -------------------------------------------------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_BREAKPOINT_UNIT   ########                 
@@ -2039,8 +2039,8 @@ Instance path:   PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_ROCKET.PROC_SUBS
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      12                 0.1130 %             
-ARI1     64                 1.3 %                
+CFG      12                 0.1140 %             
+ARI1     64                 1.29 %               
 =================================================
 Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_ROCKET.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_BREAKPOINT_UNIT:	76 (0.28 % Utilization)
 
@@ -2054,17 +2054,17 @@ Name     Total elements     Utilization     Notes
 -------------------------------------------------
 SLE      412                3.81 %               
 =================================================
-Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_ROCKET.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_CSR_FILE:	412 (1.53 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_ROCKET.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_CSR_FILE:	412 (1.54 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           614                5.79 %               
-ARI1          127                2.58 %               
+CFG           625                5.95 %               
+ARI1          123                2.47 %               
 BLACK BOX     1                  0.1310 %             
 ======================================================
-Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_ROCKET.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_CSR_FILE:	742 (2.76 % Utilization)
+Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_ROCKET.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_CSR_FILE:	749 (2.80 % Utilization)
 
 -----------------------------------------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_MUL_DIV   ########                 
@@ -2082,11 +2082,11 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           253                2.39 %               
-ARI1          121                2.46 %               
+CFG           250                2.38 %               
+ARI1          121                2.43 %               
 BLACK BOX     1                  0.1310 %             
 ======================================================
-Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_ROCKET.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_MUL_DIV:	375 (1.40 % Utilization)
+Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_ROCKET.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_MUL_DIV:	372 (1.39 % Utilization)
 
 
 DSP
@@ -2106,17 +2106,17 @@ Name     Total elements     Utilization     Notes
 -------------------------------------------------
 SLE      2409               22.3 %               
 =================================================
-Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_TOP_1610612736.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_UNCORE:	2409 (8.97 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_TOP_1610612736.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_UNCORE:	2409 (8.99 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           2887               27.2 %               
-ARI1          176                3.57 %               
+CFG           2870               27.3 %               
+ARI1          177                3.56 %               
 BLACK BOX     332                43.6 %               
 ======================================================
-Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_TOP_1610612736.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_UNCORE:	3395 (12.64 % Utilization)
+Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_TOP_1610612736.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_UNCORE:	3379 (12.61 % Utilization)
 
 ----------------------------------------------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_DEBUG_MODULE   ########                 
@@ -2134,10 +2134,10 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      651                6.14 %               
-ARI1     24                 0.4870 %             
+CFG      655                6.24 %               
+ARI1     32                 0.6440 %             
 =================================================
-Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_UNCORE.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_DEBUG_MODULE:	675 (2.51 % Utilization)
+Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_UNCORE.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_DEBUG_MODULE:	687 (2.56 % Utilization)
 
 -----------------------------------------------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_LEVEL_GATEWAY   ########                 
@@ -2155,7 +2155,7 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      2                  0.01890 %            
+CFG      2                  0.01910 %            
 =================================================
 Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_UNCORE.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_LEVEL_GATEWAY:	2 (0.01 % Utilization)
 
@@ -2175,9 +2175,9 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      3                  0.02830 %            
+CFG      1                  0.009530 %           
 =================================================
-Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_UNCORE.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_LEVEL_GATEWAY_0:	3 (0.01 % Utilization)
+Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_UNCORE.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_LEVEL_GATEWAY_0:	1 (0.00 % Utilization)
 
 -------------------------------------------------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_LEVEL_GATEWAY_1   ########                 
@@ -2195,7 +2195,7 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      2                  0.01890 %            
+CFG      2                  0.01910 %            
 =================================================
 Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_UNCORE.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_LEVEL_GATEWAY_1:	2 (0.01 % Utilization)
 
@@ -2215,8 +2215,8 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           128                1.21 %               
-ARI1          2                  0.04060 %            
+CFG           128                1.22 %               
+ARI1          2                  0.04020 %            
 BLACK BOX     6                  0.7880 %             
 ======================================================
 Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_UNCORE.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_NASTI_IO_TILE_LINK_IO_CONVERTER_1:	136 (0.51 % Utilization)
@@ -2237,7 +2237,7 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           58                 0.5470 %             
+CFG           58                 0.5530 %             
 BLACK BOX     1                  0.1310 %             
 ======================================================
 Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_NASTI_IO_TILE_LINK_IO_CONVERTER_1.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_LOCKING_ARBITER_1:	59 (0.22 % Utilization)
@@ -2258,10 +2258,10 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      27                 0.2550 %             
-ARI1     2                  0.04060 %            
+CFG      26                 0.2480 %             
+ARI1     2                  0.04020 %            
 =================================================
-Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_NASTI_IO_TILE_LINK_IO_CONVERTER_1.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_REORDER_QUEUE_3:	29 (0.11 % Utilization)
+Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_NASTI_IO_TILE_LINK_IO_CONVERTER_1.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_REORDER_QUEUE_3:	28 (0.10 % Utilization)
 
 -----------------------------------------------------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_OUTER_MEMORY_SYSTEM   ########                 
@@ -2273,17 +2273,17 @@ Name     Total elements     Utilization     Notes
 -------------------------------------------------
 SLE      1313               12.1 %               
 =================================================
-Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_UNCORE.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_OUTER_MEMORY_SYSTEM:	1313 (4.89 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_UNCORE.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_OUTER_MEMORY_SYSTEM:	1313 (4.90 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           1055               9.95 %               
-ARI1          2                  0.04060 %            
+CFG           1060               10.1 %               
+ARI1          2                  0.04020 %            
 BLACK BOX     123                16.2 %               
 ======================================================
-Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_UNCORE.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_OUTER_MEMORY_SYSTEM:	1180 (4.39 % Utilization)
+Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_UNCORE.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_OUTER_MEMORY_SYSTEM:	1185 (4.42 % Utilization)
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_CLIENT_TILE_LINK_IO_UNWRAPPER   ########                              
@@ -2301,10 +2301,10 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           269                2.54 %               
+CFG           274                2.61 %               
 BLACK BOX     8                  1.05 %               
 ======================================================
-Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_OUTER_MEMORY_SYSTEM.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_CLIENT_TILE_LINK_IO_UNWRAPPER:	277 (1.03 % Utilization)
+Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_OUTER_MEMORY_SYSTEM.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_CLIENT_TILE_LINK_IO_UNWRAPPER:	282 (1.05 % Utilization)
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_LOCKING_RR_ARBITER_5   ########                                        
@@ -2322,9 +2322,9 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      241                2.27 %               
+CFG      245                2.33 %               
 =================================================
-Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_CLIENT_TILE_LINK_IO_UNWRAPPER.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_LOCKING_RR_ARBITER_5:	241 (0.90 % Utilization)
+Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_CLIENT_TILE_LINK_IO_UNWRAPPER.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_LOCKING_RR_ARBITER_5:	245 (0.91 % Utilization)
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_REORDER_QUEUE_0   ########                                        
@@ -2342,10 +2342,10 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           8                  0.07550 %            
+CFG           10                 0.09530 %            
 BLACK BOX     4                  0.5260 %             
 ======================================================
-Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_CLIENT_TILE_LINK_IO_UNWRAPPER.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_REORDER_QUEUE_0:	12 (0.04 % Utilization)
+Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_CLIENT_TILE_LINK_IO_UNWRAPPER.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_REORDER_QUEUE_0:	14 (0.05 % Utilization)
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_REORDER_QUEUE_1   ########                                        
@@ -2363,10 +2363,10 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           10                 0.09430 %            
+CFG           9                  0.08570 %            
 BLACK BOX     4                  0.5260 %             
 ======================================================
-Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_CLIENT_TILE_LINK_IO_UNWRAPPER.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_REORDER_QUEUE_1:	14 (0.05 % Utilization)
+Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_CLIENT_TILE_LINK_IO_UNWRAPPER.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_REORDER_QUEUE_1:	13 (0.05 % Utilization)
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_MMIO_TILE_LINK_MANAGER   ########                              
@@ -2384,10 +2384,10 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      37                 0.3490 %             
-ARI1     2                  0.04060 %            
+CFG      39                 0.3720 %             
+ARI1     2                  0.04020 %            
 =================================================
-Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_OUTER_MEMORY_SYSTEM.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_MMIO_TILE_LINK_MANAGER:	39 (0.15 % Utilization)
+Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_OUTER_MEMORY_SYSTEM.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_MMIO_TILE_LINK_MANAGER:	41 (0.15 % Utilization)
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_NASTI_IO_TILE_LINK_IO_CONVERTER   ########                              
@@ -2405,10 +2405,10 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           168                1.58 %               
+CFG           174                1.66 %               
 BLACK BOX     9                  1.18 %               
 ======================================================
-Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_OUTER_MEMORY_SYSTEM.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_NASTI_IO_TILE_LINK_IO_CONVERTER:	177 (0.66 % Utilization)
+Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_OUTER_MEMORY_SYSTEM.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_NASTI_IO_TILE_LINK_IO_CONVERTER:	183 (0.68 % Utilization)
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_LOCKING_ARBITER   ########                                          
@@ -2426,7 +2426,7 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           83                 0.7830 %             
+CFG           83                 0.7910 %             
 BLACK BOX     1                  0.1310 %             
 ======================================================
 Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_NASTI_IO_TILE_LINK_IO_CONVERTER.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_LOCKING_ARBITER:	84 (0.31 % Utilization)
@@ -2447,7 +2447,7 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           17                 0.160 %              
+CFG           17                 0.1620 %             
 BLACK BOX     3                  0.3940 %             
 ======================================================
 Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_NASTI_IO_TILE_LINK_IO_CONVERTER.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_REORDER_QUEUE_2:	20 (0.07 % Utilization)
@@ -2462,16 +2462,16 @@ Name     Total elements     Utilization     Notes
 -------------------------------------------------
 SLE      627                5.8 %                
 =================================================
-Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_OUTER_MEMORY_SYSTEM.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_PORTED_TILE_LINK_CROSSBAR:	627 (2.33 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_OUTER_MEMORY_SYSTEM.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_PORTED_TILE_LINK_CROSSBAR:	627 (2.34 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           540                5.09 %               
+CFG           536                5.11 %               
 BLACK BOX     21                 2.76 %               
 ======================================================
-Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_OUTER_MEMORY_SYSTEM.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_PORTED_TILE_LINK_CROSSBAR:	561 (2.09 % Utilization)
+Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_OUTER_MEMORY_SYSTEM.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_PORTED_TILE_LINK_CROSSBAR:	557 (2.08 % Utilization)
 
 --------------------------------------------------------------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_BASIC_BUS   ########                                    
@@ -2489,10 +2489,10 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           120                1.13 %               
+CFG           112                1.07 %               
 BLACK BOX     1                  0.1310 %             
 ======================================================
-Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_PORTED_TILE_LINK_CROSSBAR.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_BASIC_BUS:	121 (0.45 % Utilization)
+Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_PORTED_TILE_LINK_CROSSBAR.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_BASIC_BUS:	113 (0.42 % Utilization)
 
 -------------------------------------------------------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_LOCKING_RR_ARBITER   ########                    
@@ -2510,10 +2510,10 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           116                1.09 %               
+CFG           108                1.03 %               
 BLACK BOX     1                  0.1310 %             
 ======================================================
-Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_BASIC_BUS.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_LOCKING_RR_ARBITER:	117 (0.44 % Utilization)
+Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_BASIC_BUS.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_LOCKING_RR_ARBITER:	109 (0.41 % Utilization)
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_BASIC_BUS_1   ########                                    
@@ -2531,10 +2531,10 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           19                 0.1790 %             
+CFG           18                 0.1710 %             
 BLACK BOX     3                  0.3940 %             
 ======================================================
-Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_PORTED_TILE_LINK_CROSSBAR.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_BASIC_BUS_1:	22 (0.08 % Utilization)
+Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_PORTED_TILE_LINK_CROSSBAR.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_BASIC_BUS_1:	21 (0.08 % Utilization)
 
 -----------------------------------------------------------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_LOCKING_RR_ARBITER_1   ########                      
@@ -2552,7 +2552,7 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           18                 0.170 %              
+CFG           18                 0.1710 %             
 BLACK BOX     3                  0.3940 %             
 ======================================================
 Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_BASIC_BUS_1.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_LOCKING_RR_ARBITER_1:	21 (0.08 % Utilization)
@@ -2573,10 +2573,10 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           188                1.77 %               
+CFG           196                1.87 %               
 BLACK BOX     1                  0.1310 %             
 ======================================================
-Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_PORTED_TILE_LINK_CROSSBAR.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_BASIC_BUS_3:	189 (0.70 % Utilization)
+Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_PORTED_TILE_LINK_CROSSBAR.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_BASIC_BUS_3:	197 (0.74 % Utilization)
 
 -----------------------------------------------------------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_LOCKING_RR_ARBITER_3   ########                      
@@ -2594,10 +2594,10 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           187                1.76 %               
+CFG           195                1.86 %               
 BLACK BOX     1                  0.1310 %             
 ======================================================
-Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_BASIC_BUS_3.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_LOCKING_RR_ARBITER_3:	188 (0.70 % Utilization)
+Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_BASIC_BUS_3.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_LOCKING_RR_ARBITER_3:	196 (0.73 % Utilization)
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_BASIC_BUS_4   ########                                    
@@ -2615,7 +2615,7 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           11                 0.1040 %             
+CFG           11                 0.1050 %             
 BLACK BOX     1                  0.1310 %             
 ======================================================
 Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_PORTED_TILE_LINK_CROSSBAR.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_BASIC_BUS_4:	12 (0.04 % Utilization)
@@ -2636,7 +2636,7 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           10                 0.09430 %            
+CFG           10                 0.09530 %            
 BLACK BOX     1                  0.1310 %             
 ======================================================
 Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_BASIC_BUS_4.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_LOCKING_RR_ARBITER_4:	11 (0.04 % Utilization)
@@ -2649,7 +2649,7 @@ Instance path:   PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_PORTED_TILE_LINK
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      2                  0.01890 %            
+CFG      2                  0.01910 %            
 =================================================
 Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_PORTED_TILE_LINK_CROSSBAR.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_CLIENT_TILE_LINK_NETWORK_PORT:	2 (0.01 % Utilization)
 
@@ -2669,9 +2669,9 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      20                 0.1890 %             
+CFG      19                 0.1810 %             
 =================================================
-Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_PORTED_TILE_LINK_CROSSBAR.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_CLIENT_UNCACHED_TILE_LINK_NETWORK_PORT:	20 (0.07 % Utilization)
+Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_PORTED_TILE_LINK_CROSSBAR.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_CLIENT_UNCACHED_TILE_LINK_NETWORK_PORT:	19 (0.07 % Utilization)
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_FINISH_UNIT   ########                                                 
@@ -2689,9 +2689,9 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      19                 0.1790 %             
+CFG      18                 0.1710 %             
 =================================================
-Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_CLIENT_UNCACHED_TILE_LINK_NETWORK_PORT.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_FINISH_UNIT:	19 (0.07 % Utilization)
+Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_CLIENT_UNCACHED_TILE_LINK_NETWORK_PORT.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_FINISH_UNIT:	18 (0.07 % Utilization)
 
 -----------------------------------------------------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_FINISH_QUEUE_1   ########                      
@@ -2709,9 +2709,9 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      10                 0.09430 %            
+CFG      9                  0.08570 %            
 =================================================
-Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_FINISH_UNIT.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_FINISH_QUEUE_1:	10 (0.04 % Utilization)
+Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_FINISH_UNIT.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_FINISH_QUEUE_1:	9 (0.03 % Utilization)
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_TILE_LINK_ENQUEUER   ########                                    
@@ -2729,10 +2729,10 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           98                 0.9240 %             
+CFG           96                 0.9150 %             
 BLACK BOX     7                  0.920 %              
 ======================================================
-Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_PORTED_TILE_LINK_CROSSBAR.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_TILE_LINK_ENQUEUER:	105 (0.39 % Utilization)
+Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_PORTED_TILE_LINK_CROSSBAR.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_TILE_LINK_ENQUEUER:	103 (0.38 % Utilization)
 
 -----------------------------------------------------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_QUEUE_0   ########                             
@@ -2750,10 +2750,10 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           4                  0.03770 %            
+CFG           2                  0.01910 %            
 BLACK BOX     1                  0.1310 %             
 ======================================================
-Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_TILE_LINK_ENQUEUER.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_QUEUE_0:	5 (0.02 % Utilization)
+Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_TILE_LINK_ENQUEUER.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_QUEUE_0:	3 (0.01 % Utilization)
 
 -------------------------------------------------------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_QUEUE_2_0   ########                             
@@ -2771,7 +2771,7 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           12                 0.1130 %             
+CFG           12                 0.1140 %             
 BLACK BOX     1                  0.1310 %             
 ======================================================
 Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_TILE_LINK_ENQUEUER.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_QUEUE_2_0:	13 (0.05 % Utilization)
@@ -2792,7 +2792,7 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           82                 0.7730 %             
+CFG           82                 0.7810 %             
 BLACK BOX     5                  0.6570 %             
 ======================================================
 Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_TILE_LINK_ENQUEUER.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_QUEUE_3_0:	87 (0.32 % Utilization)
@@ -2807,13 +2807,13 @@ Name     Total elements     Utilization     Notes
 -------------------------------------------------
 SLE      173                1.6 %                
 =================================================
-Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_PORTED_TILE_LINK_CROSSBAR.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_TILE_LINK_ENQUEUER_1:	173 (0.64 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_PORTED_TILE_LINK_CROSSBAR.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_TILE_LINK_ENQUEUER_1:	173 (0.65 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           82                 0.7730 %             
+CFG           82                 0.7810 %             
 BLACK BOX     8                  1.05 %               
 ======================================================
 Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_PORTED_TILE_LINK_CROSSBAR.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_TILE_LINK_ENQUEUER_1:	90 (0.34 % Utilization)
@@ -2834,9 +2834,9 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      3                  0.02830 %            
+CFG      4                  0.03810 %            
 =================================================
-Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_TILE_LINK_ENQUEUER_1.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_QUEUE_1:	3 (0.01 % Utilization)
+Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_TILE_LINK_ENQUEUER_1.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_QUEUE_1:	4 (0.01 % Utilization)
 
 ---------------------------------------------------------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_QUEUE_3_1   ########                               
@@ -2854,10 +2854,10 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           79                 0.7450 %             
+CFG           78                 0.7430 %             
 BLACK BOX     8                  1.05 %               
 ======================================================
-Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_TILE_LINK_ENQUEUER_1.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_QUEUE_3_1:	87 (0.32 % Utilization)
+Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_TILE_LINK_ENQUEUER_1.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_QUEUE_3_1:	86 (0.32 % Utilization)
 
 -------------------------------------------------------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_QUEUE_10   ########                              
@@ -2875,7 +2875,7 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           3                  0.02830 %            
+CFG           3                  0.02860 %            
 BLACK BOX     4                  0.5260 %             
 ======================================================
 Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_OUTER_MEMORY_SYSTEM.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_QUEUE_10:	7 (0.03 % Utilization)
@@ -2896,7 +2896,7 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           3                  0.02830 %            
+CFG           3                  0.02860 %            
 BLACK BOX     7                  0.920 %              
 ======================================================
 Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_OUTER_MEMORY_SYSTEM.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_QUEUE_10_0:	10 (0.04 % Utilization)
@@ -2911,16 +2911,16 @@ Name     Total elements     Utilization     Notes
 -------------------------------------------------
 SLE      149                1.38 %               
 =================================================
-Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_OUTER_MEMORY_SYSTEM.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_QUEUE_12:	149 (0.55 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_OUTER_MEMORY_SYSTEM.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_QUEUE_12:	149 (0.56 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           10                 0.09430 %            
+CFG           9                  0.08570 %            
 BLACK BOX     5                  0.6570 %             
 ======================================================
-Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_OUTER_MEMORY_SYSTEM.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_QUEUE_12:	15 (0.06 % Utilization)
+Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_OUTER_MEMORY_SYSTEM.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_QUEUE_12:	14 (0.05 % Utilization)
 
 -------------------------------------------------------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_QUEUE_13   ########                              
@@ -2938,10 +2938,10 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           7                  0.0660 %             
+CFG           4                  0.03810 %            
 BLACK BOX     5                  0.6570 %             
 ======================================================
-Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_OUTER_MEMORY_SYSTEM.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_QUEUE_13:	12 (0.04 % Utilization)
+Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_OUTER_MEMORY_SYSTEM.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_QUEUE_13:	9 (0.03 % Utilization)
 
 -------------------------------------------------------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_QUEUE_14   ########                              
@@ -2979,7 +2979,7 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           11                 0.1040 %             
+CFG           11                 0.1050 %             
 BLACK BOX     2                  0.2630 %             
 ======================================================
 Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_OUTER_MEMORY_SYSTEM.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_QUEUE_8_0:	13 (0.05 % Utilization)
@@ -3000,10 +3000,10 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           7                  0.0660 %             
+CFG           7                  0.06670 %            
 BLACK BOX     56                 7.36 %               
 ======================================================
-Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_OUTER_MEMORY_SYSTEM.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_QUEUE_9:	63 (0.23 % Utilization)
+Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_OUTER_MEMORY_SYSTEM.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_QUEUE_9:	63 (0.24 % Utilization)
 
 --------------------------------------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_PLIC   ########                 
@@ -3021,11 +3021,11 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           262                2.47 %               
-ARI1          13                 0.2640 %             
+CFG           244                2.32 %               
+ARI1          6                  0.1210 %             
 BLACK BOX     45                 5.91 %               
 ======================================================
-Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_UNCORE.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_PLIC:	320 (1.19 % Utilization)
+Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_UNCORE.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_PLIC:	295 (1.10 % Utilization)
 
 -----------------------------------------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_QUEUE_8_1   ########               
@@ -3043,10 +3043,10 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           23                 0.2170 %             
+CFG           22                 0.210 %              
 BLACK BOX     45                 5.91 %               
 ======================================================
-Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_PLIC.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_QUEUE_8_1:	68 (0.25 % Utilization)
+Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_PLIC.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_QUEUE_8_1:	67 (0.25 % Utilization)
 
 --------------------------------------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_PRCI   ########                 
@@ -3064,8 +3064,8 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           77                 0.7260 %             
-ARI1          128                2.6 %                
+CFG           77                 0.7340 %             
+ARI1          128                2.57 %               
 BLACK BOX     31                 4.07 %               
 ======================================================
 Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_UNCORE.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_PRCI:	236 (0.88 % Utilization)
@@ -3086,7 +3086,7 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           7                  0.0660 %             
+CFG           7                  0.06670 %            
 BLACK BOX     31                 4.07 %               
 ======================================================
 Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_PRCI.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_QUEUE_8_2:	38 (0.14 % Utilization)
@@ -3107,7 +3107,7 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           2                  0.01890 %            
+CFG           2                  0.01910 %            
 BLACK BOX     7                  0.920 %              
 ======================================================
 Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_UNCORE.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_QUEUE_10_0_0:	9 (0.03 % Utilization)
@@ -3128,7 +3128,7 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           2                  0.01890 %            
+CFG           2                  0.01910 %            
 BLACK BOX     4                  0.5260 %             
 ======================================================
 Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_UNCORE.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_QUEUE_10_1:	6 (0.02 % Utilization)
@@ -3149,10 +3149,10 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           11                 0.1040 %             
+CFG           10                 0.09530 %            
 BLACK BOX     5                  0.6570 %             
 ======================================================
-Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_UNCORE.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_QUEUE_12_0:	16 (0.06 % Utilization)
+Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_UNCORE.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_QUEUE_12_0:	15 (0.06 % Utilization)
 
 --------------------------------------------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_QUEUE_13_0   ########                 
@@ -3170,7 +3170,7 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           9                  0.08490 %            
+CFG           9                  0.08570 %            
 BLACK BOX     3                  0.3940 %             
 ======================================================
 Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_UNCORE.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_QUEUE_13_0:	12 (0.04 % Utilization)
@@ -3191,7 +3191,7 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           2                  0.01890 %            
+CFG           2                  0.01910 %            
 BLACK BOX     5                  0.6570 %             
 ======================================================
 Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_UNCORE.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_QUEUE_14_0:	7 (0.03 % Utilization)
@@ -3212,10 +3212,10 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           318                3 %                  
+CFG           316                3.01 %               
 BLACK BOX     102                13.4 %               
 ======================================================
-Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_UNCORE.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_ROM_SLAVE:	420 (1.56 % Utilization)
+Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_UNCORE.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_ROM_SLAVE:	418 (1.56 % Utilization)
 
 ----------------------------------------------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_QUEUE_8_3   ########                    
@@ -3233,7 +3233,7 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           6                  0.05660 %            
+CFG           6                  0.05720 %            
 BLACK BOX     102                13.4 %               
 ======================================================
 Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_ROM_SLAVE.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_QUEUE_8_3:	108 (0.40 % Utilization)
@@ -3254,10 +3254,10 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           357                3.37 %               
+CFG           354                3.37 %               
 BLACK BOX     1                  0.1310 %             
 ======================================================
-Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_UNCORE.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_TILE_LINK_RECURSIVE_INTERCONNECT:	358 (1.33 % Utilization)
+Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_UNCORE.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_TILE_LINK_RECURSIVE_INTERCONNECT:	355 (1.32 % Utilization)
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_CLIENT_UNCACHED_TILE_LINK_IO_CROSSBAR   ########                                           
@@ -3275,9 +3275,9 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      56                 0.5280 %             
+CFG      53                 0.5050 %             
 =================================================
-Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_TILE_LINK_RECURSIVE_INTERCONNECT.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_CLIENT_UNCACHED_TILE_LINK_IO_CROSSBAR:	56 (0.21 % Utilization)
+Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_TILE_LINK_RECURSIVE_INTERCONNECT.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_CLIENT_UNCACHED_TILE_LINK_IO_CROSSBAR:	53 (0.20 % Utilization)
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_CLIENT_UNCACHED_TILE_LINK_IO_ROUTER   ########                                                
@@ -3295,9 +3295,9 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      56                 0.5280 %             
+CFG      53                 0.5050 %             
 =================================================
-Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_CLIENT_UNCACHED_TILE_LINK_IO_CROSSBAR.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_CLIENT_UNCACHED_TILE_LINK_IO_ROUTER:	56 (0.21 % Utilization)
+Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_CLIENT_UNCACHED_TILE_LINK_IO_CROSSBAR.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_CLIENT_UNCACHED_TILE_LINK_IO_ROUTER:	53 (0.20 % Utilization)
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_LOCKING_RR_ARBITER_6   ########                                              
@@ -3315,9 +3315,9 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      52                 0.490 %              
+CFG      49                 0.4670 %             
 =================================================
-Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_CLIENT_UNCACHED_TILE_LINK_IO_ROUTER.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_LOCKING_RR_ARBITER_6:	52 (0.19 % Utilization)
+Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_CLIENT_UNCACHED_TILE_LINK_IO_ROUTER.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_LOCKING_RR_ARBITER_6:	49 (0.18 % Utilization)
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_TILE_LINK_RECURSIVE_INTERCONNECT_1   ########                                           
@@ -3335,10 +3335,10 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           289                2.73 %               
+CFG           292                2.78 %               
 BLACK BOX     1                  0.1310 %             
 ======================================================
-Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_TILE_LINK_RECURSIVE_INTERCONNECT.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_TILE_LINK_RECURSIVE_INTERCONNECT_1:	290 (1.08 % Utilization)
+Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_TILE_LINK_RECURSIVE_INTERCONNECT.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_TILE_LINK_RECURSIVE_INTERCONNECT_1:	293 (1.09 % Utilization)
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_CLIENT_UNCACHED_TILE_LINK_IO_CROSSBAR_1   ########                                             
@@ -3356,10 +3356,10 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           289                2.73 %               
+CFG           292                2.78 %               
 BLACK BOX     1                  0.1310 %             
 ======================================================
-Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_TILE_LINK_RECURSIVE_INTERCONNECT_1.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_CLIENT_UNCACHED_TILE_LINK_IO_CROSSBAR_1:	290 (1.08 % Utilization)
+Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_TILE_LINK_RECURSIVE_INTERCONNECT_1.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_CLIENT_UNCACHED_TILE_LINK_IO_CROSSBAR_1:	293 (1.09 % Utilization)
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_CLIENT_UNCACHED_TILE_LINK_IO_ROUTER_1   ########                                                  
@@ -3377,10 +3377,10 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           289                2.73 %               
+CFG           292                2.78 %               
 BLACK BOX     1                  0.1310 %             
 ======================================================
-Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_CLIENT_UNCACHED_TILE_LINK_IO_CROSSBAR_1.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_CLIENT_UNCACHED_TILE_LINK_IO_ROUTER_1:	290 (1.08 % Utilization)
+Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_CLIENT_UNCACHED_TILE_LINK_IO_CROSSBAR_1.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_CLIENT_UNCACHED_TILE_LINK_IO_ROUTER_1:	293 (1.09 % Utilization)
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_LOCKING_RR_ARBITER_7   ########                                                
@@ -3398,10 +3398,10 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           278                2.62 %               
+CFG           281                2.68 %               
 BLACK BOX     1                  0.1310 %             
 ======================================================
-Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_CLIENT_UNCACHED_TILE_LINK_IO_ROUTER_1.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_LOCKING_RR_ARBITER_7:	279 (1.04 % Utilization)
+Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_CLIENT_UNCACHED_TILE_LINK_IO_ROUTER_1.PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_LOCKING_RR_ARBITER_7:	282 (1.05 % Utilization)
 
 --------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   PROC_SUBSYSTEM_CoreGPIO_1_CoreGPIO_Z11   ########
@@ -3419,9 +3419,9 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM.PROC_SUBSYSTEM_CoreGPIO_1_
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      7                  0.0660 %             
+CFG      6                  0.05720 %            
 =================================================
-Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM.PROC_SUBSYSTEM_CoreGPIO_1_CoreGPIO_Z11:	7 (0.03 % Utilization)
+Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM.PROC_SUBSYSTEM_CoreGPIO_1_CoreGPIO_Z11:	6 (0.02 % Utilization)
 
 --------------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   PROC_SUBSYSTEM_CoreUARTapb_0_CoreUARTapb_Z21   ########
@@ -3439,11 +3439,11 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM.PROC_SUBSYSTEM_CoreUARTapb
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           190                1.79 %               
-ARI1          67                 1.36 %               
+CFG           178                1.7 %                
+ARI1          69                 1.39 %               
 BLACK BOX     5                  0.6570 %             
 ======================================================
-Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM.PROC_SUBSYSTEM_CoreUARTapb_0_CoreUARTapb_Z21:	262 (0.98 % Utilization)
+Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM.PROC_SUBSYSTEM_CoreUARTapb_0_CoreUARTapb_Z21:	252 (0.94 % Utilization)
 
 
 MEMORY ELEMENTS
@@ -3469,11 +3469,11 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_CoreUARTapb_0_CoreUARTapb_
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           158                1.49 %               
-ARI1          61                 1.24 %               
+CFG           155                1.48 %               
+ARI1          61                 1.23 %               
 BLACK BOX     5                  0.6570 %             
 ======================================================
-Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_CoreUARTapb_0_CoreUARTapb_Z21.PROC_SUBSYSTEM_CoreUARTapb_0_COREUART_1s_1s_0s_19s_0s_0s:	224 (0.83 % Utilization)
+Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_CoreUARTapb_0_CoreUARTapb_Z21.PROC_SUBSYSTEM_CoreUARTapb_0_COREUART_1s_1s_0s_19s_0s_0s:	221 (0.82 % Utilization)
 
 
 MEMORY ELEMENTS
@@ -3499,8 +3499,8 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_CoreUARTapb_0_COREUART_1s_
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      10                 0.09430 %            
-ARI1     14                 0.2840 %             
+CFG      10                 0.09530 %            
+ARI1     14                 0.2820 %             
 =================================================
 Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_CoreUARTapb_0_COREUART_1s_1s_0s_19s_0s_0s.PROC_SUBSYSTEM_CoreUARTapb_0_Clock_gen_0s_0s:	24 (0.09 % Utilization)
 
@@ -3520,10 +3520,10 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_CoreUARTapb_0_COREUART_1s_
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           77                 0.7260 %             
+CFG           76                 0.7240 %             
 BLACK BOX     1                  0.1310 %             
 ======================================================
-Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_CoreUARTapb_0_COREUART_1s_1s_0s_19s_0s_0s.PROC_SUBSYSTEM_CoreUARTapb_0_Rx_async_0s_1s_0s_1s_2s_3s:	78 (0.29 % Utilization)
+Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_CoreUARTapb_0_COREUART_1s_1s_0s_19s_0s_0s.PROC_SUBSYSTEM_CoreUARTapb_0_Rx_async_0s_1s_0s_1s_2s_3s:	77 (0.29 % Utilization)
 
 ------------------------------------------------------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   PROC_SUBSYSTEM_CoreUARTapb_0_Tx_async_0s_1s_0s_1s_2s_3s_4s_5s_6s   ########                    
@@ -3541,7 +3541,7 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_CoreUARTapb_0_COREUART_1s_
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           26                 0.2450 %             
+CFG           26                 0.2480 %             
 ARI1          5                  0.1010 %             
 BLACK BOX     1                  0.1310 %             
 ======================================================
@@ -3563,8 +3563,8 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_CoreUARTapb_0_COREUART_1s_
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           6                  0.05660 %            
-ARI1          21                 0.4260 %             
+CFG           6                  0.05720 %            
+ARI1          21                 0.4220 %             
 BLACK BOX     1                  0.1310 %             
 ======================================================
 Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_CoreUARTapb_0_COREUART_1s_1s_0s_19s_0s_0s.PROC_SUBSYSTEM_CoreUARTapb_0_fifo_256x8_0s_4294967232s:	28 (0.10 % Utilization)
@@ -3593,8 +3593,8 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_CoreUARTapb_0_fifo_256x8_0
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           6                  0.05660 %            
-ARI1          21                 0.4260 %             
+CFG           6                  0.05720 %            
+ARI1          21                 0.4220 %             
 BLACK BOX     1                  0.1310 %             
 ======================================================
 Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_CoreUARTapb_0_fifo_256x8_0s_4294967232s.PROC_SUBSYSTEM_CoreUARTapb_0_fifo_ctrl_128_0s_128s_7s_8s:	28 (0.10 % Utilization)
@@ -3643,11 +3643,11 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_CoreUARTapb_0_COREUART_1s_
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           3                  0.02830 %            
-ARI1          21                 0.4260 %             
+CFG           7                  0.06670 %            
+ARI1          21                 0.4220 %             
 BLACK BOX     1                  0.1310 %             
 ======================================================
-Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_CoreUARTapb_0_COREUART_1s_1s_0s_19s_0s_0s.PROC_SUBSYSTEM_CoreUARTapb_0_fifo_256x8_0s_4294967232s_0:	25 (0.09 % Utilization)
+Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_CoreUARTapb_0_COREUART_1s_1s_0s_19s_0s_0s.PROC_SUBSYSTEM_CoreUARTapb_0_fifo_256x8_0s_4294967232s_0:	29 (0.11 % Utilization)
 
 
 MEMORY ELEMENTS
@@ -3673,11 +3673,11 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_CoreUARTapb_0_fifo_256x8_0
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           3                  0.02830 %            
-ARI1          21                 0.4260 %             
+CFG           7                  0.06670 %            
+ARI1          21                 0.4220 %             
 BLACK BOX     1                  0.1310 %             
 ======================================================
-Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_CoreUARTapb_0_fifo_256x8_0s_4294967232s_0.PROC_SUBSYSTEM_CoreUARTapb_0_fifo_ctrl_128_0s_128s_7s_8s_0:	25 (0.09 % Utilization)
+Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_CoreUARTapb_0_fifo_256x8_0s_4294967232s_0.PROC_SUBSYSTEM_CoreUARTapb_0_fifo_ctrl_128_0s_128s_7s_8s_0:	29 (0.11 % Utilization)
 
 
 MEMORY ELEMENTS

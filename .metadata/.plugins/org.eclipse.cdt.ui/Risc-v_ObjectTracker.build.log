@@ -1,0 +1,138 @@
+23:04:01 **** Incremental Build of configuration Release for project Risc-v_ObjectTracker ****
+make all 
+Building file: ../src/Pixy.c
+Invoking: RISC-V GCC/Newlib C Compiler
+riscv64-unknown-elf-gcc -mabi=ilp32 -march=rv32im -I"C:\Users\REN\Documents\GitHub\Microsemi_SmartFusion2_RISCV_ObjectTracker\Risc-v_ObjectTracker\drivers\CorePWM" -I"C:\Users\REN\Documents\GitHub\Microsemi_SmartFusion2_RISCV_ObjectTracker\Risc-v_ObjectTracker\MicrosemiTFTDriver" -I"C:\Users\REN\Documents\GitHub\Microsemi_SmartFusion2_RISCV_ObjectTracker\Risc-v_ObjectTracker" -I"C:\Users\REN\Documents\GitHub\Microsemi_SmartFusion2_RISCV_ObjectTracker\Risc-v_ObjectTracker\drivers\CoreGPIO" -I"C:\Users\REN\Documents\GitHub\Microsemi_SmartFusion2_RISCV_ObjectTracker\Risc-v_ObjectTracker\drivers\CoreUARTapb" -I"C:\Users\REN\Documents\GitHub\Microsemi_SmartFusion2_RISCV_ObjectTracker\Risc-v_ObjectTracker\hal" -I"C:\Users\REN\Documents\GitHub\Microsemi_SmartFusion2_RISCV_ObjectTracker\Risc-v_ObjectTracker\riscv_hal" -Os -ffunction-sections -fdata-sections -Wall -c -MMD -MP -MF"src/Pixy.d" -MT"src/Pixy.d" -o "src/Pixy.o" "../src/Pixy.c"
+../src/Pixy.c: In function 'getBlocks':
+../src/Pixy.c:201:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+At top level:
+../src/Pixy.c:91:15: warning: 'g_blocks' defined but not used [-Wunused-variable]
+ static Block *g_blocks;
+               ^~~~~~~~
+Finished building: ../src/Pixy.c
+ 
+Building file: ../src/delay.c
+Invoking: RISC-V GCC/Newlib C Compiler
+riscv64-unknown-elf-gcc -mabi=ilp32 -march=rv32im -I"C:\Users\REN\Documents\GitHub\Microsemi_SmartFusion2_RISCV_ObjectTracker\Risc-v_ObjectTracker\drivers\CorePWM" -I"C:\Users\REN\Documents\GitHub\Microsemi_SmartFusion2_RISCV_ObjectTracker\Risc-v_ObjectTracker\MicrosemiTFTDriver" -I"C:\Users\REN\Documents\GitHub\Microsemi_SmartFusion2_RISCV_ObjectTracker\Risc-v_ObjectTracker" -I"C:\Users\REN\Documents\GitHub\Microsemi_SmartFusion2_RISCV_ObjectTracker\Risc-v_ObjectTracker\drivers\CoreGPIO" -I"C:\Users\REN\Documents\GitHub\Microsemi_SmartFusion2_RISCV_ObjectTracker\Risc-v_ObjectTracker\drivers\CoreUARTapb" -I"C:\Users\REN\Documents\GitHub\Microsemi_SmartFusion2_RISCV_ObjectTracker\Risc-v_ObjectTracker\hal" -I"C:\Users\REN\Documents\GitHub\Microsemi_SmartFusion2_RISCV_ObjectTracker\Risc-v_ObjectTracker\riscv_hal" -Os -ffunction-sections -fdata-sections -Wall -c -MMD -MP -MF"src/delay.d" -MT"src/delay.d" -o "src/delay.o" "../src/delay.c"
+Finished building: ../src/delay.c
+ 
+Building file: ../riscv_hal/entry.S
+Invoking: RISC-V GCC/Newlib Assembler
+riscv64-unknown-elf-gcc -mabi=ilp32 -march=rv32im -x assembler-with-cpp -Wall -c -MMD -MP -MF"riscv_hal/entry.d" -MT"riscv_hal/entry.d" -Wa,-march=rv32im -o "riscv_hal/entry.o" "../riscv_hal/entry.S"
+Finished building: ../riscv_hal/entry.S
+ 
+Building file: ../riscv_hal/init.c
+Invoking: RISC-V GCC/Newlib C Compiler
+riscv64-unknown-elf-gcc -mabi=ilp32 -march=rv32im -I"C:\Users\REN\Documents\GitHub\Microsemi_SmartFusion2_RISCV_ObjectTracker\Risc-v_ObjectTracker\drivers\CorePWM" -I"C:\Users\REN\Documents\GitHub\Microsemi_SmartFusion2_RISCV_ObjectTracker\Risc-v_ObjectTracker\MicrosemiTFTDriver" -I"C:\Users\REN\Documents\GitHub\Microsemi_SmartFusion2_RISCV_ObjectTracker\Risc-v_ObjectTracker" -I"C:\Users\REN\Documents\GitHub\Microsemi_SmartFusion2_RISCV_ObjectTracker\Risc-v_ObjectTracker\drivers\CoreGPIO" -I"C:\Users\REN\Documents\GitHub\Microsemi_SmartFusion2_RISCV_ObjectTracker\Risc-v_ObjectTracker\drivers\CoreUARTapb" -I"C:\Users\REN\Documents\GitHub\Microsemi_SmartFusion2_RISCV_ObjectTracker\Risc-v_ObjectTracker\hal" -I"C:\Users\REN\Documents\GitHub\Microsemi_SmartFusion2_RISCV_ObjectTracker\Risc-v_ObjectTracker\riscv_hal" -Os -ffunction-sections -fdata-sections -Wall -c -MMD -MP -MF"riscv_hal/init.d" -MT"riscv_hal/init.d" -o "riscv_hal/init.o" "../riscv_hal/init.c"
+Finished building: ../riscv_hal/init.c
+ 
+Building file: ../riscv_hal/riscv_hal.c
+Invoking: RISC-V GCC/Newlib C Compiler
+riscv64-unknown-elf-gcc -mabi=ilp32 -march=rv32im -I"C:\Users\REN\Documents\GitHub\Microsemi_SmartFusion2_RISCV_ObjectTracker\Risc-v_ObjectTracker\drivers\CorePWM" -I"C:\Users\REN\Documents\GitHub\Microsemi_SmartFusion2_RISCV_ObjectTracker\Risc-v_ObjectTracker\MicrosemiTFTDriver" -I"C:\Users\REN\Documents\GitHub\Microsemi_SmartFusion2_RISCV_ObjectTracker\Risc-v_ObjectTracker" -I"C:\Users\REN\Documents\GitHub\Microsemi_SmartFusion2_RISCV_ObjectTracker\Risc-v_ObjectTracker\drivers\CoreGPIO" -I"C:\Users\REN\Documents\GitHub\Microsemi_SmartFusion2_RISCV_ObjectTracker\Risc-v_ObjectTracker\drivers\CoreUARTapb" -I"C:\Users\REN\Documents\GitHub\Microsemi_SmartFusion2_RISCV_ObjectTracker\Risc-v_ObjectTracker\hal" -I"C:\Users\REN\Documents\GitHub\Microsemi_SmartFusion2_RISCV_ObjectTracker\Risc-v_ObjectTracker\riscv_hal" -Os -ffunction-sections -fdata-sections -Wall -c -MMD -MP -MF"riscv_hal/riscv_hal.d" -MT"riscv_hal/riscv_hal.d" -o "riscv_hal/riscv_hal.o" "../riscv_hal/riscv_hal.c"
+Finished building: ../riscv_hal/riscv_hal.c
+ 
+Building file: ../riscv_hal/riscv_hal_stubs.c
+Invoking: RISC-V GCC/Newlib C Compiler
+riscv64-unknown-elf-gcc -mabi=ilp32 -march=rv32im -I"C:\Users\REN\Documents\GitHub\Microsemi_SmartFusion2_RISCV_ObjectTracker\Risc-v_ObjectTracker\drivers\CorePWM" -I"C:\Users\REN\Documents\GitHub\Microsemi_SmartFusion2_RISCV_ObjectTracker\Risc-v_ObjectTracker\MicrosemiTFTDriver" -I"C:\Users\REN\Documents\GitHub\Microsemi_SmartFusion2_RISCV_ObjectTracker\Risc-v_ObjectTracker" -I"C:\Users\REN\Documents\GitHub\Microsemi_SmartFusion2_RISCV_ObjectTracker\Risc-v_ObjectTracker\drivers\CoreGPIO" -I"C:\Users\REN\Documents\GitHub\Microsemi_SmartFusion2_RISCV_ObjectTracker\Risc-v_ObjectTracker\drivers\CoreUARTapb" -I"C:\Users\REN\Documents\GitHub\Microsemi_SmartFusion2_RISCV_ObjectTracker\Risc-v_ObjectTracker\hal" -I"C:\Users\REN\Documents\GitHub\Microsemi_SmartFusion2_RISCV_ObjectTracker\Risc-v_ObjectTracker\riscv_hal" -Os -ffunction-sections -fdata-sections -Wall -c -MMD -MP -MF"riscv_hal/riscv_hal_stubs.d" -MT"riscv_hal/riscv_hal_stubs.d" -o "riscv_hal/riscv_hal_stubs.o" "../riscv_hal/riscv_hal_stubs.c"
+Finished building: ../riscv_hal/riscv_hal_stubs.c
+ 
+Building file: ../riscv_hal/syscall.c
+Invoking: RISC-V GCC/Newlib C Compiler
+riscv64-unknown-elf-gcc -mabi=ilp32 -march=rv32im -I"C:\Users\REN\Documents\GitHub\Microsemi_SmartFusion2_RISCV_ObjectTracker\Risc-v_ObjectTracker\drivers\CorePWM" -I"C:\Users\REN\Documents\GitHub\Microsemi_SmartFusion2_RISCV_ObjectTracker\Risc-v_ObjectTracker\MicrosemiTFTDriver" -I"C:\Users\REN\Documents\GitHub\Microsemi_SmartFusion2_RISCV_ObjectTracker\Risc-v_ObjectTracker" -I"C:\Users\REN\Documents\GitHub\Microsemi_SmartFusion2_RISCV_ObjectTracker\Risc-v_ObjectTracker\drivers\CoreGPIO" -I"C:\Users\REN\Documents\GitHub\Microsemi_SmartFusion2_RISCV_ObjectTracker\Risc-v_ObjectTracker\drivers\CoreUARTapb" -I"C:\Users\REN\Documents\GitHub\Microsemi_SmartFusion2_RISCV_ObjectTracker\Risc-v_ObjectTracker\hal" -I"C:\Users\REN\Documents\GitHub\Microsemi_SmartFusion2_RISCV_ObjectTracker\Risc-v_ObjectTracker\riscv_hal" -Os -ffunction-sections -fdata-sections -Wall -c -MMD -MP -MF"riscv_hal/syscall.d" -MT"riscv_hal/syscall.d" -o "riscv_hal/syscall.o" "../riscv_hal/syscall.c"
+Finished building: ../riscv_hal/syscall.c
+ 
+Building file: ../hal/hal_irq.c
+Invoking: RISC-V GCC/Newlib C Compiler
+riscv64-unknown-elf-gcc -mabi=ilp32 -march=rv32im -I"C:\Users\REN\Documents\GitHub\Microsemi_SmartFusion2_RISCV_ObjectTracker\Risc-v_ObjectTracker\drivers\CorePWM" -I"C:\Users\REN\Documents\GitHub\Microsemi_SmartFusion2_RISCV_ObjectTracker\Risc-v_ObjectTracker\MicrosemiTFTDriver" -I"C:\Users\REN\Documents\GitHub\Microsemi_SmartFusion2_RISCV_ObjectTracker\Risc-v_ObjectTracker" -I"C:\Users\REN\Documents\GitHub\Microsemi_SmartFusion2_RISCV_ObjectTracker\Risc-v_ObjectTracker\drivers\CoreGPIO" -I"C:\Users\REN\Documents\GitHub\Microsemi_SmartFusion2_RISCV_ObjectTracker\Risc-v_ObjectTracker\drivers\CoreUARTapb" -I"C:\Users\REN\Documents\GitHub\Microsemi_SmartFusion2_RISCV_ObjectTracker\Risc-v_ObjectTracker\hal" -I"C:\Users\REN\Documents\GitHub\Microsemi_SmartFusion2_RISCV_ObjectTracker\Risc-v_ObjectTracker\riscv_hal" -Os -ffunction-sections -fdata-sections -Wall -c -MMD -MP -MF"hal/hal_irq.d" -MT"hal/hal_irq.d" -o "hal/hal_irq.o" "../hal/hal_irq.c"
+Finished building: ../hal/hal_irq.c
+ 
+Building file: ../hal/hw_reg_access.c
+Invoking: RISC-V GCC/Newlib C Compiler
+riscv64-unknown-elf-gcc -mabi=ilp32 -march=rv32im -I"C:\Users\REN\Documents\GitHub\Microsemi_SmartFusion2_RISCV_ObjectTracker\Risc-v_ObjectTracker\drivers\CorePWM" -I"C:\Users\REN\Documents\GitHub\Microsemi_SmartFusion2_RISCV_ObjectTracker\Risc-v_ObjectTracker\MicrosemiTFTDriver" -I"C:\Users\REN\Documents\GitHub\Microsemi_SmartFusion2_RISCV_ObjectTracker\Risc-v_ObjectTracker" -I"C:\Users\REN\Documents\GitHub\Microsemi_SmartFusion2_RISCV_ObjectTracker\Risc-v_ObjectTracker\drivers\CoreGPIO" -I"C:\Users\REN\Documents\GitHub\Microsemi_SmartFusion2_RISCV_ObjectTracker\Risc-v_ObjectTracker\drivers\CoreUARTapb" -I"C:\Users\REN\Documents\GitHub\Microsemi_SmartFusion2_RISCV_ObjectTracker\Risc-v_ObjectTracker\hal" -I"C:\Users\REN\Documents\GitHub\Microsemi_SmartFusion2_RISCV_ObjectTracker\Risc-v_ObjectTracker\riscv_hal" -Os -ffunction-sections -fdata-sections -Wall -c -MMD -MP -MF"hal/hw_reg_access.d" -MT"hal/hw_reg_access.d" -o "hal/hw_reg_access.o" "../hal/hw_reg_access.c"
+Finished building: ../hal/hw_reg_access.c
+ 
+Building file: ../drivers/CoreUARTapb/core_uart_apb.c
+Invoking: RISC-V GCC/Newlib C Compiler
+riscv64-unknown-elf-gcc -mabi=ilp32 -march=rv32im -I"C:\Users\REN\Documents\GitHub\Microsemi_SmartFusion2_RISCV_ObjectTracker\Risc-v_ObjectTracker\drivers\CorePWM" -I"C:\Users\REN\Documents\GitHub\Microsemi_SmartFusion2_RISCV_ObjectTracker\Risc-v_ObjectTracker\MicrosemiTFTDriver" -I"C:\Users\REN\Documents\GitHub\Microsemi_SmartFusion2_RISCV_ObjectTracker\Risc-v_ObjectTracker" -I"C:\Users\REN\Documents\GitHub\Microsemi_SmartFusion2_RISCV_ObjectTracker\Risc-v_ObjectTracker\drivers\CoreGPIO" -I"C:\Users\REN\Documents\GitHub\Microsemi_SmartFusion2_RISCV_ObjectTracker\Risc-v_ObjectTracker\drivers\CoreUARTapb" -I"C:\Users\REN\Documents\GitHub\Microsemi_SmartFusion2_RISCV_ObjectTracker\Risc-v_ObjectTracker\hal" -I"C:\Users\REN\Documents\GitHub\Microsemi_SmartFusion2_RISCV_ObjectTracker\Risc-v_ObjectTracker\riscv_hal" -Os -ffunction-sections -fdata-sections -Wall -c -MMD -MP -MF"drivers/CoreUARTapb/core_uart_apb.d" -MT"drivers/CoreUARTapb/core_uart_apb.d" -o "drivers/CoreUARTapb/core_uart_apb.o" "../drivers/CoreUARTapb/core_uart_apb.c"
+../drivers/CoreUARTapb/core_uart_apb.c: In function 'UART_init':
+../drivers/CoreUARTapb/core_uart_apb.c:97:30: warning: variable 'rx_byte' set but not used [-Wunused-but-set-variable]
+             volatile uint8_t rx_byte;
+                              ^~~~~~~
+Finished building: ../drivers/CoreUARTapb/core_uart_apb.c
+ 
+Building file: ../drivers/CoreTimer/core_timer.c
+Invoking: RISC-V GCC/Newlib C Compiler
+riscv64-unknown-elf-gcc -mabi=ilp32 -march=rv32im -I"C:\Users\REN\Documents\GitHub\Microsemi_SmartFusion2_RISCV_ObjectTracker\Risc-v_ObjectTracker\drivers\CorePWM" -I"C:\Users\REN\Documents\GitHub\Microsemi_SmartFusion2_RISCV_ObjectTracker\Risc-v_ObjectTracker\MicrosemiTFTDriver" -I"C:\Users\REN\Documents\GitHub\Microsemi_SmartFusion2_RISCV_ObjectTracker\Risc-v_ObjectTracker" -I"C:\Users\REN\Documents\GitHub\Microsemi_SmartFusion2_RISCV_ObjectTracker\Risc-v_ObjectTracker\drivers\CoreGPIO" -I"C:\Users\REN\Documents\GitHub\Microsemi_SmartFusion2_RISCV_ObjectTracker\Risc-v_ObjectTracker\drivers\CoreUARTapb" -I"C:\Users\REN\Documents\GitHub\Microsemi_SmartFusion2_RISCV_ObjectTracker\Risc-v_ObjectTracker\hal" -I"C:\Users\REN\Documents\GitHub\Microsemi_SmartFusion2_RISCV_ObjectTracker\Risc-v_ObjectTracker\riscv_hal" -Os -ffunction-sections -fdata-sections -Wall -c -MMD -MP -MF"drivers/CoreTimer/core_timer.d" -MT"drivers/CoreTimer/core_timer.d" -o "drivers/CoreTimer/core_timer.o" "../drivers/CoreTimer/core_timer.c"
+Finished building: ../drivers/CoreTimer/core_timer.c
+ 
+Building file: ../drivers/CoreSPI/core_spi.c
+Invoking: RISC-V GCC/Newlib C Compiler
+riscv64-unknown-elf-gcc -mabi=ilp32 -march=rv32im -I"C:\Users\REN\Documents\GitHub\Microsemi_SmartFusion2_RISCV_ObjectTracker\Risc-v_ObjectTracker\drivers\CorePWM" -I"C:\Users\REN\Documents\GitHub\Microsemi_SmartFusion2_RISCV_ObjectTracker\Risc-v_ObjectTracker\MicrosemiTFTDriver" -I"C:\Users\REN\Documents\GitHub\Microsemi_SmartFusion2_RISCV_ObjectTracker\Risc-v_ObjectTracker" -I"C:\Users\REN\Documents\GitHub\Microsemi_SmartFusion2_RISCV_ObjectTracker\Risc-v_ObjectTracker\drivers\CoreGPIO" -I"C:\Users\REN\Documents\GitHub\Microsemi_SmartFusion2_RISCV_ObjectTracker\Risc-v_ObjectTracker\drivers\CoreUARTapb" -I"C:\Users\REN\Documents\GitHub\Microsemi_SmartFusion2_RISCV_ObjectTracker\Risc-v_ObjectTracker\hal" -I"C:\Users\REN\Documents\GitHub\Microsemi_SmartFusion2_RISCV_ObjectTracker\Risc-v_ObjectTracker\riscv_hal" -Os -ffunction-sections -fdata-sections -Wall -c -MMD -MP -MF"drivers/CoreSPI/core_spi.d" -MT"drivers/CoreSPI/core_spi.d" -o "drivers/CoreSPI/core_spi.o" "../drivers/CoreSPI/core_spi.c"
+../drivers/CoreSPI/core_spi.c: In function 'SPI_init':
+../drivers/CoreSPI/core_spi.c:67:10: warning: variable 'test' set but not used [-Wunused-but-set-variable]
+  uint8_t test;
+          ^~~~
+Finished building: ../drivers/CoreSPI/core_spi.c
+ 
+Building file: ../drivers/CorePWM/core_pwm.c
+Invoking: RISC-V GCC/Newlib C Compiler
+riscv64-unknown-elf-gcc -mabi=ilp32 -march=rv32im -I"C:\Users\REN\Documents\GitHub\Microsemi_SmartFusion2_RISCV_ObjectTracker\Risc-v_ObjectTracker\drivers\CorePWM" -I"C:\Users\REN\Documents\GitHub\Microsemi_SmartFusion2_RISCV_ObjectTracker\Risc-v_ObjectTracker\MicrosemiTFTDriver" -I"C:\Users\REN\Documents\GitHub\Microsemi_SmartFusion2_RISCV_ObjectTracker\Risc-v_ObjectTracker" -I"C:\Users\REN\Documents\GitHub\Microsemi_SmartFusion2_RISCV_ObjectTracker\Risc-v_ObjectTracker\drivers\CoreGPIO" -I"C:\Users\REN\Documents\GitHub\Microsemi_SmartFusion2_RISCV_ObjectTracker\Risc-v_ObjectTracker\drivers\CoreUARTapb" -I"C:\Users\REN\Documents\GitHub\Microsemi_SmartFusion2_RISCV_ObjectTracker\Risc-v_ObjectTracker\hal" -I"C:\Users\REN\Documents\GitHub\Microsemi_SmartFusion2_RISCV_ObjectTracker\Risc-v_ObjectTracker\riscv_hal" -Os -ffunction-sections -fdata-sections -Wall -c -MMD -MP -MF"drivers/CorePWM/core_pwm.d" -MT"drivers/CorePWM/core_pwm.d" -o "drivers/CorePWM/core_pwm.o" "../drivers/CorePWM/core_pwm.c"
+Finished building: ../drivers/CorePWM/core_pwm.c
+ 
+Building file: ../drivers/CoreGPIO/core_gpio.c
+Invoking: RISC-V GCC/Newlib C Compiler
+riscv64-unknown-elf-gcc -mabi=ilp32 -march=rv32im -I"C:\Users\REN\Documents\GitHub\Microsemi_SmartFusion2_RISCV_ObjectTracker\Risc-v_ObjectTracker\drivers\CorePWM" -I"C:\Users\REN\Documents\GitHub\Microsemi_SmartFusion2_RISCV_ObjectTracker\Risc-v_ObjectTracker\MicrosemiTFTDriver" -I"C:\Users\REN\Documents\GitHub\Microsemi_SmartFusion2_RISCV_ObjectTracker\Risc-v_ObjectTracker" -I"C:\Users\REN\Documents\GitHub\Microsemi_SmartFusion2_RISCV_ObjectTracker\Risc-v_ObjectTracker\drivers\CoreGPIO" -I"C:\Users\REN\Documents\GitHub\Microsemi_SmartFusion2_RISCV_ObjectTracker\Risc-v_ObjectTracker\drivers\CoreUARTapb" -I"C:\Users\REN\Documents\GitHub\Microsemi_SmartFusion2_RISCV_ObjectTracker\Risc-v_ObjectTracker\hal" -I"C:\Users\REN\Documents\GitHub\Microsemi_SmartFusion2_RISCV_ObjectTracker\Risc-v_ObjectTracker\riscv_hal" -Os -ffunction-sections -fdata-sections -Wall -c -MMD -MP -MF"drivers/CoreGPIO/core_gpio.d" -MT"drivers/CoreGPIO/core_gpio.d" -o "drivers/CoreGPIO/core_gpio.o" "../drivers/CoreGPIO/core_gpio.c"
+Finished building: ../drivers/CoreGPIO/core_gpio.c
+ 
+Building file: ../MicrosemiTSDriver/Microsemi_Adafruit_STMPE610.c
+Invoking: RISC-V GCC/Newlib C Compiler
+riscv64-unknown-elf-gcc -mabi=ilp32 -march=rv32im -I"C:\Users\REN\Documents\GitHub\Microsemi_SmartFusion2_RISCV_ObjectTracker\Risc-v_ObjectTracker\drivers\CorePWM" -I"C:\Users\REN\Documents\GitHub\Microsemi_SmartFusion2_RISCV_ObjectTracker\Risc-v_ObjectTracker\MicrosemiTFTDriver" -I"C:\Users\REN\Documents\GitHub\Microsemi_SmartFusion2_RISCV_ObjectTracker\Risc-v_ObjectTracker" -I"C:\Users\REN\Documents\GitHub\Microsemi_SmartFusion2_RISCV_ObjectTracker\Risc-v_ObjectTracker\drivers\CoreGPIO" -I"C:\Users\REN\Documents\GitHub\Microsemi_SmartFusion2_RISCV_ObjectTracker\Risc-v_ObjectTracker\drivers\CoreUARTapb" -I"C:\Users\REN\Documents\GitHub\Microsemi_SmartFusion2_RISCV_ObjectTracker\Risc-v_ObjectTracker\hal" -I"C:\Users\REN\Documents\GitHub\Microsemi_SmartFusion2_RISCV_ObjectTracker\Risc-v_ObjectTracker\riscv_hal" -Os -ffunction-sections -fdata-sections -Wall -c -MMD -MP -MF"MicrosemiTSDriver/Microsemi_Adafruit_STMPE610.d" -MT"MicrosemiTSDriver/Microsemi_Adafruit_STMPE610.d" -o "MicrosemiTSDriver/Microsemi_Adafruit_STMPE610.o" "../MicrosemiTSDriver/Microsemi_Adafruit_STMPE610.c"
+Finished building: ../MicrosemiTSDriver/Microsemi_Adafruit_STMPE610.c
+ 
+Building file: ../MicrosemiTFTDriver/Microsemi_Adafruit_ILI9341.c
+Invoking: RISC-V GCC/Newlib C Compiler
+riscv64-unknown-elf-gcc -mabi=ilp32 -march=rv32im -I"C:\Users\REN\Documents\GitHub\Microsemi_SmartFusion2_RISCV_ObjectTracker\Risc-v_ObjectTracker\drivers\CorePWM" -I"C:\Users\REN\Documents\GitHub\Microsemi_SmartFusion2_RISCV_ObjectTracker\Risc-v_ObjectTracker\MicrosemiTFTDriver" -I"C:\Users\REN\Documents\GitHub\Microsemi_SmartFusion2_RISCV_ObjectTracker\Risc-v_ObjectTracker" -I"C:\Users\REN\Documents\GitHub\Microsemi_SmartFusion2_RISCV_ObjectTracker\Risc-v_ObjectTracker\drivers\CoreGPIO" -I"C:\Users\REN\Documents\GitHub\Microsemi_SmartFusion2_RISCV_ObjectTracker\Risc-v_ObjectTracker\drivers\CoreUARTapb" -I"C:\Users\REN\Documents\GitHub\Microsemi_SmartFusion2_RISCV_ObjectTracker\Risc-v_ObjectTracker\hal" -I"C:\Users\REN\Documents\GitHub\Microsemi_SmartFusion2_RISCV_ObjectTracker\Risc-v_ObjectTracker\riscv_hal" -Os -ffunction-sections -fdata-sections -Wall -c -MMD -MP -MF"MicrosemiTFTDriver/Microsemi_Adafruit_ILI9341.d" -MT"MicrosemiTFTDriver/Microsemi_Adafruit_ILI9341.d" -o "MicrosemiTFTDriver/Microsemi_Adafruit_ILI9341.o" "../MicrosemiTFTDriver/Microsemi_Adafruit_ILI9341.c"
+../MicrosemiTFTDriver/Microsemi_Adafruit_ILI9341.c: In function 'TFT_drawLine':
+../MicrosemiTFTDriver/Microsemi_Adafruit_ILI9341.c:405:19: warning: implicit declaration of function 'abs' [-Wimplicit-function-declaration]
+   int16_t steep = abs(y1 - y0) > abs(x1 - x0);
+                   ^~~
+Finished building: ../MicrosemiTFTDriver/Microsemi_Adafruit_ILI9341.c
+ 
+Building file: ../.metadata/.plugins/org.eclipse.cdt.make.core/specs.c
+Invoking: RISC-V GCC/Newlib C Compiler
+riscv64-unknown-elf-gcc -mabi=ilp32 -march=rv32im -I"C:\Users\REN\Documents\GitHub\Microsemi_SmartFusion2_RISCV_ObjectTracker\Risc-v_ObjectTracker\drivers\CorePWM" -I"C:\Users\REN\Documents\GitHub\Microsemi_SmartFusion2_RISCV_ObjectTracker\Risc-v_ObjectTracker\MicrosemiTFTDriver" -I"C:\Users\REN\Documents\GitHub\Microsemi_SmartFusion2_RISCV_ObjectTracker\Risc-v_ObjectTracker" -I"C:\Users\REN\Documents\GitHub\Microsemi_SmartFusion2_RISCV_ObjectTracker\Risc-v_ObjectTracker\drivers\CoreGPIO" -I"C:\Users\REN\Documents\GitHub\Microsemi_SmartFusion2_RISCV_ObjectTracker\Risc-v_ObjectTracker\drivers\CoreUARTapb" -I"C:\Users\REN\Documents\GitHub\Microsemi_SmartFusion2_RISCV_ObjectTracker\Risc-v_ObjectTracker\hal" -I"C:\Users\REN\Documents\GitHub\Microsemi_SmartFusion2_RISCV_ObjectTracker\Risc-v_ObjectTracker\riscv_hal" -Os -ffunction-sections -fdata-sections -Wall -c -MMD -MP -MF".metadata/.plugins/org.eclipse.cdt.make.core/specs.d" -MT".metadata/.plugins/org.eclipse.cdt.make.core/specs.d" -o ".metadata/.plugins/org.eclipse.cdt.make.core/specs.o" "../.metadata/.plugins/org.eclipse.cdt.make.core/specs.c"
+Finished building: ../.metadata/.plugins/org.eclipse.cdt.make.core/specs.c
+ 
+Building file: ../main.c
+Invoking: RISC-V GCC/Newlib C Compiler
+riscv64-unknown-elf-gcc -mabi=ilp32 -march=rv32im -I"C:\Users\REN\Documents\GitHub\Microsemi_SmartFusion2_RISCV_ObjectTracker\Risc-v_ObjectTracker\drivers\CorePWM" -I"C:\Users\REN\Documents\GitHub\Microsemi_SmartFusion2_RISCV_ObjectTracker\Risc-v_ObjectTracker\MicrosemiTFTDriver" -I"C:\Users\REN\Documents\GitHub\Microsemi_SmartFusion2_RISCV_ObjectTracker\Risc-v_ObjectTracker" -I"C:\Users\REN\Documents\GitHub\Microsemi_SmartFusion2_RISCV_ObjectTracker\Risc-v_ObjectTracker\drivers\CoreGPIO" -I"C:\Users\REN\Documents\GitHub\Microsemi_SmartFusion2_RISCV_ObjectTracker\Risc-v_ObjectTracker\drivers\CoreUARTapb" -I"C:\Users\REN\Documents\GitHub\Microsemi_SmartFusion2_RISCV_ObjectTracker\Risc-v_ObjectTracker\hal" -I"C:\Users\REN\Documents\GitHub\Microsemi_SmartFusion2_RISCV_ObjectTracker\Risc-v_ObjectTracker\riscv_hal" -Os -ffunction-sections -fdata-sections -Wall -c -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c: In function 'main':
+../main.c:93:12: warning: unused variable 'distance' [-Wunused-variable]
+     double distance = 0;
+            ^~~~~~~~
+Finished building: ../main.c
+ 
+Building target: Risc-v_ObjectTracker.elf
+Invoking: RISC-V GCC/Newlib C Linker
+riscv64-unknown-elf-gcc -mabi=ilp32 -march=rv32im -T"C:\Users\REN\Desktop\199\workplace2\M2S025-Creative-Board\Example_Software_Projects\TickTackToe\riscv_hal\run_from_nvm.lds" -nostartfiles -Wl,--gc-sections -Wl,-Map,Risc-v_ObjectTracker.map -o "Risc-v_ObjectTracker.elf"  ./src/Pixy.o ./src/delay.o  ./riscv_hal/entry.o ./riscv_hal/init.o ./riscv_hal/riscv_hal.o ./riscv_hal/riscv_hal_stubs.o ./riscv_hal/syscall.o  ./hal/hal_irq.o ./hal/hw_reg_access.o  ./drivers/CoreUARTapb/core_uart_apb.o  ./drivers/CoreTimer/core_timer.o  ./drivers/CoreSPI/core_spi.o  ./drivers/CorePWM/core_pwm.o  ./drivers/CoreGPIO/core_gpio.o  ./MicrosemiTSDriver/Microsemi_Adafruit_STMPE610.o  ./MicrosemiTFTDriver/Microsemi_Adafruit_ILI9341.o  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o  ./main.o   
+Finished building target: Risc-v_ObjectTracker.elf
+ 
+Invoking: RISC-V GCC/Newlib GNU Create Flash Image
+riscv64-unknown-elf-objcopy -O ihex Risc-v_ObjectTracker.elf  "Risc-v_ObjectTracker.hex"
+Finished building: Risc-v_ObjectTracker.hex
+ 
+Invoking: RISC-V GCC/Newlib Create Listing
+riscv64-unknown-elf-objdump -h -S Risc-v_ObjectTracker.elf > "Risc-v_ObjectTracker.lst"
+Finished building: Risc-v_ObjectTracker.lst
+ 
+Invoking: RISC-V GCC/Newlib Print Size
+riscv64-unknown-elf-size --format=berkeley "Risc-v_ObjectTracker.elf"
+   text	   data	    bss	    dec	    hex	filename
+  17533	   1200	   2412	  21145	   5299	Risc-v_ObjectTracker.elf
+Finished building: Risc-v_ObjectTracker.siz
+ 
+
+23:04:11 Build Finished (took 10s.643ms)
+

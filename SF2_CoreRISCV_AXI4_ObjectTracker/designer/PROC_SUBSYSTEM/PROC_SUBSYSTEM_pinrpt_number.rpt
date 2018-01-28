@@ -1,8 +1,8 @@
 *****************************************************************
-Pin Report - Date: Fri Jan 12 12:33:15 2018 Pinchecksum: NOT-AVAILABLE
+Pin Report - Date: Sat Jan 27 23:11:48 2018 Pinchecksum: NOT-AVAILABLE
 Product: Designer
-Release: v11.8
-Version: 11.8.0.26
+Release: Libero SoC v11.8 SP2
+Version: 11.8.2.4
 Design Name: PROC_SUBSYSTEM
 Family: SmartFusion2
 Die: M2S025
@@ -120,9 +120,9 @@ G10                            VSS                                         Reser
 G11                            VDDI1                                       Reserved    
 G12                            MSIO32NB1/MMUART_0_TXD/GPIO_27_B            Unassigned  
 G13                            MSIO33PB1/MMUART_0_RXD/GPIO_28_B            Unassigned  
-G14                            MSIO15NB2/SPI_0_SS7/GPIO_22_A               Unassigned  
+G14     SPI_FLASH_SDO          MSIO15NB2/SPI_0_SS7/GPIO_22_A               Assigned    LVCMOS25  Output     TRISTATE                        None           No                                  ---              ---         ---            ---             ---          SLOW  ---           4                  5                 
 G15                            VSS                                         Reserved    
-G16                            MSIO14NB2/SPI_0_SS5/GPIO_20_A               Unassigned  
+G16     SD_EN                  MSIO14NB2/SPI_0_SS5/GPIO_20_A               Assigned    LVCMOS25  Output     TRISTATE                        None           No                                  ---              ---         ---            ---             ---          SLOW  ---           4                  5                 
 H1                             MSIOD103PB6/CCC_SW0_CLKI0                   Special     
 H2                             VDDI7                                       Reserved    
 H3                             MSIO99PB7/CCC_NW0_CLKI0                     Special     
@@ -136,8 +136,8 @@ H10                            VPP                                         Reser
 H11                            FLASH_GOLDEN_N                              Reserved    
 H12                            MSI27NB1/MMUART_1_TXD/GPIO_24_B             Unassigned  
 H13                            MSIO28NB1/MMUART_1_RXD/GPIO_26_B            Unassigned  
-H14                            MSIO15PB2/SPI_0_SS6/GPIO_21_A               Unassigned  
-H15                            MSIO14PB2/SPI_0_SS4/GPIO_19_A               Unassigned  
+H14     GPIO_OUT_0             MSIO15PB2/SPI_0_SS6/GPIO_21_A               Assigned    LVCMOS25  Output     TRISTATE                        None           No                                  ---              ---         ---            ---             ---          SLOW  ---           4                  5                 
+H15     RX                     MSIO14PB2/SPI_0_SS4/GPIO_19_A               Assigned    LVCMOS25  Input      TRISTATE                        None           No                                  Off              ---         ---            Off             Off          ---   ---           ---                ---               
 H16     CLK0_PAD               MSIO11NB2/I2C_1_SCL/GPIO_1_A/CCC_NE1_CLKI0  Special     LVCMOS25  Input      TRISTATE                        None           No                                  Off              ---         ---            Off             Off          ---   ---           ---                ---               
 J1                             MSIOD118PB5                                 Unassigned  
 J2                             MSIOD118NB5                                 Unassigned  
@@ -154,7 +154,7 @@ J12                            MSIO13NB2/SPI_0_SS0/GPIO_7_A                Unass
 J13                            MSIO12NB2/SPI_0_SDI/GPIO_5_A                Unassigned  
 J14                            MSIO12PB2/SPI_0_CLK                         Unassigned  
 J15                            VDDI2                                       Reserved    
-J16     TX                     MSIO11PB2/I2C_1_SDA/GPIO_0_A/CCC_NE0_CLKI0  Special     LVCMOS25  Output     TRISTATE                        None           No                                  ---              ---         ---            ---             ---          SLOW  ---           4                  5                 
+J16                            MSIO11PB2/I2C_1_SDA/GPIO_0_A/CCC_NE0_CLKI0  Special     
 K1                             MSIOD119NB5                                 Unassigned  
 K2                             VDDI5                                       Reserved    
 K3                             DNC                                         Reserved    
@@ -212,7 +212,7 @@ N6                             VSS                                         Reser
 N7      DIR13                  MSIO125NB4/GB7/CCC_SW1_CLKI2                Special     LVCMOS25  Output     TRISTATE                        None           No                                  ---              ---         ---            ---             ---          SLOW  ---           4                  5                 
 N8      PWM[1]                 MSIO129PB4/CCC_SW1_CLKI3                    Special     LVCMOS25  Output     TRISTATE                        None           No                                  ---              ---         ---            ---             ---          SLOW  ---           4                  5                 
 N9                             VSS                                         Reserved    
-N10     TFT_EN                 MSIO133NB4                                  Assigned    LVCMOS25  Output     TRISTATE                        None           No                                  ---              ---         ---            ---             ---          SLOW  ---           4                  5                 
+N10                            MSIO133NB4                                  Unassigned  
 N11     TMS                    JTAG_TMS/M3_TMS/M3_SWDIO                    Dedicated   
 N12                            VDDI3                                       Reserved    
 N13     TRSTB                  JTAG_TRSTB/M3_TRSTB                         Dedicated   
@@ -228,7 +228,7 @@ P6                             User Reserved                               Unass
 P7                             User Reserved                               Unassigned  
 P8      PWM[3]                 MSIO126NB4                                  Fixed       LVCMOS25  Output     TRISTATE                        None           No                                  ---              ---         ---            ---             ---          SLOW  ---           4                  5                 
 P9      PWM[0]                 MSIO131PB4/GB11/VCCC_SE0_CLKI               Special     LVCMOS25  Output     TRISTATE                        None           No                                  ---              ---         ---            ---             ---          SLOW  ---           4                  5                 
-P10     SPI_FLASH_SDI          MSIO133PB4/GB15/VCCC_SE1_CLKI               Special     LVCMOS25  Input      TRISTATE                        None           No                                  Off              ---         ---            Off             Off          ---   ---           ---                ---               
+P10     TFT_EN                 MSIO133PB4/GB15/VCCC_SE1_CLKI               Special     LVCMOS25  Output     TRISTATE                        None           No                                  ---              ---         ---            ---             ---          SLOW  ---           4                  5                 
 P11                            VDDI4                                       Reserved    
 P12                            MSIO143PB4                                  Unassigned  
 P13                            MSIO143NB4                                  Unassigned  
@@ -240,12 +240,12 @@ R2                             DNC                                         Reser
 R3                             VSS                                         Reserved    
 R4                             DNC                                         Reserved    
 R5                             VSS                                         Reserved    
-R6      GPIO_OUT_2             MSIO120PB4                                  Assigned    LVCMOS25  Output     TRISTATE                        None           No                                  ---              ---         ---            ---             ---          SLOW  ---           4                  5                 
+R6      SPI_FLASH_SCLK         MSIO120PB4                                  Assigned    LVCMOS25  Output     TRISTATE                        None           No                                  ---              ---         ---            ---             ---          SLOW  ---           4                  5                 
 R7                             VDDI4                                       Reserved    
 R8      GPIO_IN                MSIO126PB4                                  Fixed       LVCMOS25  Input      TRISTATE                        None           No                                  Off              ---         ---            Off             Off          ---   ---           ---                ---               
-R9      SPI_FLASH_SDO          MSIO130NB4                                  Assigned    LVCMOS25  Output     TRISTATE                        None           No                                  ---              ---         ---            ---             ---          SLOW  ---           4                  5                 
+R9      TX                     MSIO130NB4                                  Assigned    LVCMOS25  Output     TRISTATE                        None           No                                  ---              ---         ---            ---             ---          SLOW  ---           4                  5                 
 R10     DIR24                  MSIO131NB4                                  Fixed       LVCMOS25  Output     TRISTATE                        None           No                                  ---              ---         ---            ---             ---          SLOW  ---           4                  5                 
-R11     SD_EN                  MSIO134NB4                                  Assigned    LVCMOS25  Output     TRISTATE                        None           No                                  ---              ---         ---            ---             ---          SLOW  ---           4                  5                 
+R11                            MSIO134NB4                                  Unassigned  
 R12     SPI_CAM_SCLK           MSIO138NB4                                  Fixed       LVCMOS25  Output     TRISTATE                        None           No                                  ---              ---         ---            ---             ---          SLOW  ---           4                  5                 
 R13     SPI_CAM_SDO            MSIO145NB4                                  Fixed       LVCMOS25  Output     TRISTATE                        None           No                                  ---              ---         ---            ---             ---          SLOW  ---           4                  5                 
 R14     TCK                    JTAG_TCK/M3_TCK                             Dedicated   
@@ -256,12 +256,12 @@ T2                             DNC                                         Reser
 T3                             VSS                                         Reserved    
 T4                             DNC                                         Reserved    
 T5                             VSS                                         Reserved    
-T6      GPIO_OUT_1             MSIO120NB4/CCC_SW0_CLKI2                    Special     LVCMOS25  Output     TRISTATE                        None           No                                  ---              ---         ---            ---             ---          SLOW  ---           4                  5                 
-T7      GPIO_OUT_0             MSIO122PB4                                  Assigned    LVCMOS25  Output     TRISTATE                        None           No                                  ---              ---         ---            ---             ---          SLOW  ---           4                  5                 
+T6      GPIO_OUT_2             MSIO120NB4/CCC_SW0_CLKI2                    Special     LVCMOS25  Output     TRISTATE                        None           No                                  ---              ---         ---            ---             ---          SLOW  ---           4                  5                 
+T7      GPIO_OUT_1             MSIO122PB4                                  Assigned    LVCMOS25  Output     TRISTATE                        None           No                                  ---              ---         ---            ---             ---          SLOW  ---           4                  5                 
 T8      GPIO_OUT_3             MSIO122NB4                                  Fixed       LVCMOS25  Output     TRISTATE                        None           No                                  ---              ---         ---            ---             ---          SLOW  ---           4                  5                 
-T9      RX                     MSIO130PB4/VCCC_SE0_CLKI                    Special     LVCMOS25  Input      TRISTATE                        None           No                                  Off              ---         ---            Off             Off          ---   ---           ---                ---               
+T9      SPI_FLASH_SDI          MSIO130PB4/VCCC_SE0_CLKI                    Special     LVCMOS25  Input      TRISTATE                        None           No                                  Off              ---         ---            Off             Off          ---   ---           ---                ---               
 T10                            VSS                                         Reserved    
-T11     SPI_FLASH_SCLK         MSIO134PB4/VCCC_SE1_CLKI                    Special     LVCMOS25  Output     TRISTATE                        None           No                                  ---              ---         ---            ---             ---          SLOW  ---           4                  5                 
+T11                            MSIO134PB4/VCCC_SE1_CLKI                    Special     
 T12     CAM_EN                 MSIO138PB4                                  Fixed       LVCMOS25  Output     TRISTATE                        None           No                                  ---              ---         ---            ---             ---          SLOW  ---           4                  5                 
 T13     SPI_CAM_SDI            MSIO145PB4                                  Fixed       LVCMOS25  Input      TRISTATE                        None           No                                  Off              ---         ---            Off             Off          ---   ---           ---                ---               
 T14                            VSS                                         Reserved    
